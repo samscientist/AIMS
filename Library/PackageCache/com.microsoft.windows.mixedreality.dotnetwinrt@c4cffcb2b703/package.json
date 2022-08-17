@@ -1,0 +1,21 @@
+{
+    "name": "com.microsoft.windows.mixedreality.dotnetwinrt",
+    "displayName": "Mixed Reality WinRT Projections",
+    "version": "0.5.2009",
+    "unity": "2018.4",
+    "msftFeatureCategory": "Platform Support",
+    "description": ".NET Standard compatible projection of a subset of the Windows SDK for use in Mixed Reality applications. Includes APIs in the Windows.Perception and Windows.UI.Input.Spatial namespaces.",
+    "keywords": [
+        "mixedreality",
+        "windows",
+        "perception",
+        "spatial",
+        "dotnet",
+        ".net"
+    ],
+    "author": {
+        "name": "Microsoft",
+        "url": "http://aka.ms/MR-Windows"
+    },
+    "license": "See license in LICENSE.txt"
+}

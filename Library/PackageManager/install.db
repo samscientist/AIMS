@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "packages": {
+    "com.microsoft.mixedreality.openxr": {
+      "tarball": {
+        "hash": "cc778a815d9b",
+        "mtime": 1660180066054,
+        "size": 11754300,
+        "localPath": "C:\\Users\\양기택\\Desktop\\Project_AIMS\\Packages\\MixedReality\\com.microsoft.mixedreality.openxr-1.4.4.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.foundation": {
+      "tarball": {
+        "hash": "321dd3d08b64",
+        "mtime": 1658386387968,
+        "size": 11554543,
+        "localPath": "C:\\Users\\양기택\\Desktop\\Project_AIMS\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.foundation-2.8.2.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.planefinding": {
+      "tarball": {
+        "hash": "ba1c62ce75c5",
+        "mtime": 1659453546855,
+        "size": 226297,
+        "localPath": "C:\\Users\\양기택\\Desktop\\Project_AIMS\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.planefinding-1.0.0.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.standardassets": {
+      "tarball": {
+        "hash": "5e90f7dbbcd8",
+        "mtime": 1658386388283,
+        "size": 5302738,
+        "localPath": "C:\\Users\\양기택\\Desktop\\Project_AIMS\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.standardassets-2.8.2.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.examples": {
+      "tarball": {
+        "hash": "c47efbe1f8cd",
+        "mtime": 1660307518553,
+        "size": 55085272,
+        "localPath": "C:\\Users\\양기택\\Desktop\\Project_AIMS\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.examples-2.8.2.tgz"
+      }
+    },
+    "com.microsoft.mixedreality.toolkit.extensions": {
+      "tarball": {
+        "hash": "07db80b5ea14",
+        "mtime": 1660307517885,
+        "size": 1129390,
+        "localPath": "C:\\Users\\양기택\\Desktop\\Project_AIMS\\Packages\\MixedReality\\com.microsoft.mixedreality.toolkit.extensions-2.8.2.tgz"
+      }
+    },
+    "com.microsoft.windows.mixedreality.dotnetwinrt": {
+      "tarball": {
+        "hash": "c4cffcb2b703",
+        "mtime": 1660314809267,
+        "size": 81616,
+        "localPath": "C:\\Users\\양기택\\Desktop\\Project_AIMS\\Packages\\MixedReality\\com.microsoft.windows.mixedreality.dotnetwinrt-0.5.2009.tgz"
+      }
+    }
+  }
+}
