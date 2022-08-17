@@ -159,7 +159,7 @@ Material:
     - _RefractiveIndex: 1.1
     - _RenderQueueOverride: -1
     - _RimLight: 1
-    - _RimPower: 1.24
+    - _RimPower: 0.46
     - _RoundCornerMargin: 0
     - _RoundCornerPower: 0.4
     - _RoundCornerRadius: 0.25
