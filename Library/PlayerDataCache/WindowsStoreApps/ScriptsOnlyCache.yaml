@@ -1,7 +1,5 @@
 ScriptsOnlyBuild:
   usedScripts:
-    Assembly-CSharp.dll:
-    - enabling
     Microsoft.MixedReality.OpenXR.dll:
     - Microsoft.MixedReality.OpenXR.HPMixedRealityControllerProfile
     - Microsoft.MixedReality.OpenXR.HandTrackingFeaturePlugin
@@ -17,9 +15,8 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile
     Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll:
     - Microsoft.MixedReality.Toolkit.XRSDK.Oculus.Input.OculusXRSDKDeviceManagerProfile
-    Microsoft.MixedReality.Toolkit.SDK.Editor.dll:
-    - Microsoft.MixedReality.Toolkit.UI.Editor.ThemeInspector
     Microsoft.MixedReality.Toolkit.SDK.dll:
+    - Microsoft.MixedReality.Toolkit.Dwell.DwellProfile
     - Microsoft.MixedReality.Toolkit.Input.AnimatedCursor
     - Microsoft.MixedReality.Toolkit.Input.FingerCursor
     - Microsoft.MixedReality.Toolkit.Input.GGVPointer
@@ -53,6 +50,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.UI.FollowMeToggle
     - Microsoft.MixedReality.Toolkit.UI.HandInteractionPanZoom
     - Microsoft.MixedReality.Toolkit.UI.Interactable
+    - Microsoft.MixedReality.Toolkit.UI.InteractableToggleCollection
     - Microsoft.MixedReality.Toolkit.UI.MinMaxScaleConstraint
     - Microsoft.MixedReality.Toolkit.UI.ObjectManipulator
     - Microsoft.MixedReality.Toolkit.UI.PressableButton
@@ -94,6 +92,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.MixedRealityToolkit
     - Microsoft.MixedReality.Toolkit.MixedRealityToolkitConfigurationProfile
     - Microsoft.MixedReality.Toolkit.Physics.DistorterGravity
+    - Microsoft.MixedReality.Toolkit.Rendering.MaterialInstance
     - Microsoft.MixedReality.Toolkit.SceneSystem.MixedRealitySceneSystemProfile
     - Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessMeshObserverProfile
     - Microsoft.MixedReality.Toolkit.SpatialAwareness.MixedRealitySpatialAwarenessSystemProfile
@@ -112,6 +111,8 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.Editor.dll:
+    - TMPro.EditorUtilities.TMPro_FontAssetCreatorWindow
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -224,6 +225,12 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve:
   - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.Behaviour
     methodName: set_enabled
   - assembly: UnityEngine.CoreModule
@@ -277,15 +284,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
-    - Class: 89
-      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
-      Script: {instanceID: 0}
-    - Class: 102
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -313,6 +316,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2822}
     - Class: 114
       Script: {instanceID: 2934}
+    - Class: 114
+      Script: {instanceID: 2982}
     - Class: 114
       Script: {instanceID: 3036}
     - Class: 114
@@ -373,8 +378,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6826}
     - Class: 114
       Script: {instanceID: 7090}
-    - Class: 114
-      Script: {instanceID: 7132}
     - Class: 114
       Script: {instanceID: 7158}
     - Class: 114
@@ -441,6 +444,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 10554}
     - Class: 114
       Script: {instanceID: 10574}
+    - Class: 114
+      Script: {instanceID: 10626}
     - Class: 114
       Script: {instanceID: 10630}
     - Class: 114
