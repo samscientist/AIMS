@@ -429,6 +429,7 @@
 -r:"Library/Bee/artifacts/2100b0aEDbg.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/2100b0aEDbg.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
+"Assets/enableChildManipulating.cs"
 "Assets/enabling.cs"
 "Assets/Samples/Mixed Reality Toolkit Examples/2.8.2/Demos - ScrollingObjectCollection/Scripts/ScrollableListPopulator.cs"
 "Assets/Samples/Mixed Reality Toolkit Examples/2.8.2/Demos - ScrollingObjectCollection/Scripts/ScrollablePagination.cs"
