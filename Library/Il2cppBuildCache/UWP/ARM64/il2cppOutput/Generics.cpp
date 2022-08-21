@@ -183,6 +183,8 @@ struct U3CU3Ec_t3ED7945DECEB49CBF76748684B5DF5752FCAEA2D;
 struct U3CU3Ec_t18919872086F1DC6E2D5470FC740465BC050A78F;
 // System.Threading.Tasks.TaskToAsyncInfoAdapter`4/<>c<System.Object,System.Object,System.UInt32,System.VoidValueTypeParameter>
 struct U3CU3Ec_tB6200B5D55E707A80342AF62563EC96D2CF29651;
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__24`1<System.Object>
+struct U3CU3Ec__24_1_tC64FC98246C71215FFA8310DF8A45A08093DFF68;
 // UnityEngine.InputSystem.InputManager/<>c__60`1<System.Object>
 struct U3CU3Ec__60_1_t347B6CF091C33FCB1F4A6D9D4E031B6497713088;
 // Microsoft.MixedReality.Toolkit.Utilities.AwaiterExtensions/<>c__DisplayClass11_0`1<System.Object>
@@ -521,6 +523,8 @@ struct OrderedEnumerable_1_t86CE147B6CE73844EC5AA936C039171B03197AC8;
 struct OrderedEnumerable_1_t2A839D56030A5BF16B67D5ECEA66459EBD766265;
 // System.Linq.OrderedEnumerable`1<UnityEngine.Vector3>
 struct OrderedEnumerable_1_tF6C515E2C22591C0A6DC4876461EF20B7E50E024;
+// System.Predicate`1<Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.IStateAnimatableProperty>
+struct Predicate_1_tBA12F973153A44ABFC8FB31128DAA71B9B2BF55A;
 // System.Predicate`1<System.Object>
 struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12;
 // System.Predicate`1<System.Threading.Tasks.Task>
@@ -685,6 +689,8 @@ struct IMixedRealityPointer_t6B17FD29F171D88877AB2EF9C59FEBB65ED6E446;
 struct IMixedRealityPrimaryPointerSelector_t58F81C082E82ACBFA6FECAD64AA2291DCF457C17;
 // Microsoft.MixedReality.Toolkit.IMixedRealityServiceRegistrar
 struct IMixedRealityServiceRegistrar_t4B893B7CDAAC977211D826D02C8522ECA327D715;
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.IStateAnimatableProperty
+struct IStateAnimatableProperty_t7812CD4C54D44FAA054D96F5DD4D9CA708B27D6E;
 // UnityEngine.InputSystem.InputDevice
 struct InputDevice_t8BCF67533E872A75779C24C93D1D7085B72D364B;
 // System.InvalidOperationException
@@ -1404,6 +1410,19 @@ struct U3CU3Ec_tB6200B5D55E707A80342AF62563EC96D2CF29651_StaticFields
 	SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E* ___U3CU3E9__52_0_2;
 	// System.Threading.SendOrPostCallback System.Threading.Tasks.TaskToAsyncInfoAdapter`4/<>c::<>9__58_0
 	SendOrPostCallback_t5C292A12062F24027A98492F52ECFE9802AA6F0E* ___U3CU3E9__58_0_3;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__24`1<System.Object>
+struct U3CU3Ec__24_1_tC64FC98246C71215FFA8310DF8A45A08093DFF68  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec__24_1_tC64FC98246C71215FFA8310DF8A45A08093DFF68_StaticFields
+{
+	// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__24`1<T> Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__24`1::<>9
+	U3CU3Ec__24_1_tC64FC98246C71215FFA8310DF8A45A08093DFF68* ___U3CU3E9_0;
+	// System.Predicate`1<Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.IStateAnimatableProperty> Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__24`1::<>9__24_0
+	Predicate_1_tBA12F973153A44ABFC8FB31128DAA71B9B2BF55A* ___U3CU3E9__24_0_1;
 };
 
 // UnityEngine.InputSystem.InputManager/<>c__60`1<System.Object>
@@ -9898,6 +9917,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec_U3CTaskCompletedU3Eb__58_0_mD262
 		NullCheck(L_2);
 		((  void (*) (TaskToAsyncInfoAdapter_4_tF5ADBC3F1F0242C03E276C8924D5B3D7DBC8CDE8*, int32_t, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 13)))(L_2, L_4, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
 		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__24`1<System.Object>::.cctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__24_1__cctor_m078E1EED018F9E38245B8C262A9397D7A21D6B33_gshared (const RuntimeMethod* method) 
+{
+	{
+		U3CU3Ec__24_1_tC64FC98246C71215FFA8310DF8A45A08093DFF68* L_0 = (U3CU3Ec__24_1_tC64FC98246C71215FFA8310DF8A45A08093DFF68*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0));
+		NullCheck(L_0);
+		((  void (*) (U3CU3Ec__24_1_tC64FC98246C71215FFA8310DF8A45A08093DFF68*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1)))(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		((U3CU3Ec__24_1_tC64FC98246C71215FFA8310DF8A45A08093DFF68_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CU3E9_0 = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec__24_1_tC64FC98246C71215FFA8310DF8A45A08093DFF68_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___U3CU3E9_0), (void*)L_0);
+		return;
+	}
+}
+// System.Void Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__24`1<System.Object>::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__24_1__ctor_m471B1041FED59A21BBA55B1423B540A61E60C4D5_gshared (U3CU3Ec__24_1_tC64FC98246C71215FFA8310DF8A45A08093DFF68* __this, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
+		return;
+	}
+}
+// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__24`1<System.Object>::<GetAnimatableProperty>b__24_0(Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.IStateAnimatableProperty)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__24_1_U3CGetAnimatablePropertyU3Eb__24_0_m2C41B094ABFA21458BDD3097204C8BA49E57FF2A_gshared (U3CU3Ec__24_1_tC64FC98246C71215FFA8310DF8A45A08093DFF68* __this, RuntimeObject* ___animatableProp0, const RuntimeMethod* method) 
+{
+	{
+		// IStateAnimatableProperty animatableProperty = animationTarget.StateAnimatableProperties.Find((animatableProp) => animatableProp is T);
+		RuntimeObject* L_0 = ___animatableProp0;
+		return (bool)((!(((RuntimeObject*)(RuntimeObject*)((RuntimeObject*)IsInst((RuntimeObject*)L_0, il2cpp_rgctx_data(method->klass->rgctx_data, 3)))) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
 	}
 }
 #ifdef __clang__

@@ -15,8 +15,10 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile
     Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll:
     - Microsoft.MixedReality.Toolkit.XRSDK.Oculus.Input.OculusXRSDKDeviceManagerProfile
+    Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll:
+    - Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton
+    - Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer
     Microsoft.MixedReality.Toolkit.SDK.dll:
-    - Microsoft.MixedReality.Toolkit.Dwell.DwellProfile
     - Microsoft.MixedReality.Toolkit.Input.AnimatedCursor
     - Microsoft.MixedReality.Toolkit.Input.FingerCursor
     - Microsoft.MixedReality.Toolkit.Input.GGVPointer
@@ -59,6 +61,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.UI.States
     - Microsoft.MixedReality.Toolkit.UI.Theme
     - Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection
+    - Microsoft.MixedReality.Toolkit.Utilities.Solvers.Follow
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraintPalmUp
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.SolverHandler
@@ -193,6 +196,20 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.UI.ThemeStateProperty
     - Microsoft.MixedReality.Toolkit.Utilities.Easing
     - Microsoft.MixedReality.Toolkit.Utilities.ObjectCollectionNode
+    Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive:
+    - Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ClickedEvents
+    - Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.FocusEvents
+    - Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState
+    - Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.PressedNearEvents
+    - Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarEvents
+    - Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SpeechKeywordEvents
+    - Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateEvents
+    - Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ToggleOffEvents
+    - Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ToggleOnEvents
+    - Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.TouchEvents
+    - Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.AnimationTarget
+    - Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.PositionOffsetStateAnimatableProperty
+    - Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateContainer
     Microsoft.MixedReality.Toolkit.Services.InputSimulation:
     - Microsoft.MixedReality.Toolkit.Input.KeyBinding
     Unity.TextMeshPro:
@@ -284,6 +301,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 83
       Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -359,6 +378,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5198}
     - Class: 114
+      Script: {instanceID: 5208}
+    - Class: 114
       Script: {instanceID: 5504}
     - Class: 114
       Script: {instanceID: 5976}
@@ -372,6 +393,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6496}
     - Class: 114
       Script: {instanceID: 6512}
+    - Class: 114
+      Script: {instanceID: 6548}
     - Class: 114
       Script: {instanceID: 6776}
     - Class: 114
@@ -480,6 +503,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12580}
     - Class: 114
       Script: {instanceID: 12768}
+    - Class: 114
+      Script: {instanceID: 12804}
     - Class: 114
       Script: {instanceID: 12840}
     - Class: 115

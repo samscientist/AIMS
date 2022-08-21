@@ -166,8 +166,6 @@ struct Dictionary_2_t760E9A9490B53715AE11CA76450386C19A39A0C8;
 struct Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54;
 // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.TextCore.Text.FontAsset>
 struct Dictionary_2_tC20B3D6AE4370C892734F670EF4D1FB9CE91F371;
-// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GameObject>
-struct Dictionary_2_t3ED995699F3E88D06E5DA7362BEB7584DBD61662;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Int32>
 struct Dictionary_2_tABE19B9C5C52F1DE14F0D3287B2696E7D7419180;
 // System.Collections.Generic.Dictionary`2<System.Int32,System.Int64>
@@ -220,6 +218,8 @@ struct Dictionary_2_t10DC027CB25AFFC182727FBF54E71218E6621A7B;
 struct Dictionary_2_t5A183A80D8AAE83468A8453AC1B2A23E8137A7A7;
 // System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.Queue`1<UnityEngine.GameObject>>
 struct Dictionary_2_tDB49FAA1B72D2C21C656FDDF58FCCC3B54AB9DA6;
+// System.Collections.Generic.Dictionary`2<System.String,Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseEventReceiver>
+struct Dictionary_2_t4B0C6636B05E8FB4966F4BC78B613FCC7CB5C8F3;
 // System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle>
 struct Dictionary_2_tEFC8016EC28460E6CE058A5F413FAB656883AA5F;
 // System.Collections.Generic.Dictionary`2<System.String,Microsoft.MixedReality.Toolkit.Utilities.GameObjectManagement.GameObjectCreator>
@@ -228,6 +228,8 @@ struct Dictionary_2_tFCFF42783ACF99F9D85B2DA16D65F3686ED3BB3C;
 struct Dictionary_2_t8C0DA592DDF4EA9C541F52815A938E10CDF500FB;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588;
+// System.Collections.Generic.Dictionary`2<System.String,Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState>
+struct Dictionary_2_t2CADA0820C380A3CB8EF32F85DC1BB147B047406;
 // System.Collections.Generic.Dictionary`2<System.String,Windows.Perception.Spatial.SpatialAnchor>
 struct Dictionary_2_t5D22B86D1F83C5A1F66573501A60355730E58795;
 // System.Collections.Generic.Dictionary`2<System.String,UnityEngine.Sprite>
@@ -436,6 +438,10 @@ struct Func_1_tBDC54946DE87595ED1C11A54CD2B03E6323B339B;
 struct Func_1_t367387BB2C476D3F32DB12161B5FDC128DC3231C;
 // System.Func`1<UnityEngine.XR.ARSubsystems.Supported>
 struct Func_1_t778056BE8A070F696DB064AC7FBD1F996A928ED2;
+// System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState>,Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState>
+struct Func_2_t97615E407783D47A21DBABB5C99F99BBECF9DDDC;
+// System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState>,System.String>
+struct Func_2_t8912F8209F46403B792AF8E51485CE2A32D02F30;
 // System.Func`2<System.Collections.Generic.KeyValuePair`2<System.Type,Microsoft.MixedReality.Toolkit.IMixedRealityService>,System.UInt32>
 struct Func_2_tFD5606E4129FC58439510C802916AE545CD17F60;
 // System.Func`2<System.Byte[],System.Threading.Tasks.Task`1<System.String>>
@@ -506,8 +512,6 @@ struct Func_3_tE692BF5746E3897AAFC1DAA462F626B39E0A6B5F;
 struct Func_4_t917A5E0B468B7C0436CA84D065BEB6FC43C9B906;
 // System.Func`4<UnityEngine.Vector2,UnityEngine.XR.ARSubsystems.TrackableType,Unity.Collections.Allocator,Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit>>
 struct Func_4_t0755A61145E99905AC47DF85416091FB30758B8A;
-// System.Collections.Generic.HashSet`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>
-struct HashSet_1_tD40FBD55BE8821A62FEB3964F88D68C7D8B2C880;
 // System.Collections.Generic.HashSet`1<Microsoft.MixedReality.Toolkit.Experimental.UI.DockPosition>
 struct HashSet_1_tE049C3A4FC28E0F91215C4476EF37960C7723318;
 // System.Collections.Generic.HashSet`1<UnityEngine.GameObject>
@@ -580,8 +584,6 @@ struct LinkedList_1_t663B91895D7C0666693683BA6D8034329C97E04D;
 struct List_1_t9CCA4F088BF5B55DF894E55CA1574BD136750D70;
 // System.Collections.Generic.List`1<System.Func`3<Microsoft.MixedReality.Toolkit.Physics.ComparableRaycastResult,Microsoft.MixedReality.Toolkit.Physics.ComparableRaycastResult,System.Int32>>
 struct List_1_t548CAAA928897E79E79041E174BCB55492E2BABB;
-// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>>
-struct List_1_tCAA9222CA4212C11DAB99CBC0DCD9915CEEF7008;
 // System.Collections.Generic.List`1<Unity.Collections.NativeArray`1<UnityEngine.XR.ARSubsystems.XRRaycastHit>>
 struct List_1_t554F70DABEBFEED67B5400AB73777A6D987F0D36;
 // System.Collections.Generic.List`1<System.Tuple`2<System.Int32,Microsoft.MixedReality.Toolkit.UI.InteractableThemeBase>>
@@ -616,6 +618,8 @@ struct List_1_tBEE41A3C84ED348850866AD76B66E9D9B19767FF;
 struct List_1_tFA730335FF46512E4245B2F46892CA318B394FAE;
 // System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.ARTrackedObject>
 struct List_1_tF1201F2F725A8AE529D436F38A4771FB6790F3C6;
+// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.AnimationTarget>
+struct List_1_tCFC45F4454B14153062BCD70C03EEBD24392D846;
 // System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.UI.AppBarButton>
 struct List_1_t453F7CEE81CCEAD8248C4BAED29ED5CABD020468;
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule>
@@ -648,8 +652,6 @@ struct List_1_t55B85B981AC5FD6A5358491F90FE354F78BB97DE;
 struct List_1_tA5BCD116CC751A5F35C7D3D7B96DC3A5D22B9C82;
 // System.Collections.Generic.List`1<UnityEngine.GameObject>
 struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B;
-// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.Extensions.GltfExtension>
-struct List_1_t01CC1DD6F63D9C5EDB251D7667BB63B4216BDC83;
 // System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph>
 struct List_1_t95DB74B8EE315F8F92B7B96D93C901C8C3F6FE2C;
 // System.Collections.Generic.List`1<UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord>
@@ -678,6 +680,8 @@ struct List_1_t4820C8F8192DA491FDCD59B55F9D9CDEFE6866E4;
 struct List_1_tFCA04E3A0AA81D669460EE694CA819A1E026A9D8;
 // System.Collections.Generic.List`1<UnityEngine.XR.ARFoundation.IRaycaster>
 struct List_1_t50405350B03FC84D28784364F500CB08B82435B5;
+// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.IStateAnimatableProperty>
+struct List_1_t54375AC459659DBC14415023ED7A08404DD57E5D;
 // System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.UI.IToolTipBackground>
 struct List_1_t7EFBF90A7CB2C383288A5910FDAA0534E8364F13;
 // System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.UI.IToolTipHighlight>
@@ -694,14 +698,16 @@ struct List_1_t679CB43B097ECF2CB8D0EA39A6EFA7C16DF340EB;
 struct List_1_tCC6BA64BF3DBB363F1C958D1E2CD3BC0CAF880B8;
 // System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.UI.InteractableThemeBase>
 struct List_1_t4D562F4D68B80A766A88D18040130B542F6062CA;
+// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState>
+struct List_1_t6DDC84E160656898C1A28F02F1C85EEDEB0E315B;
 // System.Collections.Generic.List`1<TMPro.KerningPair>
 struct List_1_t85616D65DDDB95C24A69143AD684FE7CE5CCAE30;
 // System.Collections.Generic.List`1<UnityEngine.KeyCode>
 struct List_1_tB7F9EA9DD46F974E3E396408B3EF9E0ED62F6D32;
+// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.KeywordEvent>
+struct List_1_t48B69C397F7F50B23B6EA38B67DA893ADD11DADA;
 // System.Collections.Generic.List`1<System.Text.RegularExpressions.Match>
 struct List_1_t425196350A2888B269895DE1C865A3E7E4E2C9B6;
-// System.Collections.Generic.List`1<UnityEngine.Material>
-struct List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B;
 // System.Collections.Generic.List`1<UnityEngine.Matrix4x4>
 struct List_1_tCFA270E118B873F542F52B1DD58F21D0AF4D1452;
 // System.Collections.Generic.List`1<UnityEngine.MeshFilter>
@@ -752,6 +758,8 @@ struct List_1_t7DA088250C54C07AF1211AE132355AD2D343EE51;
 struct List_1_t063B87D3CFDC3AEE80E33EFBDA1410C697D71AD6;
 // System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.UI.State>
 struct List_1_tA6DEB0214E9B1F6AEF93D4BE1F4E7635C421101F;
+// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateContainer>
+struct List_1_tFEC3FDBC4EF2A8B42E187323C7355B9408350DF9;
 // System.Collections.Generic.List`1<System.String>
 struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
 // System.Collections.Generic.List`1<Microsoft.MixedReality.OpenXR.SubsystemController>
@@ -1002,8 +1010,6 @@ struct Task_1_tE4BBCD2CD29C71F89D7135FB05A51B0D3D40725A;
 struct Task_1_t824317F4B958F7512E8F7300511752937A6C6043;
 // System.Threading.Tasks.Task`1<Microsoft.MixedReality.Toolkit.WindowsDevicePortal.DeviceOsInfo>
 struct Task_1_tE958FFBF31C10D06FB9DE76904BF652EE6599862;
-// System.Threading.Tasks.Task`1<UnityEngine.GameObject>
-struct Task_1_tE06D7E45E347567BB7775D8FB00F95DC55D14506;
 // System.Threading.Tasks.Task`1<Windows.Storage.Streams.IBuffer>
 struct Task_1_t34C529965D1945277B370D1A5EEB7D54EADF44F5;
 // System.Threading.Tasks.Task`1<Microsoft.MixedReality.Toolkit.Input.InputAnimation>
@@ -1016,10 +1022,6 @@ struct Task_1_t4C228DE57804012969575431CFF12D57C875552D;
 struct Task_1_t24FB26655014A448F7E2DEDB93ED33FBB74BA331;
 // System.Threading.Tasks.Task`1<Microsoft.MixedReality.Toolkit.WindowsDevicePortal.MachineName>
 struct Task_1_t91C77CE6F82C1EE16F0DF46B1EBF7B9811CB0597;
-// System.Threading.Tasks.Task`1<UnityEngine.Material>
-struct Task_1_tB53370F112232C997E1CF8D7D7E9BDAF24D1221A;
-// System.Threading.Tasks.Task`1<UnityEngine.Mesh>
-struct Task_1_tB2C6BACE26DC94A2F554F6E911F45850C5C566E9;
 // System.Threading.Tasks.Task`1<Microsoft.MixedReality.Toolkit.WindowsDevicePortal.NetworkInterfaces>
 struct Task_1_t2E2E6FA68B3F2882DC51E1999994DD8CEDC9CEBD;
 // System.Threading.Tasks.Task`1<Microsoft.MixedReality.OpenXR.OpenXRAnchorStore>
@@ -1034,8 +1036,6 @@ struct Task_1_t9DC4650609C219E0BEBEF42BD4006594D9C5D5BC;
 struct Task_1_tC4941390267731D3CAC5F52A31FD1307711E12D5;
 // System.Threading.Tasks.Task`1<Windows.Media.SpeechSynthesis.SpeechSynthesisStream>
 struct Task_1_tC9379B37D3E3B6AF5F74F7D212634EC3355A0C6E;
-// System.Threading.Tasks.Task`1<Windows.Storage.StorageFile>
-struct Task_1_t6C08E7A866E612B3A2866E942A4E7843259265CE;
 // System.Threading.Tasks.Task`1<System.IO.Stream>
 struct Task_1_t06484715029D51A4420723456D165BAC63798F8D;
 // System.Threading.Tasks.Task`1<System.String>
@@ -1058,8 +1058,14 @@ struct TweenRunner_1_t5BB0582F926E75E2FE795492679A6CF55A4B4BC4;
 struct TweenRunner_1_t830EC096236A3CEC7189DFA6E0B2E74C5C97780B;
 // UnityEngine.Events.UnityAction`1<UnityEngine.Component>
 struct UnityAction_1_t08643BD289D9DD7E6CD60BA4721F56BE50AF56E7;
+// UnityEngine.Events.UnityAction`1<Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState>
+struct UnityAction_1_tD9E72B5C2B1D896A16E005CB268D1CAD3E339BF6;
 // UnityEngine.Events.UnityAction`1<UnityEngine.SceneManagement.Scene>
 struct UnityAction_1_t9AA21AF4EE824B324F3F3897F91A2D460437F62C;
+// UnityEngine.Events.UnityAction`1<Microsoft.MixedReality.Toolkit.Input.SpeechEventData>
+struct UnityAction_1_t7B090CF0674312D2C17A2AFC7FA36994E6A41B04;
+// UnityEngine.Events.UnityAction`2<Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState,Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState>
+struct UnityAction_2_t1E4E089BC0D0E85721C4FE3F727C7536C7C1F5C8;
 // UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.LoadSceneMode>
 struct UnityAction_2_t1C08AEB5AA4F72FEFAB7F303E33C8CFFF80A8C3A;
 // UnityEngine.Events.UnityAction`2<UnityEngine.SceneManagement.Scene,UnityEngine.SceneManagement.Scene>
@@ -1112,8 +1118,6 @@ struct ColliderU5BU5D_t94A9D70F63D095AFF2A9B4613012A5F7F3141787;
 struct ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389;
 // UnityEngine.Color32[]
 struct Color32U5BU5D_t38116C3E91765C4C5726CE12C77FAD7F9F737259;
-// UnityEngine.CombineInstance[]
-struct CombineInstanceU5BU5D_tF7855763C164A0775855FF142E891E7BE0ABE093;
 // System.Decimal[]
 struct DecimalU5BU5D_t93BA0C88FA80728F73B792EE1A5199D0C060B615;
 // UnityEngine.DisallowMultipleComponent[]
@@ -1140,26 +1144,6 @@ struct FontWeightPairU5BU5D_t76E8DB55C81EEBEFA2E6D1D3E3B3EA1FB4C4954F;
 struct GUIStyleU5BU5D_t1BA4BCF4D4D32DF07E9B84F1750D964DF33B0FEC;
 // UnityEngine.GameObject[]
 struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor[]
-struct GltfAccessorU5BU5D_t3D1840550A8A81A5A6840999A543218500FEEB65;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBuffer[]
-struct GltfBufferU5BU5D_t1A6C0FEC43EA2AB83E1A01F01D62CD916C908E76;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView[]
-struct GltfBufferViewU5BU5D_t51A35EE9DAFF8307DC21D1436104551E9B7347E5;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfImage[]
-struct GltfImageU5BU5D_t745E7EA65FEE6BA19EE7E8920D2F64E7FC4F3422;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial[]
-struct GltfMaterialU5BU5D_tEB929201E6AE4B49931DCF638CEBF8FD3BDD4DAC;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMesh[]
-struct GltfMeshU5BU5D_t9B6FDB4414B450992F66FD6C2068A995618AEBDB;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMeshPrimitive[]
-struct GltfMeshPrimitiveU5BU5D_t42B73378892425F86C6E71592416349319D04F5C;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode[]
-struct GltfNodeU5BU5D_t9165905CF35DA7A14211829668A9CFE91808E355;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfScene[]
-struct GltfSceneU5BU5D_t66B0532F315A68081D7BCC428D7ED39E48039FC8;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTexture[]
-struct GltfTextureU5BU5D_t8F3036C18764C052E461D1C33F3DE310D05BED84;
 // UnityEngine.GradientAlphaKey[]
 struct GradientAlphaKeyU5BU5D_tA5D7ED787780B5C01635C8C59B15B2BC01AEC50E;
 // UnityEngine.Experimental.Rendering.GraphicsFormat[]
@@ -1382,8 +1366,6 @@ struct Contribution3U5BU5D_t141379D05B117809AC018DD17334CFF8C69D6E42;
 struct Contribution4U5BU5D_tA7117B4200FF569EDB2E44A9E779F1152356874F;
 // I18N.CJK.GB18030Source/GB18030Map[]
 struct GB18030MapU5BU5D_tFDB3F56AB42731ADCEE3E328CF8E719203C56C35;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility/StringKeyValue[]
-struct StringKeyValueU5BU5D_t1BCEE77BB81010F95DF30CD179605A6C87192EFA;
 // Microsoft.MixedReality.Toolkit.Input.MeshCursor/MeshCursorDatum[]
 struct MeshCursorDatumU5BU5D_t7ABBB418548BCCFA1618AE7F9EF3EF759B86C465;
 // Microsoft.MixedReality.Toolkit.Input.ObjectCursor/ObjectCursorDatum[]
@@ -1428,6 +1410,8 @@ struct AnchorSubsystemController_t84440068BA8A13A09CF3FEC4055CD86571EFC568;
 struct AnchorTransferBatch_t5A7464971030522E7FFB482EB38DC55222197A96;
 // UnityEngine.Animation
 struct Animation_t6593B06C39E3B139808B19F2C719C860F3F61040;
+// UnityEngine.AnimationClip
+struct AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712;
 // UnityEngine.AnimationCurve
 struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
 // UnityEngine.UI.AnimationTriggers
@@ -1472,12 +1456,16 @@ struct BaseCameraSettingsProfile_tDB8373232611B34628752DF4D284B938CFE32799;
 struct BaseControllerPointer_tCDF54B279BD1383442AE658FAACF712670F25FEF;
 // UnityEngine.EventSystems.BaseEventData
 struct BaseEventData_tE03A848325C0AE8E76C6CA15FD86395EBF83364F;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseEventReceiver
+struct BaseEventReceiver_t24F934A3FE65D924C8A2E1A231A9917DD999BC7C;
 // Microsoft.MixedReality.Toolkit.Input.BaseGenericInputSource
 struct BaseGenericInputSource_t8FF02CB7274492A75F3253BF118876D1C086EBA8;
 // UnityEngine.EventSystems.BaseInput
 struct BaseInput_t69C46B0AA3C24F1CA842A0D03CACACC4EC788622;
 // UnityEngine.EventSystems.BaseInputModule
 struct BaseInputModule_tF3B7C22AF1419B2AC9ECE6589357DC1B88ED96B1;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement
+struct BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60;
 // Microsoft.MixedReality.Toolkit.Utilities.BaseMixedRealityLineDataProvider
 struct BaseMixedRealityLineDataProvider_tCF1973D05D5ADBC40727FD08B73C2D308D460916;
 // Microsoft.MixedReality.Toolkit.Utilities.BaseMixedRealityLineRenderer
@@ -1504,16 +1492,8 @@ struct BezierDataProvider_tC2137203DC834F94D2FC5D53FBD115D53C5E23CF;
 struct BezierInertia_tE9CD07C9F96532F318A6D924638102B962726B3B;
 // Microsoft.MixedReality.Toolkit.Boundary.BoundaryEventData
 struct BoundaryEventData_tD8FC73229A6B5612FFAEDAFF207FBEADA7934C41;
-// Microsoft.MixedReality.Toolkit.UI.BoundingBox
-struct BoundingBox_t42AE0573F5E0C923C445160E40BE4B877F481A8D;
-// Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest
-struct BoundingBoxExampleTest_t286F3AF05F857D5F8AACC9A4A216416EBDC7E552;
 // Microsoft.MixedReality.Toolkit.UI.BoundingBoxHelper
 struct BoundingBoxHelper_t0A754836E5D33855156CF21BB3A234EC91AE397B;
-// Microsoft.MixedReality.Toolkit.UI.BoundsControl.BoundsControl
-struct BoundsControl_tDDFE1EC00BD631C0FE186A05FC3D9748083E7547;
-// Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample
-struct BoundsControlRuntimeExample_tEF7739270115739D5B3BEFC85F5C32ECCAEC3CAB;
 // UnityEngine.BoxCollider
 struct BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23;
 // Microsoft.MixedReality.Toolkit.UI.BoundsControl.BoxDisplay
@@ -1552,8 +1532,8 @@ struct CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2;
 struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
 // UnityEngine.Rendering.CommandBuffer
 struct CommandBuffer_tB56007DC84EF56296C325EC32DD12AC1E3DC91F7;
-// UnityEngine.ComputeShader
-struct ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton
+struct CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8;
 // UnityEngine.XR.ARSubsystems.ConfigurationChooser
 struct ConfigurationChooser_t4DFAB6BE3767C3C5DA0E43FA16CD067009A487C2;
 // Microsoft.MixedReality.Toolkit.UI.ConstraintManager
@@ -1594,8 +1574,6 @@ struct Dockable_tB396EC5369730B86D4BE28E064A7CA0768B3B42E;
 struct DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB;
 // UnityEngine.UI.Dropdown
 struct Dropdown_t54C0BDC1441E058BE37E796F68886671C270EF89;
-// Microsoft.MixedReality.Toolkit.Dwell.DwellHandler
-struct DwellHandler_tB8CF720F3EEEA0A8C3F02A0B916FCC0FA1E53AD9;
 // Microsoft.MixedReality.Toolkit.Utilities.Easing
 struct Easing_t0462A8B12CBC362B6C0D9F1AE627EBA953F1D559;
 // Microsoft.MixedReality.Toolkit.Experimental.Physics.ElasticConfiguration
@@ -1612,6 +1590,8 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095;
 struct Event_tEBC6F24B56CE22B9C9AD1AC6C24A6B83BC3860CB;
 // System.EventHandler
 struct EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.EventReceiverManager
+struct EventReceiverManager_t7E0B14D27774134C68DD0C872B4A85EE8A2AC557;
 // UnityEngine.EventSystems.EventSystem
 struct EventSystem_t61C51380B105BE9D2C39C4F15B7E655659957707;
 // System.Runtime.ExceptionServices.ExceptionDispatchInfo
@@ -1630,6 +1610,8 @@ struct FileStream_t07C7222EE10B75F352B89B76E60820160FF10AD8;
 struct FixedDistanceConstraint_t6BE881D13F52454DBE39946FCB2912750B9B8872;
 // Microsoft.MixedReality.Toolkit.Input.FocusEventData
 struct FocusEventData_t3AD7DE28F6F0A2A7CA9843944A0E0DE4B8868E4A;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.FocusInteractionEvent
+struct FocusInteractionEvent_tD8BA3D585E846EB7E73487C9F011B03C8EDE77DD;
 // Microsoft.MixedReality.Toolkit.UI.FollowMeToggle
 struct FollowMeToggle_tE8749E974A473EF163E1EC4EC03D7B5DA9F3A852;
 // UnityEngine.Font
@@ -1670,50 +1652,12 @@ struct GazeStabilizer_tC39E6D43F9B19AE2EF0303987709EDA571B74809;
 struct GenericStack_t1FB49AB7D847C97ABAA97AB232CA416CABD24C49;
 // Microsoft.MixedReality.OpenXR.GestureSubsystem
 struct GestureSubsystem_t2ECC93199A9E729596960D91C545405393ADAC71;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor
-struct GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAssetInfo
-struct GltfAssetInfo_t7F7D2FC5E3D97C2BA2FE68A6C5E094E41FDDB347;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBuffer
-struct GltfBuffer_t9ACEE0DB23B46D23D79505AF603E1C43CD0D5A9D;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView
-struct GltfBufferView_tB61A8CA71D369687844DE6E4F9C6A2F3AF64C26F;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfImage
-struct GltfImage_tEE5C9F2BC26E018CC354842D9B58C5D74A9D3277;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial
-struct GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMesh
-struct GltfMesh_t7BBCCCAAB377070DE5C8ED18C6CB70BAFCC8616A;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMeshPrimitive
-struct GltfMeshPrimitive_tE068C0AD5BDE9D24E96F2E9370B488BBFA278543;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMeshPrimitiveAttributes
-struct GltfMeshPrimitiveAttributes_tB70DF5F8E1C10F1D7EC8738B503033E90B9D4350;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode
-struct GltfNode_t1DE513611BEF9635B9DA063DBEF9F3826D5C0B87;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNormalTextureInfo
-struct GltfNormalTextureInfo_tF9568A7E5C4AC7D7450521824B33015C290E01C7;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject
-struct GltfObject_t01406610671599590A9A62632F753580951C5438;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfOcclusionTextureInfo
-struct GltfOcclusionTextureInfo_tBE78A49FF65C0470767DFE05EE44A7904C9219BE;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfPbrMetallicRoughness
-struct GltfPbrMetallicRoughness_tE1C97C2E1DBF76682B6014767E14D2563298C458;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfScene
-struct GltfScene_t9920A88AC046ED939673CAC600CCDE337956CBEF;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTexture
-struct GltfTexture_tAE6C08BC1161971F0CD1056F611A8680319B7176;
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTextureInfo
-struct GltfTextureInfo_t8E26D121D3752ED99A0182AF90E60B5493555496;
 // UnityEngine.TextCore.Glyph
 struct Glyph_t700CF8EBE04ED4AEAB520885AAA1B309E02A103F;
 // UnityEngine.Gradient
 struct Gradient_tA7FEBE2FDB4929FFF6C997134841046F713DAC1E;
 // UnityEngine.UI.Graphic
 struct Graphic_tCBFCA4585A19E2B75465AECFEAC43F4016BF7931;
-// Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection
-struct GridObjectCollection_t4305434DFFC4F42300B547540DE4C36DA2DE4B2A;
-// Microsoft.MixedReality.Toolkit.Examples.Demos.GridObjectLayoutControl
-struct GridObjectLayoutControl_t83248AA1F700E00F0BA07A4A0706DFED0961DB61;
 // System.Text.RegularExpressions.Group
 struct Group_t26371E9136D6F43782C487B63C67C5FC4F472881;
 // System.Text.RegularExpressions.GroupCollection
@@ -1822,12 +1766,12 @@ struct IPlayerEditorConnectionNative_tDFA5BC770DAA5BE37CBA1CF47281702FB064CCF3;
 struct IPointerPreferences_tF1B2AEAE770416CD8D22A950F9FBE92FAC304874;
 // Microsoft.MixedReality.Toolkit.Input.IPointerResult
 struct IPointerResult_t7778124D479BBC1920888EC74BB907B9B569599F;
-// Microsoft.MixedReality.Toolkit.UI.IProgressIndicator
-struct IProgressIndicator_t6344ADC3551E01DC2095D497894B83DA03698805;
 // UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem
 struct IScriptableRuntimeReflectionSystem_t0E6ED00D872A0EFCF87A494C5C893AE9FBE560AD;
 // UnityEngine.EventSystems.IScrollHandler
 struct IScrollHandler_t762CB73017D561E11CF6759ED9FD8C9F24B3D13F;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.IStateEventConfig
+struct IStateEventConfig_t32C0CEFA66CEC92C4F9FC233977914F9EF969CB2;
 // TMPro.ITextPreprocessor
 struct ITextPreprocessor_tDBB49C8B68D7B80E8D233B9D9666C43981EFAAB9;
 // Microsoft.MixedReality.Toolkit.Utilities.ITransformSmoothingLogic
@@ -1872,6 +1816,14 @@ struct InteractableEvent_tDAAF82BC69AAA0213A182A3BF05720FFC9B2ECE9;
 struct InteractableStates_t1D97D600C9C94AB004BFEC652E40B3DF95F50DF6;
 // Microsoft.MixedReality.Toolkit.UI.InteractableToggleCollection
 struct InteractableToggleCollection_tED7CB6F6C4E1FE135A63096FD807A0B53FE767FA;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState
+struct InteractionState_t250F4B16FDF9EF61E9FE20F59F80A63008751FEA;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionStateActiveEvent
+struct InteractionStateActiveEvent_tD37CD4A49102E8E1FE454DCB9864D2D82D07C1C2;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionStateInactiveEvent
+struct InteractionStateInactiveEvent_t397F7A7A191D88E75281E9145C01162CA04C9328;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractiveElement
+struct InteractiveElement_t41F63372B775E57495A114E7D7B5689754571A11;
 // Microsoft.MixedReality.Toolkit.WindowsDevicePortal.InterfaceInfo
 struct InterfaceInfo_tC9611F36D4C5D287F862EBDF56FD68DE531864AA;
 // UnityEngine.Events.InvokableCallList
@@ -2038,8 +1990,6 @@ struct Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C;
 struct PlaneSubsystemController_t9EB8616456727D6E163D83F94D4388B99A654E37;
 // UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents
 struct PlayerEditorConnectionEvents_tF92F4A9A0EDAB7D3D544AE9B0F3F925C4E48B7CB;
-// Plexus
-struct Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5;
 // UnityEngine.EventSystems.PointerEventData
 struct PointerEventData_t9670F3C7D823CCB738A1604C72A1EB90292396FB;
 // Microsoft.MixedReality.Toolkit.Input.PointerUnityEvent
@@ -2056,12 +2006,6 @@ struct PressableButton_t5F8C174C5F5B7A2F15EEFD16648640216DFF1AFC;
 struct PressableButtonHoloLens2_t013EE59396294BBEE74D164E8A20A5B351614E97;
 // Microsoft.MixedReality.Toolkit.Input.PrimaryPointerChangedHandler
 struct PrimaryPointerChangedHandler_t1C9E0CDB5009F770A464C9126C67A745E2D544E8;
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAnimation
-struct ProgressIndicatorDemoAnimation_t7B29F2360D73ABC7C54BDD39A60FEDCEF296136B;
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod
-struct ProgressIndicatorDemoAsyncMethod_tB2B716567DD8AC03476FC91788FBE65C13A54A57;
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad
-struct ProgressIndicatorDemoSceneLoad_tF22EAC3534317BF3822EC9E7B732348724FFFD00;
 // Microsoft.MixedReality.Toolkit.UI.ProgressIndicatorLoadingBar
 struct ProgressIndicatorLoadingBar_tD9CF8A4829131F6830DE34DAFA1AF7B65B2B1A79;
 // Microsoft.MixedReality.Toolkit.UI.ProgressIndicatorObjectDisplay
@@ -2148,12 +2092,14 @@ struct ScaleHandlesConfiguration_t79002721D09E9BAE57FCF4ACCB206EB0C59A57A8;
 struct ScriptableObject_tB3BFDB921A1B1795B38A5417D3B97A89A140436A;
 // UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper
 struct ScriptableRuntimeReflectionSystemWrapper_t5E4ABCD6EBCCBC665EFFD6A654A6355D5744F924;
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator
-struct ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5;
 // UnityEngine.UI.Scrollbar
 struct Scrollbar_t7CDC9B956698D9385A11E4C12964CD51477072C3;
 // Microsoft.MixedReality.Toolkit.UI.ScrollingObjectCollection
 struct ScrollingObjectCollection_t821C999BC5E6630449E19F21187581CC70C9D847;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarEvents
+struct SelectFarEvents_tD931F3645DA0510941657655A771FF1BFD2A8AF6;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarInteractionEvent
+struct SelectFarInteractionEvent_tCED41298EEF31A33A273E8227B78F5BE4CD9AE52;
 // UnityEngine.UI.Selectable
 struct Selectable_t3251808068A17B8E92FB33590A4C2FA66D456712;
 // System.Threading.SemaphoreSlim
@@ -2182,6 +2128,10 @@ struct SourceStateEventData_tD48A61E84BBBE9834EC53C5ED91A08F0171F5CF6;
 struct SpeechConfirmationTooltip_tA2F816CD4A6F515FF5C30826AFAE9A0B78732DBE;
 // Microsoft.MixedReality.Toolkit.Input.SpeechEventData
 struct SpeechEventData_t4424832821FEC4163B9CFCD3A9F457DF930A95BD;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SpeechInteractionEvent
+struct SpeechInteractionEvent_tE3EE6C958E3F91B6D14E6089D24A6CCC6C197102;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SpeechKeywordEvents
+struct SpeechKeywordEvents_t85EE0C5B89936D11638FBFCA09194AC74D184767;
 // Windows.Media.SpeechSynthesis.SpeechSynthesizer
 struct SpeechSynthesizer_tCD732B7C8A22E1100B836D3B2E40D1FDBAF7AE75;
 // Microsoft.MixedReality.Toolkit.Input.SpherePointer
@@ -2198,6 +2148,10 @@ struct SpriteRenderer_t1DD7FE258F072E1FA87D6577BA27225892B8047B;
 struct StabilizedRay_t86C42797F55A3608C19D1733C2D6F3996FE63594;
 // Microsoft.MixedReality.Toolkit.UI.State
 struct State_tABF1912F27C479FA84AE96D13A8417C08960156A;
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateContainer
+struct StateContainer_t51242782C9095F89F256ABC7B2CFDC798B9C0B1D;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager
+struct StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346;
 // Microsoft.MixedReality.Toolkit.UI.States
 struct States_tC82B1580BE374C64A36D1B612FCAEC1CBD233C85;
 // System.IO.Stream
@@ -2296,6 +2250,8 @@ struct ToggleGroup_tF2E6FE7D4B17BDBF82462715CFB57C4FDE0A2A2C;
 struct ToolTip_tA20E3DCD1B5526B3802277FAB7BB9A173A2820D1;
 // Microsoft.MixedReality.Toolkit.UI.TouchEvent
 struct TouchEvent_tFF65E19E6B29B23FB207E3BD9F8BD371C0606E8C;
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.TouchInteractionEvent
+struct TouchInteractionEvent_tF2454BDECA0227737CE9BD8F249677888486AA3E;
 // UnityEngine.TouchScreenKeyboard
 struct TouchScreenKeyboard_tE87B78A3DAED69816B44C99270A734682E093E7A;
 // UnityEngine.Transform
@@ -2340,16 +2296,10 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
 struct WWWForm_t0DAE123504AB1B2BC17C18714741B92AB3B3B045;
 // System.Threading.WaitCallback
 struct WaitCallback_tFB2C7FD58D024BBC2B0333DC7A4CB63B8DEBD5D3;
-// Microsoft.MixedReality.Toolkit.Utilities.WaitForBackgroundThread
-struct WaitForBackgroundThread_t75FEB458582D3BE4ADBFA0DEF086C9136F9C24D5;
-// UnityEngine.WaitForEndOfFrame
-struct WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663;
 // UnityEngine.WaitForSeconds
 struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
 // UnityEngine.WaitForSecondsRealtime
 struct WaitForSecondsRealtime_tA8CE0AAB4B0C872B843E7973637037D17682BA01;
-// Microsoft.MixedReality.Toolkit.Utilities.WaitForUpdate
-struct WaitForUpdate_t38E540D067CC210D30B0B793E795CAACF73B87CB;
 // UnityEngine.WSA.WindowActivated
 struct WindowActivated_t027A47CEE2C511D429EC1B0A31A2E2D78400ED36;
 // UnityEngine.WSA.WindowSizeChanged
@@ -2506,8 +2456,6 @@ struct ConnectionChangeEvent_t248B606ACAD196280E928DF0A51C489CFED3978B;
 struct MessageEvent_tBF02D60FEABA2052B9970B1DEF2322E38ADE61C9;
 // UnityEngine.LowLevel.PlayerLoopSystem/UpdateFunction
 struct UpdateFunction_t1C48B7EECBE47AC123A9D9D7D9D2A9EE951C56C4;
-// Plexus/<>c__DisplayClass30_0
-struct U3CU3Ec__DisplayClass30_0_tBA29D0CE5952D38A3010A7E021EE3FDA275EDA0C;
 // UnityEngine.EventSystems.PointerInputModule/MouseButtonEventData
 struct MouseButtonEventData_t0761D63D3A2B13090597C22DD97597CC7FE4D154;
 // UnityEngine.EventSystems.PointerInputModule/MouseState
@@ -2719,6 +2667,15 @@ struct AnchorTransferBatch_t5A7464971030522E7FFB482EB38DC55222197A96  : public R
 	Dictionary_2_t5D22B86D1F83C5A1F66573501A60355730E58795* ___m_spatialAnchors_1;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.AnimationTarget
+struct AnimationTarget_t06ADC4EFE5DA6D8BC41C4FC33A46159D72C088D1  : public RuntimeObject
+{
+	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.AnimationTarget::target
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___target_0;
+	// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.IStateAnimatableProperty> Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.AnimationTarget::stateAnimatableProperties
+	List_1_t54375AC459659DBC14415023ED7A08404DD57E5D* ___stateAnimatableProperties_1;
+};
+
 // UnityEngine.UI.AnimationTriggers
 struct AnimationTriggers_tA0DC06F89C5280C6DD972F6F4C8A56D7F4F79074  : public RuntimeObject
 {
@@ -2925,6 +2882,15 @@ struct AvailableWiFiNetworks_t64DA3439F65E5054D74E5B77ABABE7580A95E794  : public
 	WirelessNetworkInfoU5BU5D_tAA3FCC667AC215E9FAEE6AA29DA27F6309D330E5* ___AvailableNetworks_0;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseEventReceiver
+struct BaseEventReceiver_t24F934A3FE65D924C8A2E1A231A9917DD999BC7C  : public RuntimeObject
+{
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.IStateEventConfig Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseEventReceiver::<EventConfiguration>k__BackingField
+	RuntimeObject* ___U3CEventConfigurationU3Ek__BackingField_0;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseEventReceiver::<StateName>k__BackingField
+	String_t* ___U3CStateNameU3Ek__BackingField_1;
+};
+
 // Microsoft.MixedReality.Toolkit.Input.BaseGenericInputSource
 struct BaseGenericInputSource_t8FF02CB7274492A75F3253BF118876D1C086EBA8  : public RuntimeObject
 {
@@ -2958,6 +2924,15 @@ struct BaseInputSourceDefinition_t3C7E26E809069FB4D48181384861DEC5E2EA36DB  : pu
 {
 	// Microsoft.MixedReality.Toolkit.Utilities.Handedness Microsoft.MixedReality.Toolkit.Input.BaseInputSourceDefinition::<Handedness>k__BackingField
 	uint8_t ___U3CHandednessU3Ek__BackingField_0;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractionEventConfiguration
+struct BaseInteractionEventConfiguration_t66E9BD80D3A37676F2496A9ACB593AD8BA33486B  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractionEventConfiguration::stateName
+	String_t* ___stateName_0;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseEventReceiver Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractionEventConfiguration::<EventReceiver>k__BackingField
+	BaseEventReceiver_t24F934A3FE65D924C8A2E1A231A9917DD999BC7C* ___U3CEventReceiverU3Ek__BackingField_1;
 };
 
 // UnityEngine.Events.BaseInvokableCall
@@ -3201,51 +3176,6 @@ struct ConeCastUtility_t70A568EDCE318A15EFFE166C405EF237C21240F1_StaticFields
 // UnityEngine.XR.OpenXR.Constants
 struct Constants_t27E0E23D4EFEB2673234895D4EC97C7EBA9B99DC  : public RuntimeObject
 {
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf
-struct ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873  : public RuntimeObject
-{
-};
-
-struct ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields
-{
-	// Microsoft.MixedReality.Toolkit.Utilities.WaitForUpdate Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::Update
-	WaitForUpdate_t38E540D067CC210D30B0B793E795CAACF73B87CB* ___Update_0;
-	// Microsoft.MixedReality.Toolkit.Utilities.WaitForBackgroundThread Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::BackgroundThread
-	WaitForBackgroundThread_t75FEB458582D3BE4ADBFA0DEF086C9136F9C24D5* ___BackgroundThread_1;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::SrcBlendId
-	int32_t ___SrcBlendId_2;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::DstBlendId
-	int32_t ___DstBlendId_3;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::ZWriteId
-	int32_t ___ZWriteId_4;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::ModeId
-	int32_t ___ModeId_5;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::EmissionMapId
-	int32_t ___EmissionMapId_6;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::EmissionColorId
-	int32_t ___EmissionColorId_7;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::MetallicGlossMapId
-	int32_t ___MetallicGlossMapId_8;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::GlossinessId
-	int32_t ___GlossinessId_9;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::MetallicId
-	int32_t ___MetallicId_10;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::BumpMapId
-	int32_t ___BumpMapId_11;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::EmissiveColorId
-	int32_t ___EmissiveColorId_12;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::ChannelMapId
-	int32_t ___ChannelMapId_13;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::SmoothnessId
-	int32_t ___SmoothnessId_14;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::NormalMapId
-	int32_t ___NormalMapId_15;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::NormalMapScaleId
-	int32_t ___NormalMapScaleId_16;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf::CullModeId
-	int32_t ___CullModeId_17;
 };
 
 // Consts
@@ -3538,6 +3468,15 @@ struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
 	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings_8;
 	// System.Object System.Text.Encoding::s_InternalSyncObject
 	RuntimeObject* ___s_InternalSyncObject_15;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.EventReceiverManager
+struct EventReceiverManager_t7E0B14D27774134C68DD0C872B4A85EE8A2AC557  : public RuntimeObject
+{
+	// System.Collections.Generic.Dictionary`2<System.String,Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseEventReceiver> Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.EventReceiverManager::<EventReceivers>k__BackingField
+	Dictionary_2_t4B0C6636B05E8FB4966F4BC78B613FCC7CB5C8F3* ___U3CEventReceiversU3Ek__BackingField_0;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.EventReceiverManager::stateManager
+	StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346* ___stateManager_1;
 };
 
 // Example
@@ -3967,28 +3906,6 @@ struct GestureRecognizer_t57416DA7127CE0B678D5772F459FB91AA3F4F31E  : public Run
 	int32_t ___m_requestedSettings_1;
 };
 
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfProperty
-struct GltfProperty_t39E80BE0E3D85586DF7F81F12E39B56170F7E188  : public RuntimeObject
-{
-	// System.Collections.Generic.Dictionary`2<System.String,System.String> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfProperty::Extensions
-	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___Extensions_0;
-	// System.Collections.Generic.Dictionary`2<System.String,System.String> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfProperty::Extras
-	Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___Extras_1;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility
-struct GltfUtility_tB487A0413ACA26A6E55807D6D2C79345B1631B95  : public RuntimeObject
-{
-};
-
-struct GltfUtility_tB487A0413ACA26A6E55807D6D2C79345B1631B95_StaticFields
-{
-	// Microsoft.MixedReality.Toolkit.Utilities.WaitForUpdate Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility::Update
-	WaitForUpdate_t38E540D067CC210D30B0B793E795CAACF73B87CB* ___Update_0;
-	// Microsoft.MixedReality.Toolkit.Utilities.WaitForBackgroundThread Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility::BackgroundThread
-	WaitForBackgroundThread_t75FEB458582D3BE4ADBFA0DEF086C9136F9C24D5* ___BackgroundThread_1;
-};
-
 // UnityEngine.UI.GraphicRegistry
 struct GraphicRegistry_t374118CCD6DBB47209C783A4BF2F4EF9EA78A326  : public RuntimeObject
 {
@@ -4275,6 +4192,23 @@ struct InteractableThemeBase_tAA2C9F0F3B52DBD4918516D8D69A50B9FCBF6C6C  : public
 	int32_t ___lastState_9;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState
+struct InteractionState_t250F4B16FDF9EF61E9FE20F59F80A63008751FEA  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState::stateName
+	String_t* ___stateName_0;
+	// System.Int32 Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState::stateValue
+	int32_t ___stateValue_1;
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState::active
+	bool ___active_2;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionType Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState::interactionType
+	int32_t ___interactionType_3;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.IStateEventConfig Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState::eventConfiguration
+	RuntimeObject* ___eventConfiguration_4;
+	// System.String[] Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState::coreStates
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___coreStates_7;
+};
+
 // Microsoft.MixedReality.Toolkit.WindowsDevicePortal.InterfaceInfo
 struct InterfaceInfo_tC9611F36D4C5D287F862EBDF56FD68DE531864AA  : public RuntimeObject
 {
@@ -4390,6 +4324,15 @@ struct KeyInputSystem_tD6C61F093A16E173A940CEE75AF5786E383F47E7_StaticFields
 	HashSet_1_t4A2F2B74276D0AD3ED0F873045BD61E9504ECAE2* ___SimulatedMouseUpSet_5;
 	// System.Collections.Generic.HashSet`1<UnityEngine.KeyCode> Microsoft.MixedReality.Toolkit.Input.KeyInputSystem::SimulatedKeyUpSet
 	HashSet_1_t63E654336BC3492F017D4B0F3104E3FDDE1FC252* ___SimulatedKeyUpSet_6;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.KeywordEvent
+struct KeywordEvent_tA4CED157B5B726FCE7A82767FCE9BE15867FCFCC  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.KeywordEvent::keyword
+	String_t* ___keyword_0;
+	// UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.KeywordEvent::OnKeywordRecognized
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnKeywordRecognized_1;
 };
 
 // Microsoft.MixedReality.Toolkit.LayerExtensions
@@ -5555,6 +5498,59 @@ struct State_tABF1912F27C479FA84AE96D13A8417C08960156A  : public RuntimeObject
 	int32_t ___ActiveIndex_4;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateAnimatableProperty
+struct StateAnimatableProperty_tD4B65E13AD8E7377718E1D108DC5A9391F8213B7  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateAnimatableProperty::animatablePropertyName
+	String_t* ___animatablePropertyName_0;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateAnimatableProperty::stateName
+	String_t* ___stateName_1;
+	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateAnimatableProperty::target
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___target_2;
+	// System.Single Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateAnimatableProperty::animationDuration
+	float ___animationDuration_3;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateContainer
+struct StateContainer_t51242782C9095F89F256ABC7B2CFDC798B9C0B1D  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateContainer::stateName
+	String_t* ___stateName_0;
+	// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.AnimationTarget> Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateContainer::animationTargets
+	List_1_tCFC45F4454B14153062BCD70C03EEBD24392D846* ___animationTargets_1;
+	// UnityEngine.AnimationClip Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateContainer::animationClip
+	AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* ___animationClip_2;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager
+struct StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346  : public RuntimeObject
+{
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.EventReceiverManager Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager::<EventReceiverManager>k__BackingField
+	EventReceiverManager_t7E0B14D27774134C68DD0C872B4A85EE8A2AC557* ___U3CEventReceiverManagerU3Ek__BackingField_0;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionStateActiveEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager::<OnStateActivated>k__BackingField
+	InteractionStateActiveEvent_tD37CD4A49102E8E1FE454DCB9864D2D82D07C1C2* ___U3COnStateActivatedU3Ek__BackingField_1;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionStateInactiveEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager::<OnStateDeactivated>k__BackingField
+	InteractionStateInactiveEvent_t397F7A7A191D88E75281E9145C01162CA04C9328* ___U3COnStateDeactivatedU3Ek__BackingField_2;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager::<InteractiveElement>k__BackingField
+	BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60* ___U3CInteractiveElementU3Ek__BackingField_3;
+	// System.Collections.Generic.Dictionary`2<System.String,Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState> Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager::statesDictionary
+	Dictionary_2_t2CADA0820C380A3CB8EF32F85DC1BB147B047406* ___statesDictionary_4;
+	// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState> Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager::interactionStates
+	List_1_t6DDC84E160656898C1A28F02F1C85EEDEB0E315B* ___interactionStates_5;
+	// System.String[] Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager::coreStates
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___coreStates_6;
+	// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState> Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager::activeStates
+	List_1_t6DDC84E160656898C1A28F02F1C85EEDEB0E315B* ___activeStates_7;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager::defaultStateName
+	String_t* ___defaultStateName_8;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager::touchStateName
+	String_t* ___touchStateName_9;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager::selectFarStateName
+	String_t* ___selectFarStateName_10;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager::speechKeywordStateName
+	String_t* ___speechKeywordStateName_11;
+};
+
 // UnityEngine.UI.StencilMaterial
 struct StencilMaterial_t4118A758B726E5ADA91AE7674F44039B35AD29F9  : public RuntimeObject
 {
@@ -6616,6 +6612,20 @@ struct U3CInstallU3Ed__37_t0A68C1CB1C41C1957F770501E08FC18AD6398091  : public Ru
 	Promise_1_t5FC5C28B835D1A44C362235B30176D38FCBC7DEC* ___U3CinstallPromiseU3E5__2_2;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.AnimationTarget/<>c__DisplayClass10_0
+struct U3CU3Ec__DisplayClass10_0_t9D1A4364E0816A4979ED9916F1E666EF8FC1017F  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.AnimationTarget/<>c__DisplayClass10_0::animatablePropertyName
+	String_t* ___animatablePropertyName_0;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.AnimationTarget/<>c__DisplayClass12_0
+struct U3CU3Ec__DisplayClass12_0_tB9181FA96825A54D758833C3330D0BFD9D808E25  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.AnimationTarget/<>c__DisplayClass12_0::animatablePropertyTypeName
+	String_t* ___animatablePropertyTypeName_0;
+};
+
 // Microsoft.MixedReality.Toolkit.UI.AppBar/<>c
 struct U3CU3Ec_t783D26071DE4CE09860527A039BDD62F6DD689C3  : public RuntimeObject
 {
@@ -6684,6 +6694,20 @@ struct PointerEqualityComparer_t4E0585A407153E9444E0BD3524937E248A07EEB0_StaticF
 	PointerEqualityComparer_t4E0585A407153E9444E0BD3524937E248A07EEB0* ___defaultComparer_0;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement/<>c__DisplayClass55_0
+struct U3CU3Ec__DisplayClass55_0_t9DD709FF0BA1CDF51BF33BB23321F3DAC9146316  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement/<>c__DisplayClass55_0::stateName
+	String_t* ___stateName_0;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement/<>c__DisplayClass56_0
+struct U3CU3Ec__DisplayClass56_0_t909DECA59467D70DDFFA7C950A1D64576BF51B49  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement/<>c__DisplayClass56_0::stateName
+	String_t* ___stateName_0;
+};
+
 // Microsoft.MixedReality.Toolkit.SpatialAwareness.BaseSpatialMeshObserver/<>c
 struct U3CU3Ec_tD6BC49796ACBF599D9380810C2C29201DE7696D7  : public RuntimeObject
 {
@@ -6706,70 +6730,6 @@ struct Handle_t973C227BE148E01D8D871DCDE86A8C1FA82AC449  : public RuntimeObject
 	int32_t ___Type_2;
 	// Microsoft.MixedReality.Toolkit.UI.BoundingBox/HandleProximityState Microsoft.MixedReality.Toolkit.UI.BoundingBox/Handle::ProximityState
 	int32_t ___ProximityState_3;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest/<Sequence>d__12
-struct U3CSequenceU3Ed__12_tF55D339C4A243C24CBE65F823E7A04CE6E203933  : public RuntimeObject
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest/<Sequence>d__12::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest/<Sequence>d__12::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest/<Sequence>d__12::<>4__this
-	BoundingBoxExampleTest_t286F3AF05F857D5F8AACC9A4A216416EBDC7E552* ___U3CU3E4__this_2;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest/<Sequence>d__12::<cube>5__2
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CcubeU3E5__2_3;
-	// Microsoft.MixedReality.Toolkit.UI.ObjectManipulator Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest/<Sequence>d__12::<om>5__3
-	ObjectManipulator_t469AAA637BD8E38C55F7D7AF8166EFBB3A01FD38* ___U3ComU3E5__3_4;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest/<Sequence>d__12::<newObject>5__4
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CnewObjectU3E5__4_5;
-	// UnityEngine.BoxCollider Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest/<Sequence>d__12::<bc>5__5
-	BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* ___U3CbcU3E5__5_6;
-	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest/<Sequence>d__12::<lastParent>5__6
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___U3ClastParentU3E5__6_7;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest/<WaitForSpeechCommand>d__13
-struct U3CWaitForSpeechCommandU3Ed__13_tA3478029843B23D9C8A63D157FFB5BB99CF37ED5  : public RuntimeObject
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest/<WaitForSpeechCommand>d__13::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest/<WaitForSpeechCommand>d__13::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest/<WaitForSpeechCommand>d__13::<>4__this
-	BoundingBoxExampleTest_t286F3AF05F857D5F8AACC9A4A216416EBDC7E552* ___U3CU3E4__this_2;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample/<Sequence>d__12
-struct U3CSequenceU3Ed__12_tC2B6193C1B40DBAC26777FF6B1D1F96218C979B6  : public RuntimeObject
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample/<Sequence>d__12::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample/<Sequence>d__12::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample/<Sequence>d__12::<>4__this
-	BoundsControlRuntimeExample_tEF7739270115739D5B3BEFC85F5C32ECCAEC3CAB* ___U3CU3E4__this_2;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample/<Sequence>d__12::<cube>5__2
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CcubeU3E5__2_3;
-	// Microsoft.MixedReality.Toolkit.UI.ObjectManipulator Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample/<Sequence>d__12::<om>5__3
-	ObjectManipulator_t469AAA637BD8E38C55F7D7AF8166EFBB3A01FD38* ___U3ComU3E5__3_4;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample/<Sequence>d__12::<newObject>5__4
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CnewObjectU3E5__4_5;
-	// UnityEngine.BoxCollider Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample/<Sequence>d__12::<bc>5__5
-	BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* ___U3CbcU3E5__5_6;
-	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample/<Sequence>d__12::<lastParent>5__6
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___U3ClastParentU3E5__6_7;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample/<WaitForSpeechCommand>d__13
-struct U3CWaitForSpeechCommandU3Ed__13_tBCE429335B21A71E6105155218A71C1E2926AA7E  : public RuntimeObject
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample/<WaitForSpeechCommand>d__13::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample/<WaitForSpeechCommand>d__13::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample/<WaitForSpeechCommand>d__13::<>4__this
-	BoundsControlRuntimeExample_tEF7739270115739D5B3BEFC85F5C32ECCAEC3CAB* ___U3CU3E4__this_2;
 };
 
 // UnityEngine.UI.Button/<OnFinishSubmit>d__9
@@ -6796,6 +6756,23 @@ struct Enumerator_tEBE2FC08BC63FE5F952A4D1EF1CC7DD230042C60  : public RuntimeObj
 	int32_t ____index_1;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton/<AnimateHighlightPlate>d__104
+struct U3CAnimateHighlightPlateU3Ed__104_t9592C6105104CF1C0D7B278C3E43E3924F027AD7  : public RuntimeObject
+{
+	// System.Int32 Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton/<AnimateHighlightPlate>d__104::<>1__state
+	int32_t ___U3CU3E1__state_0;
+	// System.Object Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton/<AnimateHighlightPlate>d__104::<>2__current
+	RuntimeObject* ___U3CU3E2__current_1;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton/<AnimateHighlightPlate>d__104::<>4__this
+	CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8* ___U3CU3E4__this_2;
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton/<AnimateHighlightPlate>d__104::fadeIn
+	bool ___fadeIn_3;
+	// System.Single Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton/<AnimateHighlightPlate>d__104::time
+	float ___time_4;
+	// System.Single Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton/<AnimateHighlightPlate>d__104::<blendTime>5__2
+	float ___U3CblendTimeU3E5__2_5;
+};
+
 // Microsoft.MixedReality.Toolkit.UI.ConstraintManager/<>c__DisplayClass9_0
 struct U3CU3Ec__DisplayClass9_0_tC7C965A6FA223039D9CAAB00A5A57B45CA3CE4AC  : public RuntimeObject
 {
@@ -6810,6 +6787,19 @@ struct U3CU3Ec__DisplayClass12_0_tF544CBE33FDCD4F250D9452EF177680ED3C6302A  : pu
 	ControllerModel_t1F72BBF21B6742C38CF9E32181D0BAFAA7006F87* ___U3CU3E4__this_0;
 	// System.UInt64 Microsoft.MixedReality.OpenXR.ControllerModel/<>c__DisplayClass12_0::modelKey
 	uint64_t ___modelKey_1;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.CustomStateSettingExample/<>c
+struct U3CU3Ec_tEC69162B873B5370FA6D704CCF95682DF7283232  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec_tEC69162B873B5370FA6D704CCF95682DF7283232_StaticFields
+{
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.CustomStateSettingExample/<>c Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.CustomStateSettingExample/<>c::<>9
+	U3CU3Ec_tEC69162B873B5370FA6D704CCF95682DF7283232* ___U3CU3E9_0;
+	// UnityEngine.Events.UnityAction Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.CustomStateSettingExample/<>c::<>9__2_0
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___U3CU3E9__2_0_1;
 };
 
 // UnityEngine.UI.DefaultControls/DefaultRuntimeFactory
@@ -6921,6 +6911,20 @@ struct OptionDataList_t53255477D0A9C6980AB48693A520EFBC94DFFB96  : public Runtim
 {
 	// System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> UnityEngine.UI.Dropdown/OptionDataList::m_Options
 	List_1_tCEC1993B65ACD0529D8C0BB5006274E22D7D8A55* ___m_Options_0;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.EventReceiverManager/<>c__DisplayClass10_0
+struct U3CU3Ec__DisplayClass10_0_tD24BD7CD02A508C7F36620CC0A13DCF260EDC2A9  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.EventReceiverManager/<>c__DisplayClass10_0::subStateName
+	String_t* ___subStateName_0;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.EventReceiverManager/<>c__DisplayClass11_0
+struct U3CU3Ec__DisplayClass11_0_t2D782E76BEAAF487B92253C105BC3FA1339212EE  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.EventReceiverManager/<>c__DisplayClass11_0::subStateName
+	String_t* ___subStateName_0;
 };
 
 // UnityEngine.EventSystems.EventSystem/<>c__DisplayClass52_0
@@ -7095,22 +7099,6 @@ struct LayoutCache_tF844B2FAD6933B78FD5EFEBDE0529BCBAC19BA60  : public RuntimeOb
 	GUILayoutGroup_tD08496E80F283C290B5B90D7BFB3C9C7CC33CD8D* ___windows_3;
 };
 
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility/StringIntKeyValueArray
-struct StringIntKeyValueArray_tA64868B8EC443B73E7399261ECE6696407C31664  : public RuntimeObject
-{
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility/StringKeyValue[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility/StringIntKeyValueArray::items
-	StringKeyValueU5BU5D_t1BCEE77BB81010F95DF30CD179605A6C87192EFA* ___items_0;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility/StringKeyValue
-struct StringKeyValue_tD9EB6E07D3CDF18EE20CC33D91329AF985D5F84E  : public RuntimeObject
-{
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility/StringKeyValue::key
-	String_t* ___key_0;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfUtility/StringKeyValue::value
-	int32_t ___value_1;
-};
-
 // UnityEngine.UI.GraphicRaycaster/<>c
 struct U3CU3Ec_tFE23038B63E5E9EDD95FF07844C136230AED9FFC  : public RuntimeObject
 {
@@ -7122,25 +7110,6 @@ struct U3CU3Ec_tFE23038B63E5E9EDD95FF07844C136230AED9FFC_StaticFields
 	U3CU3Ec_tFE23038B63E5E9EDD95FF07844C136230AED9FFC* ___U3CU3E9_0;
 	// System.Comparison`1<UnityEngine.UI.Graphic> UnityEngine.UI.GraphicRaycaster/<>c::<>9__27_0
 	Comparison_1_t236C83451572505C1D483C9DFB0550F3470A17B8* ___U3CU3E9__27_0_1;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.GridObjectLayoutControl/<TestAnchors>d__7
-struct U3CTestAnchorsU3Ed__7_t53190FD53CE40C7CC4A0C68840737745F9D4F063  : public RuntimeObject
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.GridObjectLayoutControl/<TestAnchors>d__7::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Microsoft.MixedReality.Toolkit.Examples.Demos.GridObjectLayoutControl/<TestAnchors>d__7::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// Microsoft.MixedReality.Toolkit.Examples.Demos.GridObjectLayoutControl Microsoft.MixedReality.Toolkit.Examples.Demos.GridObjectLayoutControl/<TestAnchors>d__7::<>4__this
-	GridObjectLayoutControl_t83248AA1F700E00F0BA07A4A0706DFED0961DB61* ___U3CU3E4__this_2;
-	// Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection Microsoft.MixedReality.Toolkit.Examples.Demos.GridObjectLayoutControl/<TestAnchors>d__7::<gridCollection>5__2
-	GridObjectCollection_t4305434DFFC4F42300B547540DE4C36DA2DE4B2A* ___U3CgridCollectionU3E5__2_3;
-	// System.String Microsoft.MixedReality.Toolkit.Examples.Demos.GridObjectLayoutControl/<TestAnchors>d__7::<path>5__3
-	String_t* ___U3CpathU3E5__3_4;
-	// System.Text.StringBuilder Microsoft.MixedReality.Toolkit.Examples.Demos.GridObjectLayoutControl/<TestAnchors>d__7::<stringBuilder>5__4
-	StringBuilder_t* ___U3CstringBuilderU3E5__4_5;
-	// System.Collections.IEnumerator Microsoft.MixedReality.Toolkit.Examples.Demos.GridObjectLayoutControl/<TestAnchors>d__7::<>7__wrap4
-	RuntimeObject* ___U3CU3E7__wrap4_6;
 };
 
 // System.Text.RegularExpressions.GroupCollection/Enumerator
@@ -7298,6 +7267,34 @@ struct U3CU3Ec__DisplayClass13_0_t3A72B24B9EAE80509D802F508E0871A30DAA578D  : pu
 	int32_t ___itemIndex_0;
 	// Microsoft.MixedReality.Toolkit.UI.InteractableToggleCollection Microsoft.MixedReality.Toolkit.UI.InteractableToggleCollection/<>c__DisplayClass13_0::<>4__this
 	InteractableToggleCollection_tED7CB6F6C4E1FE135A63096FD807A0B53FE767FA* ___U3CU3E4__this_1;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState/<>c__DisplayClass24_0
+struct U3CU3Ec__DisplayClass24_0_t35A50FCC9D32B543F50F744C9A7DFBFCE418A697  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState/<>c__DisplayClass24_0::subStateName
+	String_t* ___subStateName_0;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.InteractiveElementRuntimeExample/<>c
+struct U3CU3Ec_tE39C7F290E60F923787F35B912C856D1CA967A3E  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec_tE39C7F290E60F923787F35B912C856D1CA967A3E_StaticFields
+{
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.InteractiveElementRuntimeExample/<>c Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.InteractiveElementRuntimeExample/<>c::<>9
+	U3CU3Ec_tE39C7F290E60F923787F35B912C856D1CA967A3E* ___U3CU3E9_0;
+	// UnityEngine.Events.UnityAction`1<Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState> Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.InteractiveElementRuntimeExample/<>c::<>9__2_0
+	UnityAction_1_tD9E72B5C2B1D896A16E005CB268D1CAD3E339BF6* ___U3CU3E9__2_0_1;
+	// UnityEngine.Events.UnityAction`2<Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState,Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState> Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.InteractiveElementRuntimeExample/<>c::<>9__2_1
+	UnityAction_2_t1E4E089BC0D0E85721C4FE3F727C7536C7C1F5C8* ___U3CU3E9__2_1_2;
+	// UnityEngine.Events.UnityAction Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.InteractiveElementRuntimeExample/<>c::<>9__10_0
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___U3CU3E9__10_0_3;
+	// UnityEngine.Events.UnityAction`1<Microsoft.MixedReality.Toolkit.Input.SpeechEventData> Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.InteractiveElementRuntimeExample/<>c::<>9__10_1
+	UnityAction_1_t7B090CF0674312D2C17A2AFC7FA36994E6A41B04* ___U3CU3E9__10_1_4;
+	// UnityEngine.Events.UnityAction Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.InteractiveElementRuntimeExample/<>c::<>9__11_0
+	UnityAction_t11A1F3B953B365C072A5DCC32677EE1796A962A7* ___U3CU3E9__11_0_5;
 };
 
 // TMPro.KerningTable/<>c
@@ -7857,28 +7854,6 @@ struct MessageTypeSubscribers_t1FA1C0DBEE77D28856F8BB97C784EB77920C308D  : publi
 	MessageEvent_tBF02D60FEABA2052B9970B1DEF2322E38ADE61C9* ___messageCallback_2;
 };
 
-// Plexus/<>c__DisplayClass30_0
-struct U3CU3Ec__DisplayClass30_0_tBA29D0CE5952D38A3010A7E021EE3FDA275EDA0C  : public RuntimeObject
-{
-	// System.Int32 Plexus/<>c__DisplayClass30_0::indx
-	int32_t ___indx_0;
-};
-
-// Plexus/<ConnectDots>d__30
-struct U3CConnectDotsU3Ed__30_t16A79079F898E19D36000AEA9BC7F4E1B879E551  : public RuntimeObject
-{
-	// System.Int32 Plexus/<ConnectDots>d__30::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Plexus/<ConnectDots>d__30::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// Plexus Plexus/<ConnectDots>d__30::<>4__this
-	Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5* ___U3CU3E4__this_2;
-	// Plexus/<>c__DisplayClass30_0 Plexus/<ConnectDots>d__30::<>8__1
-	U3CU3Ec__DisplayClass30_0_tBA29D0CE5952D38A3010A7E021EE3FDA275EDA0C* ___U3CU3E8__1_3;
-	// UnityEngine.WaitForEndOfFrame Plexus/<ConnectDots>d__30::<wfeof>5__2
-	WaitForEndOfFrame_tE38D80923E3F8380069B423968C25ABE50A46663* ___U3CwfeofU3E5__2_4;
-};
-
 // UnityEngine.EventSystems.PointerInputModule/ButtonState
 struct ButtonState_tB671FC9C48F167DBC1CDAFEB53C373D8567AE503  : public RuntimeObject
 {
@@ -8162,23 +8137,6 @@ struct U3CGetRootGameObjectsInLoadedScenesU3Ed__2_t0B1D505C32BD71431D9278C81D055
 	int32_t ___U3CU3E7__wrap3_5;
 };
 
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator/<UpdateListOverTime>d__33
-struct U3CUpdateListOverTimeU3Ed__33_tE86DF4563E2248321590543DD6C85DF11272FD37  : public RuntimeObject
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator/<UpdateListOverTime>d__33::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Object Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator/<UpdateListOverTime>d__33::<>2__current
-	RuntimeObject* ___U3CU3E2__current_1;
-	// Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator/<UpdateListOverTime>d__33::<>4__this
-	ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5* ___U3CU3E4__this_2;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator/<UpdateListOverTime>d__33::instancesPerFrame
-	int32_t ___instancesPerFrame_3;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator/<UpdateListOverTime>d__33::loaderViz
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___loaderViz_4;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator/<UpdateListOverTime>d__33::<currItemCount>5__2
-	int32_t ___U3CcurrItemCountU3E5__2_5;
-};
-
 // Microsoft.MixedReality.Toolkit.Experimental.SpatialAwareness.SpatialAwarenessSceneObject/MeshData
 struct MeshData_t9F0D216E788ADCF422598A787C8DD947683862E9  : public RuntimeObject
 {
@@ -8194,6 +8152,13 @@ struct MeshData_t9F0D216E788ADCF422598A787C8DD947683862E9  : public RuntimeObjec
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CGameObjectU3Ek__BackingField_4;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SpeechKeywordReceiver/<>c__DisplayClass7_0
+struct U3CU3Ec__DisplayClass7_0_t5947D4F9250F4E552261F420D8C2D6CAB5EF1495  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SpeechKeywordReceiver/<>c__DisplayClass7_0::speechEventKeyword
+	String_t* ___speechEventKeyword_0;
+};
+
 // UnityEngine.TextCore.Text.SpriteAsset/<>c
 struct U3CU3Ec_t04E77827D54CC7D69F04FDFC5A84C3F7392F9A76  : public RuntimeObject
 {
@@ -8207,6 +8172,60 @@ struct U3CU3Ec_t04E77827D54CC7D69F04FDFC5A84C3F7392F9A76_StaticFields
 	Func_2_t12C2A18A794EA750752F8735CC29CD839D6B4B84* ___U3CU3E9__37_0_1;
 	// System.Func`2<UnityEngine.TextCore.Text.SpriteCharacter,System.UInt32> UnityEngine.TextCore.Text.SpriteAsset/<>c::<>9__38_0
 	Func_2_tF0A06FF312E9CFC173E3513FCD90DA99BA52B5B1* ___U3CU3E9__38_0_2;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager/<>c
+struct U3CU3Ec_t739920B30B5589B536EB54FD0DA460E6CBCCD8FE  : public RuntimeObject
+{
+};
+
+struct U3CU3Ec_t739920B30B5589B536EB54FD0DA460E6CBCCD8FE_StaticFields
+{
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager/<>c Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager/<>c::<>9
+	U3CU3Ec_t739920B30B5589B536EB54FD0DA460E6CBCCD8FE* ___U3CU3E9_0;
+	// System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState>,System.String> Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager/<>c::<>9__14_0
+	Func_2_t8912F8209F46403B792AF8E51485CE2A32D02F30* ___U3CU3E9__14_0_1;
+	// System.Func`2<System.Collections.Generic.KeyValuePair`2<System.String,Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState>,Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState> Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager/<>c::<>9__14_1
+	Func_2_t97615E407783D47A21DBABB5C99F99BBECF9DDDC* ___U3CU3E9__14_1_2;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager/<>c__DisplayClass39_0
+struct U3CU3Ec__DisplayClass39_0_tC2AC934B9F8FF0477B42C35ACCB531741C243B0E  : public RuntimeObject
+{
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarEvents Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager/<>c__DisplayClass39_0::eventConfiguration
+	SelectFarEvents_tD931F3645DA0510941657655A771FF1BFD2A8AF6* ___eventConfiguration_0;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager/<>c__DisplayClass39_0::<>4__this
+	StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346* ___U3CU3E4__this_1;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager/<>c__DisplayClass39_1
+struct U3CU3Ec__DisplayClass39_1_tC63BE9D7E3E543A44798F9EE236BF1FF5B0A8CDE  : public RuntimeObject
+{
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SpeechKeywordEvents Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager/<>c__DisplayClass39_1::eventConfiguration
+	SpeechKeywordEvents_t85EE0C5B89936D11638FBFCA09194AC74D184767* ___eventConfiguration_0;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager/<>c__DisplayClass39_1::<>4__this
+	StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346* ___U3CU3E4__this_1;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__DisplayClass18_0
+struct U3CU3Ec__DisplayClass18_0_t92F4F0E7C72D6E17AD8B648C7A0D566337999025  : public RuntimeObject
+{
+	// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateContainer Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__DisplayClass18_0::stateContainer
+	StateContainer_t51242782C9095F89F256ABC7B2CFDC798B9C0B1D* ___stateContainer_0;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__DisplayClass19_0
+struct U3CU3Ec__DisplayClass19_0_t157A8C0FDD997D575B88C654D7E3ABF049E06E3D  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__DisplayClass19_0::stateName
+	String_t* ___stateName_0;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__DisplayClass21_0
+struct U3CU3Ec__DisplayClass21_0_tC04BA6DFC00B16B22302B14717E3CA1AAD67A074  : public RuntimeObject
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer/<>c__DisplayClass21_0::stateName
+	String_t* ___stateName_0;
 };
 
 // UnityEngine.UI.StencilMaterial/MatEntry
@@ -9294,13 +9313,6 @@ struct TaskAwaiter_1_t08576EE3078BE24B2B07B7EFAC57428B31EC8B34
 	Task_1_tE958FFBF31C10D06FB9DE76904BF652EE6599862* ___m_task_0;
 };
 
-// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.IBuffer>
-struct TaskAwaiter_1_t4A35C64C27BC522F70AFBD4C4FA31F4E833A44CD 
-{
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
-	Task_1_t34C529965D1945277B370D1A5EEB7D54EADF44F5* ___m_task_0;
-};
-
 // System.Runtime.CompilerServices.TaskAwaiter`1<Microsoft.MixedReality.Toolkit.Input.InputAnimation>
 struct TaskAwaiter_1_tC5879779DA5008FE29633E3BFEC198D810A6BFD9 
 {
@@ -9327,20 +9339,6 @@ struct TaskAwaiter_1_t15D971F67C870184C63B8F7F448B2DE971647530
 {
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
 	Task_1_t91C77CE6F82C1EE16F0DF46B1EBF7B9811CB0597* ___m_task_0;
-};
-
-// System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Material>
-struct TaskAwaiter_1_tE4B65D4157FF0113BE81E8EE290CEFC2F527657F 
-{
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
-	Task_1_tB53370F112232C997E1CF8D7D7E9BDAF24D1221A* ___m_task_0;
-};
-
-// System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Mesh>
-struct TaskAwaiter_1_t288CC13E73B75D6C029A135F50B9D932253AB56A 
-{
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
-	Task_1_tB2C6BACE26DC94A2F554F6E911F45850C5C566E9* ___m_task_0;
 };
 
 // System.Runtime.CompilerServices.TaskAwaiter`1<Microsoft.MixedReality.Toolkit.WindowsDevicePortal.NetworkInterfaces>
@@ -9390,13 +9388,6 @@ struct TaskAwaiter_1_t9BFB8AB4CE18F8B0725C20FE1A6F92E4F4C08419
 {
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
 	Task_1_tC9379B37D3E3B6AF5F74F7D212634EC3355A0C6E* ___m_task_0;
-};
-
-// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile>
-struct TaskAwaiter_1_t1A8773D05601B7B7F8F033F3238E8EAEDFEAFF2A 
-{
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.TaskAwaiter`1::m_task
-	Task_1_t6C08E7A866E612B3A2866E942A4E7843259265CE* ___m_task_0;
 };
 
 // System.Runtime.CompilerServices.TaskAwaiter`1<System.String>
@@ -10100,6 +10091,13 @@ struct CaretInfo_tCA47726433870FF8D4DC24F6215BAB188D7055E0
 	int32_t ___position_1;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ClickedEvents
+struct ClickedEvents_t017E689D55DCF8D5ED2650E6FFEB90D83B11B1FC  : public BaseInteractionEventConfiguration_t66E9BD80D3A37676F2496A9ACB593AD8BA33486B
+{
+	// UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ClickedEvents::OnClicked
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnClicked_2;
+};
+
 // UnityEngine.Color
 struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
 {
@@ -10601,6 +10599,22 @@ struct FloatTween_t11548A42FCB3B005DD83D77A529119381B2BB64A_marshaled_com
 	int32_t ___m_IgnoreTimeScale_4;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.FocusEvents
+struct FocusEvents_tD0F95CC7712951F698AF2FE75E950B32DDA07856  : public BaseInteractionEventConfiguration_t66E9BD80D3A37676F2496A9ACB593AD8BA33486B
+{
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.FocusInteractionEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.FocusEvents::OnFocusOn
+	FocusInteractionEvent_tD8BA3D585E846EB7E73487C9F011B03C8EDE77DD* ___OnFocusOn_2;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.FocusInteractionEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.FocusEvents::OnFocusOff
+	FocusInteractionEvent_tD8BA3D585E846EB7E73487C9F011B03C8EDE77DD* ___OnFocusOff_3;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.FocusReceiver
+struct FocusReceiver_tC0871C4C7C8E0A1E8DAE04514CD6005B19B7CEDE  : public BaseEventReceiver_t24F934A3FE65D924C8A2E1A231A9917DD999BC7C
+{
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.FocusReceiver::hadFocus
+	bool ___hadFocus_2;
+};
+
 // UnityEngine.TextCore.Text.FontAssetCreationEditorSettings
 struct FontAssetCreationEditorSettings_t0FF28D2E78F090105C63C81F9E438A7B09E3EA52 
 {
@@ -10865,100 +10879,6 @@ struct GestureSubsystem_t2ECC93199A9E729596960D91C545405393ADAC71_StaticFields
 {
 	// Microsoft.MixedReality.OpenXR.NativeLibToken Microsoft.MixedReality.OpenXR.GestureSubsystem::nativeLibToken
 	uint64_t ___nativeLibToken_1;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAssetInfo
-struct GltfAssetInfo_t7F7D2FC5E3D97C2BA2FE68A6C5E094E41FDDB347  : public GltfProperty_t39E80BE0E3D85586DF7F81F12E39B56170F7E188
-{
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAssetInfo::version
-	String_t* ___version_2;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfChildOfRootProperty
-struct GltfChildOfRootProperty_tF2A03381C2838B104C996CDF06C173B13EF083E0  : public GltfProperty_t39E80BE0E3D85586DF7F81F12E39B56170F7E188
-{
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfChildOfRootProperty::name
-	String_t* ___name_2;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMeshPrimitive
-struct GltfMeshPrimitive_tE068C0AD5BDE9D24E96F2E9370B488BBFA278543  : public GltfProperty_t39E80BE0E3D85586DF7F81F12E39B56170F7E188
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMeshPrimitive::indices
-	int32_t ___indices_2;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMeshPrimitive::material
-	int32_t ___material_3;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfDrawMode Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMeshPrimitive::<Mode>k__BackingField
-	int32_t ___U3CModeU3Ek__BackingField_4;
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMeshPrimitive::mode
-	String_t* ___mode_5;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMeshPrimitiveAttributes Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMeshPrimitive::<Attributes>k__BackingField
-	GltfMeshPrimitiveAttributes_tB70DF5F8E1C10F1D7EC8738B503033E90B9D4350* ___U3CAttributesU3Ek__BackingField_6;
-	// UnityEngine.Mesh Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMeshPrimitive::<SubMesh>k__BackingField
-	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___U3CSubMeshU3Ek__BackingField_7;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject
-struct GltfObject_t01406610671599590A9A62632F753580951C5438  : public GltfProperty_t39E80BE0E3D85586DF7F81F12E39B56170F7E188
-{
-	// System.String[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::extensionsUsed
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___extensionsUsed_2;
-	// System.String[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::extensionsRequired
-	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___extensionsRequired_3;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::accessors
-	GltfAccessorU5BU5D_t3D1840550A8A81A5A6840999A543218500FEEB65* ___accessors_4;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAssetInfo Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::asset
-	GltfAssetInfo_t7F7D2FC5E3D97C2BA2FE68A6C5E094E41FDDB347* ___asset_5;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBuffer[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::buffers
-	GltfBufferU5BU5D_t1A6C0FEC43EA2AB83E1A01F01D62CD916C908E76* ___buffers_6;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::bufferViews
-	GltfBufferViewU5BU5D_t51A35EE9DAFF8307DC21D1436104551E9B7347E5* ___bufferViews_7;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfImage[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::images
-	GltfImageU5BU5D_t745E7EA65FEE6BA19EE7E8920D2F64E7FC4F3422* ___images_8;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::materials
-	GltfMaterialU5BU5D_tEB929201E6AE4B49931DCF638CEBF8FD3BDD4DAC* ___materials_9;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMesh[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::meshes
-	GltfMeshU5BU5D_t9B6FDB4414B450992F66FD6C2068A995618AEBDB* ___meshes_10;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::nodes
-	GltfNodeU5BU5D_t9165905CF35DA7A14211829668A9CFE91808E355* ___nodes_11;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfScene[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::scenes
-	GltfSceneU5BU5D_t66B0532F315A68081D7BCC428D7ED39E48039FC8* ___scenes_12;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTexture[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::textures
-	GltfTextureU5BU5D_t8F3036C18764C052E461D1C33F3DE310D05BED84* ___textures_13;
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::<Name>k__BackingField
-	String_t* ___U3CNameU3Ek__BackingField_14;
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::<Uri>k__BackingField
-	String_t* ___U3CUriU3Ek__BackingField_15;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::<GameObjectReference>k__BackingField
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CGameObjectReferenceU3Ek__BackingField_16;
-	// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GameObject> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::<NodeGameObjectPairs>k__BackingField
-	Dictionary_2_t3ED995699F3E88D06E5DA7362BEB7584DBD61662* ___U3CNodeGameObjectPairsU3Ek__BackingField_17;
-	// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.Extensions.GltfExtension> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::<RegisteredExtensions>k__BackingField
-	List_1_t01CC1DD6F63D9C5EDB251D7667BB63B4216BDC83* ___U3CRegisteredExtensionsU3Ek__BackingField_18;
-	// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject::<UseBackgroundThread>k__BackingField
-	bool ___U3CUseBackgroundThreadU3Ek__BackingField_19;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfPbrMetallicRoughness
-struct GltfPbrMetallicRoughness_tE1C97C2E1DBF76682B6014767E14D2563298C458  : public GltfProperty_t39E80BE0E3D85586DF7F81F12E39B56170F7E188
-{
-	// System.Single[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfPbrMetallicRoughness::baseColorFactor
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___baseColorFactor_2;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTextureInfo Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfPbrMetallicRoughness::baseColorTexture
-	GltfTextureInfo_t8E26D121D3752ED99A0182AF90E60B5493555496* ___baseColorTexture_3;
-	// System.Double Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfPbrMetallicRoughness::metallicFactor
-	double ___metallicFactor_4;
-	// System.Double Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfPbrMetallicRoughness::roughnessFactor
-	double ___roughnessFactor_5;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTextureInfo Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfPbrMetallicRoughness::metallicRoughnessTexture
-	GltfTextureInfo_t8E26D121D3752ED99A0182AF90E60B5493555496* ___metallicRoughnessTexture_6;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTextureInfo
-struct GltfTextureInfo_t8E26D121D3752ED99A0182AF90E60B5493555496  : public GltfProperty_t39E80BE0E3D85586DF7F81F12E39B56170F7E188
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTextureInfo::index
-	int32_t ___index_2;
 };
 
 // UnityEngine.TextCore.GlyphMetrics
@@ -11434,6 +11354,13 @@ struct KeyBinding_t8BA91C25D712488BBA04B17EB666817F60E95188_StaticFields
 	Dictionary_2_t467D38EF36E14BAADE32BA9DCE084C24F16AAA96* ___KeyBindingToEnumMap_1;
 	// System.Collections.Generic.Dictionary`2<System.Int32,System.Tuple`2<Microsoft.MixedReality.Toolkit.Input.KeyBinding/KeyType,System.Int32>> Microsoft.MixedReality.Toolkit.Input.KeyBinding::EnumToKeyBindingMap
 	Dictionary_2_tD3F8062F621D2EF817C453DFDC7C7C08DBC4EB41* ___EnumToKeyBindingMap_2;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.KeyboardEvents
+struct KeyboardEvents_tDB0155C516033E96F747900904631A5DD5ADA5EE  : public BaseInteractionEventConfiguration_t66E9BD80D3A37676F2496A9ACB593AD8BA33486B
+{
+	// UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.KeyboardEvents::OnKKeyPressed
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnKKeyPressed_2;
 };
 
 // UnityEngine.Keyframe
@@ -12365,6 +12292,24 @@ struct PointerOption_t29FAB8854C58CF215D54B2ED8F87E11EE305B996_marshaled_com
 // UnityEngine.Scripting.PreserveAttribute
 struct PreserveAttribute_t3B4D9311A3DF0B9342570C8E43A61973258D5751  : public Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA
 {
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.PressedNearEvents
+struct PressedNearEvents_t60CA95C9AF30A908C4CBC2F0FA8CF97A23C6EC0A  : public BaseInteractionEventConfiguration_t66E9BD80D3A37676F2496A9ACB593AD8BA33486B
+{
+	// UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.PressedNearEvents::OnButtonPressed
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnButtonPressed_2;
+	// UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.PressedNearEvents::OnButtonPressReleased
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnButtonPressReleased_3;
+	// UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.PressedNearEvents::OnButtonPressHold
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnButtonPressHold_4;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.PressedNearReceiver
+struct PressedNearReceiver_t39F550067F049868CC0E9816069C2731D5E831D1  : public BaseEventReceiver_t24F934A3FE65D924C8A2E1A231A9917DD999BC7C
+{
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.PressedNearReceiver::wasButtonPressedNear
+	bool ___wasButtonPressedNear_2;
 };
 
 // UnityEngine.InputSystem.Utilities.PrimitiveValue
@@ -13370,6 +13315,30 @@ struct SecureConnectionServerConfiguration_t1FF3672F90445712A0FFDC474A4FF3E13FA8
 };
 #pragma pack(pop, tp)
 
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarEvents
+struct SelectFarEvents_tD931F3645DA0510941657655A771FF1BFD2A8AF6  : public BaseInteractionEventConfiguration_t66E9BD80D3A37676F2496A9ACB593AD8BA33486B
+{
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarEvents::global
+	bool ___global_2;
+	// UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarEvents::OnGlobalChanged
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnGlobalChanged_3;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarInteractionEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarEvents::OnSelectDown
+	SelectFarInteractionEvent_tCED41298EEF31A33A273E8227B78F5BE4CD9AE52* ___OnSelectDown_4;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarInteractionEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarEvents::OnSelectUp
+	SelectFarInteractionEvent_tCED41298EEF31A33A273E8227B78F5BE4CD9AE52* ___OnSelectUp_5;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarInteractionEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarEvents::OnSelectHold
+	SelectFarInteractionEvent_tCED41298EEF31A33A273E8227B78F5BE4CD9AE52* ___OnSelectHold_6;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarInteractionEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarEvents::OnSelectClicked
+	SelectFarInteractionEvent_tCED41298EEF31A33A273E8227B78F5BE4CD9AE52* ___OnSelectClicked_7;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarReceiver
+struct SelectFarReceiver_t72CBC28D60E35C82AD04468BAAB7B4D98E7F7B9E  : public BaseEventReceiver_t24F934A3FE65D924C8A2E1A231A9917DD999BC7C
+{
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SelectFarReceiver::hadFarSelect
+	bool ___hadFarSelect_2;
+};
+
 // UnityEngine.Windows.Speech.SemanticMeaning
 struct SemanticMeaning_tB410A3D7306E8060875DDEFE041CC7FDDEEE6335 
 {
@@ -13417,6 +13386,13 @@ struct SessionSubsystemController_tBCEABB63DC40478F4F9948C6E4E6F4E091FA6D6F_Stat
 {
 	// System.Collections.Generic.List`1<UnityEngine.XR.ARSubsystems.XRSessionSubsystemDescriptor> Microsoft.MixedReality.OpenXR.SessionSubsystemController::s_SessionDescriptors
 	List_1_tC86363A0A1DF8199DB382C6CDB5A1254F8660A34* ___s_SessionDescriptors_2;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.ShaderStateAnimatableProperty
+struct ShaderStateAnimatableProperty_t7407B99A38B72819CE57E8B6DB811A431F79E999  : public StateAnimatableProperty_tD4B65E13AD8E7377718E1D108DC5A9391F8213B7
+{
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.ShaderStateAnimatableProperty::shaderPropertyName
+	String_t* ___shaderPropertyName_4;
 };
 
 // UnityEngine.Rendering.ShaderTagId
@@ -13487,6 +13463,19 @@ struct SpatialAwarenessPlanarObject_t4A04A7900E8CB3CA113A4FC9796267F8B5B20461  :
 	BoxCollider_tFA5D239388334D6DE0B8FFDAD6825C5B03786E23* ___U3CColliderU3Ek__BackingField_4;
 	// Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessSurfaceTypes Microsoft.MixedReality.Toolkit.SpatialAwareness.SpatialAwarenessPlanarObject::planeType
 	int32_t ___planeType_5;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SpeechKeywordEvents
+struct SpeechKeywordEvents_t85EE0C5B89936D11638FBFCA09194AC74D184767  : public BaseInteractionEventConfiguration_t66E9BD80D3A37676F2496A9ACB593AD8BA33486B
+{
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SpeechKeywordEvents::global
+	bool ___global_2;
+	// UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SpeechKeywordEvents::OnGlobalChanged
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnGlobalChanged_3;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SpeechInteractionEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SpeechKeywordEvents::onAnySpeechKeywordRecognized
+	SpeechInteractionEvent_tE3EE6C958E3F91B6D14E6089D24A6CCC6C197102* ___onAnySpeechKeywordRecognized_4;
+	// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.KeywordEvent> Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.SpeechKeywordEvents::keywords
+	List_1_t48B69C397F7F50B23B6EA38B67DA893ADD11DADA* ___keywords_5;
 };
 
 // UnityEngine.Rendering.SphericalHarmonicsL2
@@ -13584,6 +13573,22 @@ struct SpriteState_tC8199570BE6337FB5C49347C97892B4222E5AACD_marshaled_com
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_PressedSprite_1;
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_SelectedSprite_2;
 	Sprite_tAFF74BC83CD68037494CB0B4F28CBDF8971CAB99* ___m_DisabledSprite_3;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateEvents
+struct StateEvents_t5D9DEEB17824D9B42EDBD49FA46163D77D366588  : public BaseInteractionEventConfiguration_t66E9BD80D3A37676F2496A9ACB593AD8BA33486B
+{
+	// UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateEvents::OnStateOn
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnStateOn_2;
+	// UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateEvents::OnStateOff
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnStateOff_3;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateReceiver
+struct StateReceiver_t974A5792C603E210FD23F8E5302E6248BF2721AB  : public BaseEventReceiver_t24F934A3FE65D924C8A2E1A231A9917DD999BC7C
+{
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateReceiver::wasStateOn
+	bool ___wasStateOn_2;
 };
 
 // UnityEngine.Rendering.StencilState
@@ -13930,6 +13935,54 @@ struct TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A_StaticFields
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MaxValue_20;
 	// System.TimeSpan System.TimeSpan::MinValue
 	TimeSpan_t8195C5B013A2C532FEBDF0B64B6911982E750F5A ___MinValue_21;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ToggleOffEvents
+struct ToggleOffEvents_tA073B496CC4C5CCFDDCF3B13777A566386D53F94  : public BaseInteractionEventConfiguration_t66E9BD80D3A37676F2496A9ACB593AD8BA33486B
+{
+	// UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ToggleOffEvents::OnToggleOff
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnToggleOff_2;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ToggleOffReceiver
+struct ToggleOffReceiver_t56301928018493DDE1F72DEAC078A9551BC54884  : public BaseEventReceiver_t24F934A3FE65D924C8A2E1A231A9917DD999BC7C
+{
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ToggleOffReceiver::wasToggledOff
+	bool ___wasToggledOff_2;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ToggleOnEvents
+struct ToggleOnEvents_tC169D2BCC14C07E066184F50E38561265C626F68  : public BaseInteractionEventConfiguration_t66E9BD80D3A37676F2496A9ACB593AD8BA33486B
+{
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ToggleOnEvents::isSelectedOnStart
+	bool ___isSelectedOnStart_2;
+	// UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ToggleOnEvents::OnToggleOn
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnToggleOn_3;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ToggleOnReceiver
+struct ToggleOnReceiver_t9DE78EB9FB43F3E9E3C439BAC8193F0EE54FDF86  : public BaseEventReceiver_t24F934A3FE65D924C8A2E1A231A9917DD999BC7C
+{
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.ToggleOnReceiver::wasToggledOn
+	bool ___wasToggledOn_2;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.TouchEvents
+struct TouchEvents_t9D5F82499DCD2A28C5D1CFEAAC1CA28235C78A29  : public BaseInteractionEventConfiguration_t66E9BD80D3A37676F2496A9ACB593AD8BA33486B
+{
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.TouchInteractionEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.TouchEvents::OnTouchStarted
+	TouchInteractionEvent_tF2454BDECA0227737CE9BD8F249677888486AA3E* ___OnTouchStarted_2;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.TouchInteractionEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.TouchEvents::OnTouchCompleted
+	TouchInteractionEvent_tF2454BDECA0227737CE9BD8F249677888486AA3E* ___OnTouchCompleted_3;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.TouchInteractionEvent Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.TouchEvents::OnTouchUpdated
+	TouchInteractionEvent_tF2454BDECA0227737CE9BD8F249677888486AA3E* ___OnTouchUpdated_4;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.TouchReceiver
+struct TouchReceiver_tCBF3A3CDEF29179DBCD523451CD74F158E87E7E2  : public BaseEventReceiver_t24F934A3FE65D924C8A2E1A231A9917DD999BC7C
+{
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.TouchReceiver::wasTouching
+	bool ___wasTouching_2;
 };
 
 // UnityEngine.TouchScreenKeyboard_InternalConstructorHelperArguments
@@ -14807,51 +14860,6 @@ struct __StaticArrayInitTypeSizeU3D96_tC5AB142BC856350C8BED251B674527CF1976CBEF
 			};
 		};
 		uint8_t __StaticArrayInitTypeSizeU3D96_tC5AB142BC856350C8BED251B674527CF1976CBEF__padding[96];
-	};
-};
-
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12
-struct __StaticArrayInitTypeSizeU3D12_t3AD1581857DD8DF3DFAC9654500920DF0265230E 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t __StaticArrayInitTypeSizeU3D12_t3AD1581857DD8DF3DFAC9654500920DF0265230E__padding[12];
-	};
-};
-
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=128
-struct __StaticArrayInitTypeSizeU3D128_t89BC98639ECE06584346639E609FE4AF2EB92D74 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t __StaticArrayInitTypeSizeU3D128_t89BC98639ECE06584346639E609FE4AF2EB92D74__padding[128];
-	};
-};
-
-// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=16
-struct __StaticArrayInitTypeSizeU3D16_tF1970B1F4F05159A6AD89DF35EBA9ABA193EFBE9 
-{
-	union
-	{
-		struct
-		{
-			union
-			{
-			};
-		};
-		uint8_t __StaticArrayInitTypeSizeU3D16_tF1970B1F4F05159A6AD89DF35EBA9ABA193EFBE9__padding[16];
 	};
 };
 
@@ -16138,21 +16146,6 @@ struct AsyncTaskMethodBuilder_1_tB5C7369050A5CA0EC7AEBCA44268D4BFEB2744D7_Static
 	Task_1_tE958FFBF31C10D06FB9DE76904BF652EE6599862* ___s_defaultResultTask_0;
 };
 
-// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<UnityEngine.GameObject>
-struct AsyncTaskMethodBuilder_1_t39EED874134028D1D4331D5686AA19731E407868 
-{
-	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
-	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
-	Task_1_tE06D7E45E347567BB7775D8FB00F95DC55D14506* ___m_task_2;
-};
-
-struct AsyncTaskMethodBuilder_1_t39EED874134028D1D4331D5686AA19731E407868_StaticFields
-{
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
-	Task_1_tE06D7E45E347567BB7775D8FB00F95DC55D14506* ___s_defaultResultTask_0;
-};
-
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Windows.Storage.Streams.IBuffer>
 struct AsyncTaskMethodBuilder_1_t4102E0362C7437C556E4FEA7D535D2783F408A78 
 {
@@ -16211,36 +16204,6 @@ struct AsyncTaskMethodBuilder_1_tAA149FE32F1095F220E8C63B4392FBA25737A507_Static
 {
 	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
 	Task_1_t91C77CE6F82C1EE16F0DF46B1EBF7B9811CB0597* ___s_defaultResultTask_0;
-};
-
-// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<UnityEngine.Material>
-struct AsyncTaskMethodBuilder_1_tE3ADDA9867F26007F07B971D2E60886AC29FA2B4 
-{
-	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
-	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
-	Task_1_tB53370F112232C997E1CF8D7D7E9BDAF24D1221A* ___m_task_2;
-};
-
-struct AsyncTaskMethodBuilder_1_tE3ADDA9867F26007F07B971D2E60886AC29FA2B4_StaticFields
-{
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
-	Task_1_tB53370F112232C997E1CF8D7D7E9BDAF24D1221A* ___s_defaultResultTask_0;
-};
-
-// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<UnityEngine.Mesh>
-struct AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B 
-{
-	// System.Runtime.CompilerServices.AsyncMethodBuilderCore System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_coreState
-	AsyncMethodBuilderCore_tD5ABB3A2536319A3345B32A5481E37E23DD8CEDF ___m_coreState_1;
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::m_task
-	Task_1_tB2C6BACE26DC94A2F554F6E911F45850C5C566E9* ___m_task_2;
-};
-
-struct AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B_StaticFields
-{
-	// System.Threading.Tasks.Task`1<TResult> System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1::s_defaultResultTask
-	Task_1_tB2C6BACE26DC94A2F554F6E911F45850C5C566E9* ___s_defaultResultTask_0;
 };
 
 // System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<Microsoft.MixedReality.Toolkit.WindowsDevicePortal.NetworkInterfaces>
@@ -16777,21 +16740,6 @@ struct U3CPrivateImplementationDetailsU3E_t80B8093CDE06DB3F26AAE0743C16402220EE2
 };
 
 // <PrivateImplementationDetails>
-struct U3CPrivateImplementationDetailsU3E_t4E11B38ADAF2BA5C2A43D7A52E5F4999FEE0DCA4  : public RuntimeObject
-{
-};
-
-struct U3CPrivateImplementationDetailsU3E_t4E11B38ADAF2BA5C2A43D7A52E5F4999FEE0DCA4_StaticFields
-{
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=12 <PrivateImplementationDetails>::8A31A40ECAC0CEB4D87B30BD156CA7A547E8E33DC071454B765FBC777D1C34A1
-	__StaticArrayInitTypeSizeU3D12_t3AD1581857DD8DF3DFAC9654500920DF0265230E ___8A31A40ECAC0CEB4D87B30BD156CA7A547E8E33DC071454B765FBC777D1C34A1_0;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=128 <PrivateImplementationDetails>::CCC7977AE7987F37C2235E57C320A5142D6B58413825B6457A4A1C9FE469AC1C
-	__StaticArrayInitTypeSizeU3D128_t89BC98639ECE06584346639E609FE4AF2EB92D74 ___CCC7977AE7987F37C2235E57C320A5142D6B58413825B6457A4A1C9FE469AC1C_1;
-	// <PrivateImplementationDetails>/__StaticArrayInitTypeSize=16 <PrivateImplementationDetails>::F6BB1294DA2F78CD935B01C7656280DF5EAA0439E9D97BC03775825A41A508E4
-	__StaticArrayInitTypeSizeU3D16_tF1970B1F4F05159A6AD89DF35EBA9ABA193EFBE9 ___F6BB1294DA2F78CD935B01C7656280DF5EAA0439E9D97BC03775825A41A508E4_2;
-};
-
-// <PrivateImplementationDetails>
 struct U3CPrivateImplementationDetailsU3E_t269626783D0B78D6A75FC8F0D2DFFEE02902565B  : public RuntimeObject
 {
 };
@@ -17197,6 +17145,13 @@ struct ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11_StaticFields
 {
 	// UnityEngine.UI.ColorBlock UnityEngine.UI.ColorBlock::defaultColorBlock
 	ColorBlock_tDD7C62E7AFE442652FC98F8D058CE8AE6BFD7C11 ___defaultColorBlock_7;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.ColorStateAnimatableProperty
+struct ColorStateAnimatableProperty_t03807E49C7FB2B83B2505FF72B12C45505A1A9A2  : public StateAnimatableProperty_tD4B65E13AD8E7377718E1D108DC5A9391F8213B7
+{
+	// UnityEngine.Color Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.ColorStateAnimatableProperty::color
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___color_4;
 };
 
 // TMPro.ColorTween
@@ -17906,176 +17861,6 @@ struct GenericBaseEventData_tA3C45766BDAC0A70B553C855E65F215F2E881687  : public 
 	DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___U3CEventTimeU3Ek__BackingField_3;
 	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.GenericBaseEventData::<selectedObject>k__BackingField
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CselectedObjectU3Ek__BackingField_4;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor
-struct GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE  : public GltfChildOfRootProperty_tF2A03381C2838B104C996CDF06C173B13EF083E0
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor::bufferView
-	int32_t ___bufferView_3;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor::byteOffset
-	int32_t ___byteOffset_4;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfComponentType Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor::<ComponentType>k__BackingField
-	int32_t ___U3CComponentTypeU3Ek__BackingField_5;
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor::componentType
-	String_t* ___componentType_6;
-	// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor::normalized
-	bool ___normalized_7;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor::count
-	int32_t ___count_8;
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor::type
-	String_t* ___type_9;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor::<BufferView>k__BackingField
-	GltfBufferView_tB61A8CA71D369687844DE6E4F9C6A2F3AF64C26F* ___U3CBufferViewU3Ek__BackingField_10;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBuffer
-struct GltfBuffer_t9ACEE0DB23B46D23D79505AF603E1C43CD0D5A9D  : public GltfChildOfRootProperty_tF2A03381C2838B104C996CDF06C173B13EF083E0
-{
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBuffer::uri
-	String_t* ___uri_3;
-	// System.Byte[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBuffer::<BufferData>k__BackingField
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CBufferDataU3Ek__BackingField_4;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView
-struct GltfBufferView_tB61A8CA71D369687844DE6E4F9C6A2F3AF64C26F  : public GltfChildOfRootProperty_tF2A03381C2838B104C996CDF06C173B13EF083E0
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView::buffer
-	int32_t ___buffer_3;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView::byteOffset
-	int32_t ___byteOffset_4;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView::byteLength
-	int32_t ___byteLength_5;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView::byteStride
-	int32_t ___byteStride_6;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferViewTarget Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView::<Target>k__BackingField
-	int32_t ___U3CTargetU3Ek__BackingField_7;
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView::target
-	String_t* ___target_8;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBuffer Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfBufferView::<Buffer>k__BackingField
-	GltfBuffer_t9ACEE0DB23B46D23D79505AF603E1C43CD0D5A9D* ___U3CBufferU3Ek__BackingField_9;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfConversions
-struct GltfConversions_t67AF627D18C98228AC936744C7FB9446D9C854A9  : public RuntimeObject
-{
-};
-
-struct GltfConversions_t67AF627D18C98228AC936744C7FB9446D9C854A9_StaticFields
-{
-	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfConversions::CoordinateSpaceConversionScale
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___CoordinateSpaceConversionScale_0;
-	// UnityEngine.Vector4 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfConversions::TangentSpaceConversionScale
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___TangentSpaceConversionScale_1;
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfConversions::scalar
-	String_t* ___scalar_2;
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfConversions::vec2
-	String_t* ___vec2_3;
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfConversions::vec3
-	String_t* ___vec3_4;
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.GltfConversions::vec4
-	String_t* ___vec4_5;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfImage
-struct GltfImage_tEE5C9F2BC26E018CC354842D9B58C5D74A9D3277  : public GltfChildOfRootProperty_tF2A03381C2838B104C996CDF06C173B13EF083E0
-{
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfImage::uri
-	String_t* ___uri_3;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfImage::bufferView
-	int32_t ___bufferView_4;
-	// UnityEngine.Texture2D Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfImage::<Texture>k__BackingField
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___U3CTextureU3Ek__BackingField_5;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial
-struct GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D  : public GltfChildOfRootProperty_tF2A03381C2838B104C996CDF06C173B13EF083E0
-{
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfPbrMetallicRoughness Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial::pbrMetallicRoughness
-	GltfPbrMetallicRoughness_tE1C97C2E1DBF76682B6014767E14D2563298C458* ___pbrMetallicRoughness_3;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNormalTextureInfo Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial::normalTexture
-	GltfNormalTextureInfo_tF9568A7E5C4AC7D7450521824B33015C290E01C7* ___normalTexture_4;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfOcclusionTextureInfo Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial::occlusionTexture
-	GltfOcclusionTextureInfo_tBE78A49FF65C0470767DFE05EE44A7904C9219BE* ___occlusionTexture_5;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTextureInfo Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial::emissiveTexture
-	GltfTextureInfo_t8E26D121D3752ED99A0182AF90E60B5493555496* ___emissiveTexture_6;
-	// System.Single[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial::emissiveFactor
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___emissiveFactor_7;
-	// System.String Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial::alphaMode
-	String_t* ___alphaMode_8;
-	// System.Double Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial::alphaCutoff
-	double ___alphaCutoff_9;
-	// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial::doubleSided
-	bool ___doubleSided_10;
-	// UnityEngine.Material Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial::<Material>k__BackingField
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___U3CMaterialU3Ek__BackingField_11;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMesh
-struct GltfMesh_t7BBCCCAAB377070DE5C8ED18C6CB70BAFCC8616A  : public GltfChildOfRootProperty_tF2A03381C2838B104C996CDF06C173B13EF083E0
-{
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMeshPrimitive[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMesh::primitives
-	GltfMeshPrimitiveU5BU5D_t42B73378892425F86C6E71592416349319D04F5C* ___primitives_3;
-	// UnityEngine.Mesh Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMesh::<Mesh>k__BackingField
-	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___U3CMeshU3Ek__BackingField_4;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode
-struct GltfNode_t1DE513611BEF9635B9DA063DBEF9F3826D5C0B87  : public GltfChildOfRootProperty_tF2A03381C2838B104C996CDF06C173B13EF083E0
-{
-	// System.Boolean Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode::useTRS
-	bool ___useTRS_3;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode::camera
-	int32_t ___camera_4;
-	// System.Int32[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode::children
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___children_5;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode::skin
-	int32_t ___skin_6;
-	// System.Double[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode::matrix
-	DoubleU5BU5D_tCC308475BD3B8229DB2582938669EF2F9ECC1FEE* ___matrix_7;
-	// UnityEngine.Matrix4x4 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode::<Matrix>k__BackingField
-	Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 ___U3CMatrixU3Ek__BackingField_8;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode::mesh
-	int32_t ___mesh_9;
-	// System.Single[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode::rotation
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___rotation_10;
-	// System.Single[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode::scale
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___scale_11;
-	// System.Single[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode::translation
-	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___translation_12;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNormalTextureInfo
-struct GltfNormalTextureInfo_tF9568A7E5C4AC7D7450521824B33015C290E01C7  : public GltfTextureInfo_t8E26D121D3752ED99A0182AF90E60B5493555496
-{
-	// System.Double Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNormalTextureInfo::scale
-	double ___scale_3;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfOcclusionTextureInfo
-struct GltfOcclusionTextureInfo_tBE78A49FF65C0470767DFE05EE44A7904C9219BE  : public GltfTextureInfo_t8E26D121D3752ED99A0182AF90E60B5493555496
-{
-	// System.Double Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfOcclusionTextureInfo::strength
-	double ___strength_3;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfScene
-struct GltfScene_t9920A88AC046ED939673CAC600CCDE337956CBEF  : public GltfChildOfRootProperty_tF2A03381C2838B104C996CDF06C173B13EF083E0
-{
-	// System.Int32[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfScene::nodes
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___nodes_3;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTexture
-struct GltfTexture_tAE6C08BC1161971F0CD1056F611A8680319B7176  : public GltfChildOfRootProperty_tF2A03381C2838B104C996CDF06C173B13EF083E0
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTexture::sampler
-	int32_t ___sampler_3;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTexture::source
-	int32_t ___source_4;
-	// UnityEngine.Texture2D Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTexture::<Texture>k__BackingField
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___U3CTextureU3Ek__BackingField_5;
 };
 
 // UnityEngine.TextCore.Glyph
@@ -19522,6 +19307,13 @@ struct Pose_t3BF6349DC18B6BAF6A192896C06390F3A907CF10_marshaled_com
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CangularVelocityU3Ek__BackingField_5;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.PositionOffsetStateAnimatableProperty
+struct PositionOffsetStateAnimatableProperty_t5D37F86BAFCA1DF0A13BEB8D1B25A41527FCC0BE  : public StateAnimatableProperty_tD4B65E13AD8E7377718E1D108DC5A9391F8213B7
+{
+	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.PositionOffsetStateAnimatableProperty::positionOffset
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positionOffset_4;
+};
+
 // Unity.Profiling.ProfilerMarker
 struct ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD 
 {
@@ -19951,6 +19743,13 @@ struct RuntimeSunlightSettings_t7D22149A80B10BE00351A8886F2CE62F418D6E4E_marshal
 	float ___ZRotation_5;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.ScaleOffsetStateAnimatableProperty
+struct ScaleOffsetStateAnimatableProperty_t3E64CAD04392E20353C58D453FA6C521BE9B32E0  : public StateAnimatableProperty_tD4B65E13AD8E7377718E1D108DC5A9391F8213B7
+{
+	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.ScaleOffsetStateAnimatableProperty::scaleOffset
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___scaleOffset_4;
+};
+
 // UnityEngine.Rendering.ScriptableRenderContext
 struct ScriptableRenderContext_t5AB09B3602BEB456E0DC3D53926D3A3BDAF08E36 
 {
@@ -19962,6 +19761,20 @@ struct ScriptableRenderContext_t5AB09B3602BEB456E0DC3D53926D3A3BDAF08E36_StaticF
 {
 	// UnityEngine.Rendering.ShaderTagId UnityEngine.Rendering.ScriptableRenderContext::kRenderTypeTag
 	ShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0 ___kRenderTypeTag_0;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.ShaderColorStateAnimatableProperty
+struct ShaderColorStateAnimatableProperty_t24B886C9260F86E9404A9016DA53E7776933D5B8  : public ShaderStateAnimatableProperty_t7407B99A38B72819CE57E8B6DB811A431F79E999
+{
+	// UnityEngine.Color Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.ShaderColorStateAnimatableProperty::shaderPropertyColorValue
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___shaderPropertyColorValue_5;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.ShaderFloatStateAnimatableProperty
+struct ShaderFloatStateAnimatableProperty_t702701C13D45EFD8FDFA1BD10BACA14546841020  : public ShaderStateAnimatableProperty_t7407B99A38B72819CE57E8B6DB811A431F79E999
+{
+	// System.Single Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.ShaderFloatStateAnimatableProperty::shaderPropertyFloatValue
+	float ___shaderPropertyFloatValue_5;
 };
 
 // Microsoft.MixedReality.Toolkit.UI.ShaderProperties
@@ -19987,6 +19800,13 @@ struct ShaderProperties_t3BCECD85FABDCE76938D89349C2E0DB19917BCF3_marshaled_com
 	Il2CppChar* ___Name_0;
 	int32_t ___Type_1;
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___Range_2;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.ShaderVectorStateAnimatableProperty
+struct ShaderVectorStateAnimatableProperty_t418CA0E74DCE80F26C1FF9D4C6485E7EFAB93DED  : public ShaderStateAnimatableProperty_t7407B99A38B72819CE57E8B6DB811A431F79E999
+{
+	// UnityEngine.Vector4 Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.ShaderVectorStateAnimatableProperty::shaderPropertyVectorValue
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___shaderPropertyVectorValue_5;
 };
 
 // Microsoft.MixedReality.Toolkit.Input.SimulatedControllerDataProvider
@@ -25307,124 +25127,6 @@ struct ConeCastHit_t717F77A106464F2A015E15F65B8BD77DE06B4D43
 	float ___hitAngle_2;
 };
 
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructAsync>d__19
-struct U3CConstructAsyncU3Ed__19_t40117FBE2EE7F02344F1DE0286819F2EFFF8602A 
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructAsync>d__19::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<UnityEngine.GameObject> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructAsync>d__19::<>t__builder
-	AsyncTaskMethodBuilder_1_t39EED874134028D1D4331D5686AA19731E407868 ___U3CU3Et__builder_1;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructAsync>d__19::gltfObject
-	GltfObject_t01406610671599590A9A62632F753580951C5438* ___gltfObject_2;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructAsync>d__19::<rootObject>5__2
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CrootObjectU3E5__2_3;
-	// System.Object Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructAsync>d__19::<>u__1
-	RuntimeObject* ___U3CU3Eu__1_4;
-	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructAsync>d__19::<>u__2
-	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___U3CU3Eu__2_5;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructAsync>d__19::<i>5__3
-	int32_t ___U3CiU3E5__3_6;
-	// System.Runtime.CompilerServices.TaskAwaiter Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructAsync>d__19::<>u__3
-	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__3_7;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28
-struct U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67 
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<UnityEngine.Mesh> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<>t__builder
-	AsyncTaskMethodBuilder_1_tF52D8583A6171196B4FD74BAE3F512C58DAFDA9B ___U3CU3Et__builder_1;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::gltfObject
-	GltfObject_t01406610671599590A9A62632F753580951C5438* ___gltfObject_2;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMeshPrimitive Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::meshPrimitive
-	GltfMeshPrimitive_tE068C0AD5BDE9D24E96F2E9370B488BBFA278543* ___meshPrimitive_3;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<positionAccessor>5__2
-	GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE* ___U3CpositionAccessorU3E5__2_4;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<normalsAccessor>5__3
-	GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE* ___U3CnormalsAccessorU3E5__3_5;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<textCoord0Accessor>5__4
-	GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE* ___U3CtextCoord0AccessorU3E5__4_6;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<textCoord1Accessor>5__5
-	GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE* ___U3CtextCoord1AccessorU3E5__5_7;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<textCoord2Accessor>5__6
-	GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE* ___U3CtextCoord2AccessorU3E5__6_8;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<textCoord3Accessor>5__7
-	GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE* ___U3CtextCoord3AccessorU3E5__7_9;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<colorAccessor>5__8
-	GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE* ___U3CcolorAccessorU3E5__8_10;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<indicesAccessor>5__9
-	GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE* ___U3CindicesAccessorU3E5__9_11;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<tangentAccessor>5__10
-	GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE* ___U3CtangentAccessorU3E5__10_12;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<weight0Accessor>5__11
-	GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE* ___U3Cweight0AccessorU3E5__11_13;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfAccessor Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<joint0Accessor>5__12
-	GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE* ___U3Cjoint0AccessorU3E5__12_14;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<vertexCount>5__13
-	int32_t ___U3CvertexCountU3E5__13_15;
-	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<>u__1
-	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___U3CU3Eu__1_16;
-	// System.Object Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshPrimitiveAsync>d__28::<>u__2
-	RuntimeObject* ___U3CU3Eu__2_17;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateMRTKShaderMaterial>d__23
-struct U3CCreateMRTKShaderMaterialU3Ed__23_tCE2211BBA6CDDC43B5CD3A139E76D867F6D54B15 
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateMRTKShaderMaterial>d__23::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<UnityEngine.Material> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateMRTKShaderMaterial>d__23::<>t__builder
-	AsyncTaskMethodBuilder_1_tE3ADDA9867F26007F07B971D2E60886AC29FA2B4 ___U3CU3Et__builder_1;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateMRTKShaderMaterial>d__23::gltfMaterial
-	GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D* ___gltfMaterial_2;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateMRTKShaderMaterial>d__23::materialId
-	int32_t ___materialId_3;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateMRTKShaderMaterial>d__23::gltfObject
-	GltfObject_t01406610671599590A9A62632F753580951C5438* ___gltfObject_4;
-	// UnityEngine.Material Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateMRTKShaderMaterial>d__23::<material>5__2
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___U3CmaterialU3E5__2_5;
-	// UnityEngine.Texture2D Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateMRTKShaderMaterial>d__23::<texture>5__3
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___U3CtextureU3E5__3_6;
-	// UnityEngine.Color[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateMRTKShaderMaterial>d__23::<pixels>5__4
-	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ___U3CpixelsU3E5__4_7;
-	// UnityEngine.Color[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateMRTKShaderMaterial>d__23::<occlusionPixels>5__5
-	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ___U3CocclusionPixelsU3E5__5_8;
-	// UnityEngine.Color[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateMRTKShaderMaterial>d__23::<pixelCache>5__6
-	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ___U3CpixelCacheU3E5__6_9;
-	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateMRTKShaderMaterial>d__23::<>u__1
-	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___U3CU3Eu__1_10;
-	// System.Object Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateMRTKShaderMaterial>d__23::<>u__2
-	RuntimeObject* ___U3CU3Eu__2_11;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateStandardShaderMaterial>d__24
-struct U3CCreateStandardShaderMaterialU3Ed__24_tCDF078FF2BCC8183F5D3542224A223EDA435591B 
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateStandardShaderMaterial>d__24::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<UnityEngine.Material> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateStandardShaderMaterial>d__24::<>t__builder
-	AsyncTaskMethodBuilder_1_tE3ADDA9867F26007F07B971D2E60886AC29FA2B4 ___U3CU3Et__builder_1;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateStandardShaderMaterial>d__24::gltfMaterial
-	GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D* ___gltfMaterial_2;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateStandardShaderMaterial>d__24::materialId
-	int32_t ___materialId_3;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateStandardShaderMaterial>d__24::gltfObject
-	GltfObject_t01406610671599590A9A62632F753580951C5438* ___gltfObject_4;
-	// UnityEngine.Material Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateStandardShaderMaterial>d__24::<material>5__2
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___U3CmaterialU3E5__2_5;
-	// UnityEngine.Texture2D Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateStandardShaderMaterial>d__24::<texture>5__3
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___U3CtextureU3E5__3_6;
-	// UnityEngine.Color[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateStandardShaderMaterial>d__24::<pixels>5__4
-	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ___U3CpixelsU3E5__4_7;
-	// UnityEngine.Color[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateStandardShaderMaterial>d__24::<pixelCache>5__5
-	ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ___U3CpixelCacheU3E5__5_8;
-	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateStandardShaderMaterial>d__24::<>u__1
-	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___U3CU3Eu__1_9;
-	// System.Object Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<CreateStandardShaderMaterial>d__24::<>u__2
-	RuntimeObject* ___U3CU3Eu__2_10;
-};
-
 // Microsoft.MixedReality.Toolkit.WindowsDevicePortal.DevicePortal/<ConnectToWiFiNetworkAsync>d__46
 struct U3CConnectToWiFiNetworkAsyncU3Ed__46_t817A275797BC8F476CBB3E041E46809D471F4109 
 {
@@ -26123,63 +25825,6 @@ struct U3CShowSpawnableU3Ed__16_t7164FE2EC1A9E7B2C3D3F41DA87D91BDA6EDF996
 	PrefabSpawner_t8153EC1384263C64AFCAF5092A99EB674549A2CB* ___U3CU3E4__this_2;
 	// System.Runtime.CompilerServices.TaskAwaiter Microsoft.MixedReality.Toolkit.UI.PrefabSpawner/<ShowSpawnable>d__16::<>u__1
 	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_3;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAnimation/<StartProgressBehavior>d__5
-struct U3CStartProgressBehaviorU3Ed__5_t266C0E34F401BBB16B33152A31591FD0FC2A58F4 
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAnimation/<StartProgressBehavior>d__5::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAnimation/<StartProgressBehavior>d__5::<>t__builder
-	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAnimation Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAnimation/<StartProgressBehavior>d__5::<>4__this
-	ProgressIndicatorDemoAnimation_t7B29F2360D73ABC7C54BDD39A60FEDCEF296136B* ___U3CU3E4__this_2;
-	// System.Boolean Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAnimation/<StartProgressBehavior>d__5::<playingAnimation>5__2
-	bool ___U3CplayingAnimationU3E5__2_3;
-	// System.Runtime.CompilerServices.TaskAwaiter Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAnimation/<StartProgressBehavior>d__5::<>u__1
-	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_4;
-	// System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAnimation/<StartProgressBehavior>d__5::<>u__2
-	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A ___U3CU3Eu__2_5;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<StartProgressBehavior>d__8
-struct U3CStartProgressBehaviorU3Ed__8_t887908CAB2E71887FEB78F7FF428C8A040E8D063 
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<StartProgressBehavior>d__8::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<StartProgressBehavior>d__8::<>t__builder
-	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<StartProgressBehavior>d__8::<>4__this
-	ProgressIndicatorDemoAsyncMethod_tB2B716567DD8AC03476FC91788FBE65C13A54A57* ___U3CU3E4__this_2;
-	// System.Threading.Tasks.Task Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<StartProgressBehavior>d__8::<asyncMethod>5__2
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CasyncMethodU3E5__2_3;
-	// System.Runtime.CompilerServices.TaskAwaiter Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<StartProgressBehavior>d__8::<>u__1
-	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_4;
-	// System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<StartProgressBehavior>d__8::<>u__2
-	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A ___U3CU3Eu__2_5;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad/<StartProgressBehavior>d__4
-struct U3CStartProgressBehaviorU3Ed__4_t55233A54F0642FBA86A50DC731506B6D4AFFB116 
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad/<StartProgressBehavior>d__4::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncVoidMethodBuilder Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad/<StartProgressBehavior>d__4::<>t__builder
-	AsyncVoidMethodBuilder_t253E37B63E7E7B504878AE6563347C147F98EF2D ___U3CU3Et__builder_1;
-	// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad/<StartProgressBehavior>d__4::<>4__this
-	ProgressIndicatorDemoSceneLoad_tF22EAC3534317BF3822EC9E7B732348724FFFD00* ___U3CU3E4__this_2;
-	// Microsoft.MixedReality.Toolkit.UI.IProgressIndicator Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad/<StartProgressBehavior>d__4::<indicator>5__2
-	RuntimeObject* ___U3CindicatorU3E5__2_3;
-	// System.Threading.Tasks.Task Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad/<StartProgressBehavior>d__4::<sceneTask>5__3
-	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___U3CsceneTaskU3E5__3_4;
-	// System.String Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad/<StartProgressBehavior>d__4::<progressMessage>5__4
-	String_t* ___U3CprogressMessageU3E5__4_5;
-	// System.Single Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad/<StartProgressBehavior>d__4::<timeStarted>5__5
-	float ___U3CtimeStartedU3E5__5_6;
-	// System.Runtime.CompilerServices.TaskAwaiter Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad/<StartProgressBehavior>d__4::<>u__1
-	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_7;
-	// System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad/<StartProgressBehavior>d__4::<>u__2
-	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A ___U3CU3Eu__2_8;
 };
 
 // Microsoft.MixedReality.OpenXR.RaycastSubsystem/OpenXRProvider
@@ -28228,141 +27873,6 @@ struct XboxController_t48DD56471B2420C49C7E36D67E73D20D8ECC72B1  : public Generi
 	MixedRealityInteractionMappingLegacyInputU5BU5D_tA5355B0D239C6D459111AC8A8D465B3200F4C3EF* ___U3CLegacyInputSupportU3Ek__BackingField_27;
 };
 
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMaterialAsync>d__22
-struct U3CConstructMaterialAsyncU3Ed__22_t9757C259B087485396C958AA478BA07B9FE19553 
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMaterialAsync>d__22::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMaterialAsync>d__22::<>t__builder
-	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMaterialAsync>d__22::gltfObject
-	GltfObject_t01406610671599590A9A62632F753580951C5438* ___gltfObject_2;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMaterial Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMaterialAsync>d__22::gltfMaterial
-	GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D* ___gltfMaterial_3;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMaterialAsync>d__22::materialId
-	int32_t ___materialId_4;
-	// System.Object Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMaterialAsync>d__22::<>u__1
-	RuntimeObject* ___U3CU3Eu__1_5;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Material> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMaterialAsync>d__22::<>u__2
-	TaskAwaiter_1_tE4B65D4157FF0113BE81E8EE290CEFC2F527657F ___U3CU3Eu__2_6;
-	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMaterialAsync>d__22::<>u__3
-	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___U3CU3Eu__3_7;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27
-struct U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8 
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::<>t__builder
-	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::gltfObject
-	GltfObject_t01406610671599590A9A62632F753580951C5438* ___gltfObject_2;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::meshId
-	int32_t ___meshId_3;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::parent
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___parent_4;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMesh Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::<gltfMesh>5__2
-	GltfMesh_t7BBCCCAAB377070DE5C8ED18C6CB70BAFCC8616A* ___U3CgltfMeshU3E5__2_5;
-	// UnityEngine.MeshRenderer Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::<renderer>5__3
-	MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* ___U3CrendererU3E5__3_6;
-	// UnityEngine.MeshFilter Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::<filter>5__4
-	MeshFilter_t6D1CE2473A1E45AC73013400585A1163BF66B2F5* ___U3CfilterU3E5__4_7;
-	// System.Collections.Generic.List`1<UnityEngine.Material> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::<materials>5__5
-	List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* ___U3CmaterialsU3E5__5_8;
-	// UnityEngine.CombineInstance[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::<meshCombines>5__6
-	CombineInstanceU5BU5D_tF7855763C164A0775855FF142E891E7BE0ABE093* ___U3CmeshCombinesU3E5__6_9;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfMesh Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::<>7__wrap6
-	GltfMesh_t7BBCCCAAB377070DE5C8ED18C6CB70BAFCC8616A* ___U3CU3E7__wrap6_10;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<UnityEngine.Mesh> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::<>u__1
-	TaskAwaiter_1_t288CC13E73B75D6C029A135F50B9D932253AB56A ___U3CU3Eu__1_11;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::<i>5__8
-	int32_t ___U3CiU3E5__8_12;
-	// UnityEngine.CombineInstance[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::<>7__wrap8
-	CombineInstanceU5BU5D_tF7855763C164A0775855FF142E891E7BE0ABE093* ___U3CU3E7__wrap8_13;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructMeshAsync>d__27::<>7__wrap9
-	int32_t ___U3CU3E7__wrap9_14;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26
-struct U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC 
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::<>t__builder
-	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::gltfObject
-	GltfObject_t01406610671599590A9A62632F753580951C5438* ___gltfObject_2;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfNode Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::node
-	GltfNode_t1DE513611BEF9635B9DA063DBEF9F3826D5C0B87* ___node_3;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::nodeId
-	int32_t ___nodeId_4;
-	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::parent
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___parent_5;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::<nodeGameObject>5__2
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___U3CnodeGameObjectU3E5__2_6;
-	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::<position>5__3
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CpositionU3E5__3_7;
-	// UnityEngine.Quaternion Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::<rotation>5__4
-	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___U3CrotationU3E5__4_8;
-	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::<scale>5__5
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CscaleU3E5__5_9;
-	// System.Object Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::<>u__1
-	RuntimeObject* ___U3CU3Eu__1_10;
-	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::<>u__2
-	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___U3CU3Eu__2_11;
-	// System.Runtime.CompilerServices.TaskAwaiter Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::<>u__3
-	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__3_12;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructNodeAsync>d__26::<i>5__6
-	int32_t ___U3CiU3E5__6_13;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructSceneAsync>d__25
-struct U3CConstructSceneAsyncU3Ed__25_t497C20BB5C1500E4E1699568634A2D3B3BA09A4D 
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructSceneAsync>d__25::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructSceneAsync>d__25::<>t__builder
-	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructSceneAsync>d__25::gltfObject
-	GltfObject_t01406610671599590A9A62632F753580951C5438* ___gltfObject_2;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfScene Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructSceneAsync>d__25::gltfScene
-	GltfScene_t9920A88AC046ED939673CAC600CCDE337956CBEF* ___gltfScene_3;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructSceneAsync>d__25::root
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___root_4;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructSceneAsync>d__25::<i>5__2
-	int32_t ___U3CiU3E5__2_5;
-	// System.Runtime.CompilerServices.TaskAwaiter Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructSceneAsync>d__25::<>u__1
-	TaskAwaiter_t9B661AC8C2EFA6BAB94C77BB24A5DDA82D61F833 ___U3CU3Eu__1_6;
-};
-
-// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructTextureAsync>d__21
-struct U3CConstructTextureAsyncU3Ed__21_tFECFADD116B03B9A6C60E669695990B7336FE93B 
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructTextureAsync>d__21::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructTextureAsync>d__21::<>t__builder
-	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfObject Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructTextureAsync>d__21::gltfObject
-	GltfObject_t01406610671599590A9A62632F753580951C5438* ___gltfObject_2;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfTexture Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructTextureAsync>d__21::gltfTexture
-	GltfTexture_tAE6C08BC1161971F0CD1056F611A8680319B7176* ___gltfTexture_3;
-	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructTextureAsync>d__21::<>u__1
-	ConfiguredTaskAwaiter_t6D4C5E6B82017ED33DAFA1EFC33B0EFBE3137618 ___U3CU3Eu__1_4;
-	// Microsoft.MixedReality.Toolkit.Utilities.Gltf.Schema.GltfImage Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructTextureAsync>d__21::<gltfImage>5__2
-	GltfImage_tEE5C9F2BC26E018CC354842D9B58C5D74A9D3277* ___U3CgltfImageU3E5__2_5;
-	// System.Byte[] Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructTextureAsync>d__21::<imageData>5__3
-	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___U3CimageDataU3E5__3_6;
-	// UnityEngine.Texture2D Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructTextureAsync>d__21::<texture>5__4
-	Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* ___U3CtextureU3E5__4_7;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.StorageFile> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructTextureAsync>d__21::<>u__2
-	TaskAwaiter_1_t1A8773D05601B7B7F8F033F3238E8EAEDFEAFF2A ___U3CU3Eu__2_8;
-	// System.Runtime.CompilerServices.TaskAwaiter`1<Windows.Storage.Streams.IBuffer> Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructTextureAsync>d__21::<>u__3
-	TaskAwaiter_1_t4A35C64C27BC522F70AFBD4C4FA31F4E833A44CD ___U3CU3Eu__3_9;
-	// System.Object Microsoft.MixedReality.Toolkit.Utilities.Gltf.Serialization.ConstructGltf/<ConstructTextureAsync>d__21::<>u__4
-	RuntimeObject* ___U3CU3Eu__4_10;
-};
-
 // Microsoft.MixedReality.Toolkit.Input.FocusProvider/PointerData
 struct PointerData_t92744EB9BF3806FD62C9F4E794DEAF2CACAD3C8C  : public RuntimeObject
 {
@@ -28465,23 +27975,6 @@ struct U3CUpdateSpawnableU3Ed__17_tD09F25FD3D04A25B830DD3E476DA9A59C7B95958
 	float ___tappedTimeOnStart_3;
 	// System.Object Microsoft.MixedReality.Toolkit.UI.PrefabSpawner/<UpdateSpawnable>d__17::<>u__1
 	RuntimeObject* ___U3CU3Eu__1_4;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<AsyncMethod>d__9
-struct U3CAsyncMethodU3Ed__9_tA211525E64A6565130D794621481D42932ABD6DE 
-{
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<AsyncMethod>d__9::<>1__state
-	int32_t ___U3CU3E1__state_0;
-	// System.Runtime.CompilerServices.AsyncTaskMethodBuilder Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<AsyncMethod>d__9::<>t__builder
-	AsyncTaskMethodBuilder_t7A5128C134547B5918EB1AA24FE47ED4C1DF3F06 ___U3CU3Et__builder_1;
-	// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<AsyncMethod>d__9::<>4__this
-	ProgressIndicatorDemoAsyncMethod_tB2B716567DD8AC03476FC91788FBE65C13A54A57* ___U3CU3E4__this_2;
-	// System.Single Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<AsyncMethod>d__9::<timeStarted>5__2
-	float ___U3CtimeStartedU3E5__2_3;
-	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<AsyncMethod>d__9::<startPos>5__3
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___U3CstartPosU3E5__3_4;
-	// System.Runtime.CompilerServices.YieldAwaitable/YieldAwaiter Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod/<AsyncMethod>d__9::<>u__1
-	YieldAwaiter_t5F0A81DC85227C01FFC38D53139B5C19D920B52A ___U3CU3Eu__1_5;
 };
 
 // Microsoft.MixedReality.Toolkit.UI.ProgressIndicatorLoadingBar/<AwaitTransitionAsync>d__22
@@ -31249,19 +30742,6 @@ struct BaseCursor_tFBD15E3B30E0E1053D4A5E65C393C8A26F3A12F2  : public MonoBehavi
 	FocusDetails_tCC0560E1B8D05F5708757F751A5A469A4530EA76 ___focusDetails_24;
 };
 
-// Microsoft.MixedReality.Toolkit.Dwell.BaseDwellSample
-struct BaseDwellSample_t98355AB0FCAEF9B3C04C380816B938155C7431F6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.UI.Image Microsoft.MixedReality.Toolkit.Dwell.BaseDwellSample::dwellVisualImage
-	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___dwellVisualImage_4;
-	// UnityEngine.UI.Button Microsoft.MixedReality.Toolkit.Dwell.BaseDwellSample::targetButton
-	Button_t6786514A57F7AFDEE5431112FEA0CAB24F5AE098* ___targetButton_5;
-	// Microsoft.MixedReality.Toolkit.Dwell.DwellHandler Microsoft.MixedReality.Toolkit.Dwell.BaseDwellSample::<DwellHandler>k__BackingField
-	DwellHandler_tB8CF720F3EEEA0A8C3F02A0B916FCC0FA1E53AD9* ___U3CDwellHandlerU3Ek__BackingField_6;
-	// System.Boolean Microsoft.MixedReality.Toolkit.Dwell.BaseDwellSample::<IsDwelling>k__BackingField
-	bool ___U3CIsDwellingU3Ek__BackingField_7;
-};
-
 // Microsoft.MixedReality.Toolkit.Input.BaseFocusHandler
 struct BaseFocusHandler_t0284328574DB62EAD1FD9D62C3F45C82DB4F6BA3  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -31304,6 +30784,37 @@ struct BaseHandVisualizer_tDF8C06FBB2F33A42D55FC75607D1550295E9AA8D_StaticFields
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___UpdateHandJointsPerfMarker_15;
 	// Unity.Profiling.ProfilerMarker Microsoft.MixedReality.Toolkit.Input.BaseHandVisualizer::UpdateHandMeshPerfMarker
 	ProfilerMarker_tA256E18DA86EDBC5528CE066FC91C96EE86501AD ___UpdateHandMeshPerfMarker_16;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement
+struct BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement::active
+	bool ___active_4;
+	// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState> Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement::states
+	List_1_t6DDC84E160656898C1A28F02F1C85EEDEB0E315B* ___states_5;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement::<StateManager>k__BackingField
+	StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346* ___U3CStateManagerU3Ek__BackingField_6;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement::DefaultStateName
+	String_t* ___DefaultStateName_7;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement::FocusStateName
+	String_t* ___FocusStateName_8;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement::FocusNearStateName
+	String_t* ___FocusNearStateName_9;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement::FocusFarStateName
+	String_t* ___FocusFarStateName_10;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement::TouchStateName
+	String_t* ___TouchStateName_11;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement::SelectFarStateName
+	String_t* ___SelectFarStateName_12;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement::ClickedStateName
+	String_t* ___ClickedStateName_13;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement::ToggleOnStateName
+	String_t* ___ToggleOnStateName_14;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement::ToggleOffStateName
+	String_t* ___ToggleOffStateName_15;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement::SpeechKeywordStateName
+	String_t* ___SpeechKeywordStateName_16;
 };
 
 // Microsoft.MixedReality.Toolkit.Utilities.BaseMeshOutline
@@ -31608,27 +31119,6 @@ struct BoundingBox_t42AE0573F5E0C923C445160E40BE4B877F481A8D_StaticFields
 	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___TotalBoundsCorners_78;
 };
 
-// Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest
-struct BoundingBoxExampleTest_t286F3AF05F857D5F8AACC9A4A216416EBDC7E552  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// TMPro.TextMeshPro Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest::statusText
-	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* ___statusText_4;
-	// UnityEngine.Material Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest::darkGrayMaterial
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___darkGrayMaterial_5;
-	// UnityEngine.Material Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest::redMaterial
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___redMaterial_6;
-	// UnityEngine.Material Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest::cyanMaterial
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___cyanMaterial_7;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest::scaleWidget
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___scaleWidget_8;
-	// System.Boolean Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest::speechTriggeredFalg
-	bool ___speechTriggeredFalg_9;
-	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest::cubePosition
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___cubePosition_10;
-	// Microsoft.MixedReality.Toolkit.UI.BoundingBox Microsoft.MixedReality.Toolkit.Examples.Demos.BoundingBoxExampleTest::bbox
-	BoundingBox_t42AE0573F5E0C923C445160E40BE4B877F481A8D* ___bbox_11;
-};
-
 // Microsoft.MixedReality.Toolkit.UI.BoundsControl.BoundsControl
 struct BoundsControl_tDDFE1EC00BD631C0FE186A05FC3D9748083E7547  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -31756,27 +31246,6 @@ struct BoundsControl_tDDFE1EC00BD631C0FE186A05FC3D9748083E7547_StaticFields
 {
 	// System.Collections.Generic.List`1<UnityEngine.Vector3> Microsoft.MixedReality.Toolkit.UI.BoundsControl.BoundsControl::TotalBoundsCorners
 	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___TotalBoundsCorners_59;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample
-struct BoundsControlRuntimeExample_tEF7739270115739D5B3BEFC85F5C32ECCAEC3CAB  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// TMPro.TextMeshPro Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample::statusText
-	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* ___statusText_4;
-	// UnityEngine.Material Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample::darkGrayMaterial
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___darkGrayMaterial_5;
-	// UnityEngine.Material Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample::redMaterial
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___redMaterial_6;
-	// UnityEngine.Material Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample::cyanMaterial
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___cyanMaterial_7;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample::scaleWidget
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___scaleWidget_8;
-	// System.Boolean Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample::speechTriggeredFlag
-	bool ___speechTriggeredFlag_9;
-	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample::cubePosition
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___cubePosition_10;
-	// Microsoft.MixedReality.Toolkit.UI.BoundsControl.BoundsControl Microsoft.MixedReality.Toolkit.Examples.Demos.BoundsControlRuntimeExample::boundsControl
-	BoundsControl_tDDFE1EC00BD631C0FE186A05FC3D9748083E7547* ___boundsControl_11;
 };
 
 // Microsoft.MixedReality.Toolkit.UI.ButtonBackgroundSize
@@ -31964,15 +31433,13 @@ struct CapsLockHighlight_t531AA5779029279E30E39856091270C103B47B98  : public Mon
 	NonNativeKeyboard_tB5E565E4CFAA84A33B855CE7B79A983EFAC7BE79* ___m_Keyboard_5;
 };
 
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ChangeManipulation
-struct ChangeManipulation_tB834F15B688C0C56CDD5C05AE9F996F99692390A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.ClickedStateMessage
+struct ClickedStateMessage_tA656955CFA8D8757E9C8D7726EEBC6339365E276  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.ChangeManipulation::manipulatedObject
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___manipulatedObject_4;
-	// UnityEngine.Collider Microsoft.MixedReality.Toolkit.Examples.Demos.ChangeManipulation::collisionTrigger
-	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___collisionTrigger_5;
-	// UnityEngine.Collider Microsoft.MixedReality.Toolkit.Examples.Demos.ChangeManipulation::manipulatedObjCollider
-	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___manipulatedObjCollider_6;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.ClickedStateMessage::InteractiveElement
+	BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60* ___InteractiveElement_4;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.ClickedStateMessage::clickedState
+	InteractionState_t250F4B16FDF9EF61E9FE20F59F80A63008751FEA* ___clickedState_5;
 };
 
 // Microsoft.MixedReality.Toolkit.Utilities.ClippingPrimitive
@@ -32139,6 +31606,15 @@ struct CursorModifier_t3C7D5316DE7175A78C3CD8F55EB835BF47AD5004  : public MonoBe
 	AnimatorParameterU5BU5D_t6BB877FBC3B685494B490822B137554241AF1C08* ___cursorParameters_11;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.CustomStateSettingExample
+struct CustomStateSettingExample_t3EDF7DE3370F4DBC279B8D73E68625779DA25640  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.CustomStateSettingExample::interactiveElement
+	BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60* ___interactiveElement_4;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractionState Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.CustomStateSettingExample::keyboardState
+	InteractionState_t250F4B16FDF9EF61E9FE20F59F80A63008751FEA* ___keyboardState_5;
+};
+
 // Microsoft.MixedReality.Toolkit.Rendering.DepthBufferRenderer
 struct DepthBufferRenderer_t4C632EF3E20F2B4FD8E17C23D21DD6FA8E40D254  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -32173,17 +31649,6 @@ struct DialogButton_tF14838E5A8922F88E147ABE1E3AC7122432D0C88  : public MonoBeha
 	Dialog_t617E4392EC168711F43E7F4745FB7EDF357D1AF0* ___U3CParentDialogU3Ek__BackingField_5;
 	// Microsoft.MixedReality.Toolkit.UI.DialogButtonType Microsoft.MixedReality.Toolkit.UI.DialogButton::ButtonTypeEnum
 	int32_t ___ButtonTypeEnum_6;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Experimental.DialogTest.DialogExampleController
-struct DialogExampleController_tA2958F6F1DAA7F21479AC5D784C86753C420D370  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Experimental.DialogTest.DialogExampleController::dialogPrefabLarge
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___dialogPrefabLarge_4;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Experimental.DialogTest.DialogExampleController::dialogPrefabMedium
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___dialogPrefabMedium_5;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Experimental.DialogTest.DialogExampleController::dialogPrefabSmall
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___dialogPrefabSmall_6;
 };
 
 // Microsoft.MixedReality.Toolkit.Physics.Distorter
@@ -32331,15 +31796,6 @@ struct FollowMeToggle_tE8749E974A473EF163E1EC4EC03D7B5DA9F3A852  : public MonoBe
 	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___autoFollowDistanceCheck_11;
 	// UnityEngine.Events.UnityEvent Microsoft.MixedReality.Toolkit.UI.FollowMeToggle::autoFollowTriggered
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___autoFollowTriggered_12;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.GridObjectLayoutControl
-struct GridObjectLayoutControl_t83248AA1F700E00F0BA07A4A0706DFED0961DB61  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection Microsoft.MixedReality.Toolkit.Examples.Demos.GridObjectLayoutControl::grid
-	GridObjectCollection_t4305434DFFC4F42300B547540DE4C36DA2DE4B2A* ___grid_4;
-	// TMPro.TextMeshPro Microsoft.MixedReality.Toolkit.Examples.Demos.GridObjectLayoutControl::text
-	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* ___text_5;
 };
 
 // Microsoft.MixedReality.OpenXR.HPMixedRealityControllerProfile
@@ -32668,6 +32124,13 @@ struct InteractableToggleCollection_tED7CB6F6C4E1FE135A63096FD807A0B53FE767FA  :
 	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnSelectionEvents_6;
 	// System.Collections.Generic.List`1<UnityEngine.Events.UnityAction> Microsoft.MixedReality.Toolkit.UI.InteractableToggleCollection::toggleActions
 	List_1_t81DD6D8E3F2D498C5E128E9488F7CC05E1881C4D* ___toggleActions_7;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.InteractiveElementRuntimeExample
+struct InteractiveElementRuntimeExample_t741421AEA0D43C24B893062E5A3BBA8B79EBD12E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.InteractiveElement Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Examples.InteractiveElementRuntimeExample::interactiveElement
+	InteractiveElement_t41F63372B775E57495A114E7D7B5689754571A11* ___interactiveElement_4;
 };
 
 // Microsoft.MixedReality.Toolkit.Physics.Interpolator
@@ -33724,61 +33187,6 @@ struct PlayModeRemotingPlugin_tC511D9EEB8DBBD4BEC187F19C39F69F54F1F2C67  : publi
 	RemotingSettings_tD7479E6A1D121C42B006459FACC0B808F0A8111D* ___m_remotingSettings_41;
 };
 
-// Plexus
-struct Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.ComputeShader Plexus::plexus
-	ComputeShader_tA7BDD0F6EE879D149480F5890BA2E665C50CFBF8* ___plexus_4;
-	// System.Int32 Plexus::amountOfPoints
-	int32_t ___amountOfPoints_5;
-	// System.Int32 Plexus::PPPS
-	int32_t ___PPPS_6;
-	// System.Single Plexus::lineWidth
-	float ___lineWidth_7;
-	// UnityEngine.Material Plexus::lineMaterial
-	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___lineMaterial_8;
-	// UnityEngine.Vector3 Plexus::box
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___box_9;
-	// System.Single Plexus::particleSpeed
-	float ___particleSpeed_10;
-	// System.Single Plexus::maxConnDistance
-	float ___maxConnDistance_11;
-	// System.Single Plexus::maxConnDistanceSqr
-	float ___maxConnDistanceSqr_12;
-	// UnityEngine.Vector3[] Plexus::defaultPositions
-	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___defaultPositions_13;
-	// UnityEngine.Vector3[] Plexus::velocities
-	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___velocities_14;
-	// UnityEngine.Vector3[] Plexus::positions
-	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___positions_15;
-	// UnityEngine.Mesh Plexus::lineMesh
-	Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___lineMesh_16;
-	// UnityEngine.Vector3 Plexus::normal
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___normal_17;
-	// UnityEngine.Vector3 Plexus::side
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___side_18;
-	// UnityEngine.Vector3 Plexus::p1
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___p1_19;
-	// UnityEngine.Vector3 Plexus::p2
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___p2_20;
-	// System.Int32 Plexus::startingVerticesIndex
-	int32_t ___startingVerticesIndex_21;
-	// System.Collections.Generic.List`1<System.Int32> Plexus::lineTrigs
-	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___lineTrigs_22;
-	// System.Collections.Generic.List`1<UnityEngine.Vector3> Plexus::lineVerts
-	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___lineVerts_23;
-	// UnityEngine.Vector3[] Plexus::verts
-	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___verts_24;
-	// System.Int32[] Plexus::trigs
-	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___trigs_25;
-	// System.Boolean Plexus::isEnabled
-	bool ___isEnabled_26;
-	// System.Collections.Generic.List`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>> Plexus::connected
-	List_1_tCAA9222CA4212C11DAB99CBC0DCD9915CEEF7008* ___connected_27;
-	// System.Collections.Generic.HashSet`1<System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32>> Plexus::connectedHashSet
-	HashSet_1_tD40FBD55BE8821A62FEB3964F88D68C7D8B2C880* ___connectedHashSet_28;
-};
-
 // Microsoft.MixedReality.Toolkit.UI.PressableButton
 struct PressableButton_t5F8C174C5F5B7A2F15EEFD16648640216DFF1AFC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -33822,64 +33230,6 @@ struct PressableButton_t5F8C174C5F5B7A2F15EEFD16648640216DFF1AFC  : public MonoB
 	bool ___U3CIsPressingU3Ek__BackingField_24;
 	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.UI.PressableButton::movingVisualsInitialLocalPosition
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___movingVisualsInitialLocalPosition_25;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemo
-struct ProgressIndicatorDemo_t6A221029ABCFDCE0E67949979A34B87AE2545D01  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemo::demoObjectAsyncMethod
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___demoObjectAsyncMethod_4;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemo::demoObjectAnimation
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___demoObjectAnimation_5;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemo::demoObjectSceneLoad
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___demoObjectSceneLoad_6;
-	// UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemo::toggleBarAsyncMethodKey
-	int32_t ___toggleBarAsyncMethodKey_7;
-	// UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemo::toggleAnimationKey
-	int32_t ___toggleAnimationKey_8;
-	// UnityEngine.KeyCode Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemo::toggleSceneLoadKey
-	int32_t ___toggleSceneLoadKey_9;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAnimation
-struct ProgressIndicatorDemoAnimation_t7B29F2360D73ABC7C54BDD39A60FEDCEF296136B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAnimation::progressIndicatorObject
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___progressIndicatorObject_5;
-	// UnityEngine.Animator Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAnimation::animator
-	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___animator_6;
-	// Microsoft.MixedReality.Toolkit.UI.IProgressIndicator Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAnimation::progressIndicator
-	RuntimeObject* ___progressIndicator_7;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod
-struct ProgressIndicatorDemoAsyncMethod_tB2B716567DD8AC03476FC91788FBE65C13A54A57  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod::progressIndicatorObject
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___progressIndicatorObject_4;
-	// System.Single Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod::asyncTaskDuration
-	float ___asyncTaskDuration_5;
-	// UnityEngine.AnimationCurve Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod::coffeeCurve
-	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___coffeeCurve_6;
-	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod::coffeeTransform
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___coffeeTransform_7;
-	// Microsoft.MixedReality.Toolkit.UI.IProgressIndicator Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod::progressIndicator
-	RuntimeObject* ___progressIndicator_8;
-	// System.Threading.CancellationTokenSource Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoAsyncMethod::tokenSource
-	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___tokenSource_9;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad
-struct ProgressIndicatorDemoSceneLoad_tF22EAC3534317BF3822EC9E7B732348724FFFD00  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad::progressIndicatorObject
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___progressIndicatorObject_4;
-	// Microsoft.MixedReality.Toolkit.SceneSystem.SceneInfo Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad::sceneToLoad
-	SceneInfo_tB314A7039F454B061E2DDA89435C2CEE4BFDE43D ___sceneToLoad_5;
-	// System.Single Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad::loadDelay
-	float ___loadDelay_6;
-	// System.Boolean Microsoft.MixedReality.Toolkit.Examples.Demos.ProgressIndicatorDemoSceneLoad::startedProgressBehavior
-	bool ___startedProgressBehavior_7;
 };
 
 // Microsoft.MixedReality.Toolkit.UI.ProgressIndicatorLoadingBar
@@ -34044,25 +33394,6 @@ struct ReceiverBaseMonoBehavior_t22E19FCA15C706E60D49EBDB1B78CFCE227AA083  : pub
 	State_tABF1912F27C479FA84AE96D13A8417C08960156A* ___lastState_6;
 };
 
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ReturnToBounds
-struct ReturnToBounds_t5F145A1F417B58F9A50781059C4409D5746FA993  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.Examples.Demos.ReturnToBounds::frontBounds
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___frontBounds_4;
-	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.Examples.Demos.ReturnToBounds::backBounds
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___backBounds_5;
-	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.Examples.Demos.ReturnToBounds::leftBounds
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___leftBounds_6;
-	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.Examples.Demos.ReturnToBounds::rightBounds
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___rightBounds_7;
-	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.Examples.Demos.ReturnToBounds::bottomBounds
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___bottomBounds_8;
-	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.Examples.Demos.ReturnToBounds::topBounds
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___topBounds_9;
-	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Examples.Demos.ReturnToBounds::positionAtStart
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positionAtStart_10;
-};
-
 // Microsoft.MixedReality.Toolkit.UI.HandCoach.RotateAroundPoint
 struct RotateAroundPoint_tC88ED73897D8A9E80AB34633465750DFB7D5236F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -34084,44 +33415,6 @@ struct RotateAroundPoint_tC88ED73897D8A9E80AB34633465750DFB7D5236F  : public Mon
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___hintPosition_11;
 	// System.Boolean Microsoft.MixedReality.Toolkit.UI.HandCoach.RotateAroundPoint::updatePosition
 	bool ___updatePosition_12;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator
-struct ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// Microsoft.MixedReality.Toolkit.UI.ScrollingObjectCollection Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator::scrollView
-	ScrollingObjectCollection_t821C999BC5E6630449E19F21187581CC70C9D847* ___scrollView_4;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator::dynamicItem
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___dynamicItem_5;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator::numItems
-	int32_t ___numItems_6;
-	// System.Boolean Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator::lazyLoad
-	bool ___lazyLoad_7;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator::itemsPerFrame
-	int32_t ___itemsPerFrame_8;
-	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator::loader
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___loader_9;
-	// System.Single Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator::cellWidth
-	float ___cellWidth_10;
-	// System.Single Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator::cellHeight
-	float ___cellHeight_11;
-	// System.Single Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator::cellDepth
-	float ___cellDepth_12;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator::cellsPerTier
-	int32_t ___cellsPerTier_13;
-	// System.Int32 Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator::tiersPerPage
-	int32_t ___tiersPerPage_14;
-	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator::scrollPositionRef
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___scrollPositionRef_15;
-	// Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollableListPopulator::gridObjectCollection
-	GridObjectCollection_t4305434DFFC4F42300B547540DE4C36DA2DE4B2A* ___gridObjectCollection_16;
-};
-
-// Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollablePagination
-struct ScrollablePagination_t071F373550DF5DFD896DE27A115B160F1B109BE5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// Microsoft.MixedReality.Toolkit.UI.ScrollingObjectCollection Microsoft.MixedReality.Toolkit.Examples.Demos.ScrollablePagination::scrollView
-	ScrollingObjectCollection_t821C999BC5E6630449E19F21187581CC70C9D847* ___scrollView_4;
 };
 
 // Microsoft.MixedReality.Toolkit.UI.ScrollingObjectCollection
@@ -34281,13 +33574,6 @@ struct SessionSubsystem_t519842F71509DF65FD90D4037DDB47763CB02B63  : public XRSe
 {
 };
 
-// Microsoft.MixedReality.Toolkit.Examples.Demos.SliderLunarLander
-struct SliderLunarLander_t8581E51E62C5EE44A746ED6BDDE123AFFCD9364E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
-{
-	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.Examples.Demos.SliderLunarLander::transformLandingGear
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___transformLandingGear_4;
-};
-
 // Microsoft.MixedReality.Toolkit.UI.SliderSounds
 struct SliderSounds_tFF361DC799EB1A2F7D58265904679007D17B1EAD  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -34398,6 +33684,19 @@ struct StabilizationPlaneModifier_tD06A00C380F9AF5F4F05168FBAB5ADFC30698228  : p
 	float ___currentPlaneDistance_14;
 	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Experimental.Utilities.StabilizationPlaneModifier::targetOverridePreviousPosition
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___targetOverridePreviousPosition_15;
+};
+
+// Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer
+struct StateVisualizer_tA39FCAAD6DA3B1A710A6FFFF16C22397AAF8FF92  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateContainer> Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer::stateContainers
+	List_1_tFEC3FDBC4EF2A8B42E187323C7355B9408350DF9* ___stateContainers_4;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.BaseInteractiveElement Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer::interactiveElement
+	BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60* ___interactiveElement_5;
+	// UnityEngine.Animator Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer::animator
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___animator_6;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.StateManager Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer::stateManager
+	StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346* ___stateManager_7;
 };
 
 // Microsoft.MixedReality.Toolkit.Experimental.SpatialAwareness.SurfaceMeshesToPlanes
@@ -35488,6 +34787,65 @@ struct ColliderNearInteractionTouchable_t8C72751BF4BE3C16DC9F6BE055C83885D4CD9C8
 	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___touchableCollider_6;
 };
 
+// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton
+struct CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8  : public BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60
+{
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::hasStarted
+	bool ___hasStarted_18;
+	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::movingButtonVisuals
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___movingButtonVisuals_19;
+	// Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton/SpaceMode Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::distanceSpaceMode
+	int32_t ___distanceSpaceMode_20;
+	// System.Single Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::startPushDistance
+	float ___startPushDistance_21;
+	// System.Single Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::maxPushDistance
+	float ___maxPushDistance_22;
+	// System.Single Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::pressDistance
+	float ___pressDistance_23;
+	// System.Single Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::releaseDistanceDelta
+	float ___releaseDistanceDelta_24;
+	// System.Single Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::returnSpeed
+	float ___returnSpeed_25;
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::releaseOnTouchEnd
+	bool ___releaseOnTouchEnd_26;
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::enforceFrontPush
+	bool ___enforceFrontPush_27;
+	// System.Collections.Generic.Dictionary`2<Microsoft.MixedReality.Toolkit.Input.IMixedRealityController,UnityEngine.Vector3> Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::touchPoints
+	Dictionary_2_t08AF14169216DB8B2DEE20F8E786733F9FD0801B* ___touchPoints_29;
+	// System.Collections.Generic.List`1<Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource> Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::currentInputSources
+	List_1_t66D2309D5E11210602F76A7D31B6B29829A968FC* ___currentInputSources_30;
+	// System.Single Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::currentPushDistance
+	float ___currentPushDistance_31;
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::isTouching
+	bool ___isTouching_32;
+	// System.String Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::PressedNearStateName
+	String_t* ___PressedNearStateName_33;
+	// System.Boolean Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::<IsPressing>k__BackingField
+	bool ___U3CIsPressingU3Ek__BackingField_34;
+	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::movingVisualsInitialLocalPosition
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___movingVisualsInitialLocalPosition_35;
+	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::movingButtonIconText
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___movingButtonIconText_36;
+	// UnityEngine.GameObject Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::compressableButtonVisuals
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___compressableButtonVisuals_37;
+	// System.Single Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::minCompressPercentage
+	float ___minCompressPercentage_38;
+	// UnityEngine.Renderer Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::highlightPlate
+	Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___highlightPlate_39;
+	// System.Single Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::highlightPlateAnimationTime
+	float ___highlightPlateAnimationTime_40;
+	// UnityEngine.Vector3 Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::initialCompressableButtonVisualsLocalScale
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___initialCompressableButtonVisualsLocalScale_41;
+	// System.Int32 Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::fluentLightIntensityID
+	int32_t ___fluentLightIntensityID_42;
+	// System.Single Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::targetFluentLightIntensity
+	float ___targetFluentLightIntensity_43;
+	// UnityEngine.MaterialPropertyBlock Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::properties
+	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* ___properties_44;
+	// UnityEngine.Coroutine Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton::highlightPlateAnimationRoutine
+	Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* ___highlightPlateAnimationRoutine_45;
+};
+
 // UnityEngine.UI.ContentSizeFitter
 struct ContentSizeFitter_tC40AED5F772F1F140F69E0F1BB7D4AE31D64A87B  : public UIBehaviour_tB9D4295827BD2EEDEF0749200C6CA7090C742A9D
 {
@@ -36033,13 +35391,6 @@ struct InputSystemManager_t5B6ED31AA9E649E7EFAD907C2D6B6360900284C2  : public Ba
 	MixedRealityInputSystemProfile_t43E2FD730113CD773A9FDF6E6829519817478260* ___profile_6;
 };
 
-// Microsoft.MixedReality.Toolkit.Dwell.InstantDwellSample
-struct InstantDwellSample_t2F11BF896546999A3A132AAB5839612CF2177642  : public BaseDwellSample_t98355AB0FCAEF9B3C04C380816B938155C7431F6
-{
-	// UnityEngine.Transform Microsoft.MixedReality.Toolkit.Dwell.InstantDwellSample::listItems
-	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___listItems_8;
-};
-
 // Microsoft.MixedReality.Toolkit.UI.InteractableHighlight
 struct InteractableHighlight_t4B6AE436D7BB82847DC97F18F51D6BB9922A20E8  : public BaseFocusHandler_t0284328574DB62EAD1FD9D62C3F45C82DB4F6BA3
 {
@@ -36163,15 +35514,6 @@ struct LayoutGroup_t32417833C700E77EDFA7C20034DAFD26604E05CE  : public UIBehavio
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_TotalFlexibleSize_10;
 	// System.Collections.Generic.List`1<UnityEngine.RectTransform> UnityEngine.UI.LayoutGroup::m_RectChildren
 	List_1_t5ED555E220A2C0CA4F1CC393401AF0D7BA5B456B* ___m_RectChildren_11;
-};
-
-// Microsoft.MixedReality.Toolkit.Dwell.ListItemDwell
-struct ListItemDwell_tA685D51DEB1BBCC9073C8DC9D52E269FF19DD723  : public BaseDwellSample_t98355AB0FCAEF9B3C04C380816B938155C7431F6
-{
-	// TMPro.TextMeshProUGUI Microsoft.MixedReality.Toolkit.Dwell.ListItemDwell::itemName
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___itemName_8;
-	// TMPro.TextMeshProUGUI Microsoft.MixedReality.Toolkit.Dwell.ListItemDwell::displayLabel
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___displayLabel_9;
 };
 
 // Microsoft.MixedReality.Toolkit.UI.MaintainApparentSizeConstraint
@@ -36911,27 +36253,6 @@ struct TextContainer_t949A6EBEE5C8832723E73D8D3DCF4C8D0B3D7F3C_StaticFields
 {
 	// UnityEngine.Vector2 TMPro.TextContainer::k_defaultSize
 	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___k_defaultSize_15;
-};
-
-// Microsoft.MixedReality.Toolkit.Dwell.ToggleDwellSample
-struct ToggleDwellSample_tB8B39EA9AAE28F9033284D6653F727D4D57DFD6C  : public BaseDwellSample_t98355AB0FCAEF9B3C04C380816B938155C7431F6
-{
-	// TMPro.TextMeshProUGUI Microsoft.MixedReality.Toolkit.Dwell.ToggleDwellSample::dwellStatus
-	TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957* ___dwellStatus_8;
-	// UnityEngine.UI.Image Microsoft.MixedReality.Toolkit.Dwell.ToggleDwellSample::buttonBackground
-	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___buttonBackground_9;
-	// System.Boolean Microsoft.MixedReality.Toolkit.Dwell.ToggleDwellSample::isDwellEnabled
-	bool ___isDwellEnabled_10;
-	// UnityEngine.Color Microsoft.MixedReality.Toolkit.Dwell.ToggleDwellSample::dwellOnColor
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___dwellOnColor_11;
-	// UnityEngine.Color Microsoft.MixedReality.Toolkit.Dwell.ToggleDwellSample::dwellOffColor
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___dwellOffColor_12;
-	// UnityEngine.Color Microsoft.MixedReality.Toolkit.Dwell.ToggleDwellSample::dwellIntendedColor
-	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___dwellIntendedColor_13;
-	// System.Single Microsoft.MixedReality.Toolkit.Dwell.ToggleDwellSample::dwellVisualCancelDurationInFrames
-	float ___dwellVisualCancelDurationInFrames_14;
-	// System.Single Microsoft.MixedReality.Toolkit.Dwell.ToggleDwellSample::cancelStartScale
-	float ___cancelStartScale_15;
 };
 
 // UnityEngine.UI.ToggleGroup
@@ -45420,309 +44741,291 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5863[1] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5866[15] = 
 {
 	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___0048A1D8DF12622C52E110E4BD0B4DA053B1E0BE5BA70D92C0233763D1BE53F9_0)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___03E630B7E35444B546565156E0253B06ED655D3EDD1C8DABC388819EBA554961_1)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___083E8699D4EA3429B02B429A7F25B809849CF81E2116EF4ED0D4B96EB34EF90A_2)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___0A003E4A516156B179B15F8E84C96765F257F35C2424AC00947C5D190567D8E1_3)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___0D1F6F5A67EDCBD3243E7D204B73C4A74509855DA3D3C35232E20BDCF8EFD67F_4)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___433E6739AA92B3CC028D14C10044556182CE94B83CD969701B5B3F3D82C64BFB_5)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___503B3B2606D77D192500723AB2B87EE2242C696AEF05CEB3BCCE61CFD324344B_6)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___5983E0B814D25B11072486D23F642DF1CC0C0391D8D376B64FA0884427C00145_7)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___6A31D79C1C012DC2568EB5BAAA22D0B3B6D7AEE1194B5BB5C6F1F5AB9F4FE59E_8)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___6E2A658DF92B2B0D4378FBE389D66377C775FD39A291A73B762868DDEA0DEC36_9)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___8D8E540A20FEA2F2EAF96AAEC3E395670FFDBE30DC1B2542C9A5A1B23BF3F280_10)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___91FF4744FC4354AD6DE3F5FED84EA5B27C53552FBE8A06C5E5B22D50A6833CED_11)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___A941A5C33484D05EF4B73288C9D915E344ED155CDDFC39352A31D22A98D708F7_12)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___BE51E74E34CB7DF97D4C07BCDE4DA6FFD248DC4AAA1CAB932C9DD3B9A3028051_13)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4B5D5B693D504C6E3400493911C7B3D7A67522B5_StaticFields, ___F798560A187F544DA4721C69FE73AA4BE07FF0AEBFA9360CC860F010B938C3B0_14)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5869[2] = 
-{
-	static_cast<int32_t>(offsetof(Point_tC7E550DD1555DAAAA7CA4F85656FA70F81C23B18, ____x_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Point_tC7E550DD1555DAAAA7CA4F85656FA70F81C23B18, ____y_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5870[4] = 
-{
-	static_cast<int32_t>(offsetof(Rect_t30CC1879BAAB779EAEA49A91ACA636D57101EE48, ____x_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Rect_t30CC1879BAAB779EAEA49A91ACA636D57101EE48, ____y_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Rect_t30CC1879BAAB779EAEA49A91ACA636D57101EE48, ____width_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Rect_t30CC1879BAAB779EAEA49A91ACA636D57101EE48, ____height_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5871[2] = 
-{
-	static_cast<int32_t>(offsetof(Size_t463A0E21871C29D10F032F5EF3EAF615806D8A05, ____width_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Size_t463A0E21871C29D10F032F5EF3EAF615806D8A05, ____height_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5875[3] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3Ec_t678B6EA47CA63511310194953B54091E28640EC2_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t678B6EA47CA63511310194953B54091E28640EC2_StaticFields, ___U3CU3E9__0_0_1)),static_cast<int32_t>(offsetof(U3CU3Ec_t678B6EA47CA63511310194953B54091E28640EC2_StaticFields, ___U3CU3E9__0_1_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5877[1] = 
-{
-	static_cast<int32_t>(offsetof(AsyncInfoIdGenerator_t9A2B1D1850C86EBEEBDF53B62B5CD99F97D87C96_StaticFields, ___s_idGenerator_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5878[3] = 
-{
-	0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5879[3] = 
-{
-	0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5880[3] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3Ec_t474B044207AC3819954D9AE072ACC1AEACA8B5CE_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t474B044207AC3819954D9AE072ACC1AEACA8B5CE_StaticFields, ___U3CU3E9__0_0_1)),static_cast<int32_t>(offsetof(U3CU3Ec_t474B044207AC3819954D9AE072ACC1AEACA8B5CE_StaticFields, ___U3CU3E9__0_1_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5882[4] = 
-{
-	0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5883[8] = 
-{
-	0,0,0,0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5889[1] = 
-{
-	0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5890[4] = 
-{
-	0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5891[4] = 
-{
-	0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5893[7] = 
-{
-	static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9_ThreadStaticFields, ___s_winRtMarshalProxy_0)) | THREAD_LOCAL_STATIC_MASK,static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9, ____data_1)),static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9, ____dataStartOffs_2)),static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9, ____usefulDataLength_3)),static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9, ____maxDataCapacity_4)),static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9, ____pinHandle_5)),static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9, ____dataPtr_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5894[1] = 
-{
-	static_cast<int32_t>(offsetof(WindowsRuntimeBufferUnmanagedMemoryStream_t30CA79558CFD4D7E1E1AE41F7DCC9589EE2809BE, ____sourceBuffer_13)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5900[3] = 
-{
-	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5901[3] = 
-{
-	static_cast<int32_t>(offsetof(NetFxToWinRtStreamAdapter_t59A0CD17C5212BFF3544C2EB44DF22BAE6358737, ____managedStream_0)),static_cast<int32_t>(offsetof(NetFxToWinRtStreamAdapter_t59A0CD17C5212BFF3544C2EB44DF22BAE6358737, ____leaveUnderlyingStreamOpen_1)),static_cast<int32_t>(offsetof(NetFxToWinRtStreamAdapter_t59A0CD17C5212BFF3544C2EB44DF22BAE6358737, ____readOptimization_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5902[10] = 
-{
-	static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____userCompletionCallback_0)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____userAsyncStateInfo_1)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____asyncStreamOperation_2)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____completed_3)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____callbackInvoked_4)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____waitHandle_5)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____bytesCompleted_6)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____errorInfo_7)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____processCompletedOperationInCallback_8)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____completedOperation_9)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5903[1] = 
-{
-	static_cast<int32_t>(offsetof(StreamReadAsyncResult_t1F47DFA1E32A8FBC434C3B74D239D2F4888DDFBF, ____userBuffer_10)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5906[10] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CU3E4__this_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___cancelToken_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___progressListener_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CdataU3E5__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CoffsetU3E5__3_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CbytesCompletedU3E5__4_7)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CbytesReadU3E5__5_8)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CU3Eu__1_9)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5907[4] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass1_0_t05B790464823435BFCF2DDD9EDD15BD109799D30, ___dataBuffer_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass1_0_t05B790464823435BFCF2DDD9EDD15BD109799D30, ___stream_1)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass1_0_t05B790464823435BFCF2DDD9EDD15BD109799D30, ___bytesRequested_2)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass1_0_t05B790464823435BFCF2DDD9EDD15BD109799D30, ___options_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5908[7] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___cancelToken_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___U3CU3E4__this_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___progressListener_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___U3CbytesToWriteU3E5__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___U3CU3Eu__1_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5909[7] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___cancelToken_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___U3CU3E4__this_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___progressListener_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___U3CbytesToWriteU3E5__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___U3CU3Eu__1_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5910[4] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass2_0_t6E434BA73EA5DB3511A12C0C5CF9456D30D25FC5, ___buffer_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass2_0_t6E434BA73EA5DB3511A12C0C5CF9456D30D25FC5, ___stream_1)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass2_0_t6E434BA73EA5DB3511A12C0C5CF9456D30D25FC5, ___data_2)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass2_0_t6E434BA73EA5DB3511A12C0C5CF9456D30D25FC5, ___offset_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5911[5] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_tCAE4779681542A3A44DA232D516892B2CFB4DC34, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_tCAE4779681542A3A44DA232D516892B2CFB4DC34, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_tCAE4779681542A3A44DA232D516892B2CFB4DC34, ___cancelToken_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_tCAE4779681542A3A44DA232D516892B2CFB4DC34, ___U3CU3E4__this_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_tCAE4779681542A3A44DA232D516892B2CFB4DC34, ___U3CU3Eu__1_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5912[1] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass3_0_tB7212D23536AE37D5E6EEFABD29F7A1DCCC5BFAA, ___stream_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5914[2] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3Ec_t0031EA3631AC4363828C98AED7D52630379E6919_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t0031EA3631AC4363828C98AED7D52630379E6919_StaticFields, ___U3CU3E9__18_0_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5915[2] = 
-{
-	static_cast<int32_t>(offsetof(WindowsRuntimeStreamExtensions_tB43F7551D4AF6F5480829903106AD0FFEDC81D9B_StaticFields, ___s_winRtToNetFxAdapterMap_0)),static_cast<int32_t>(offsetof(WindowsRuntimeStreamExtensions_tB43F7551D4AF6F5480829903106AD0FFEDC81D9B_StaticFields, ___s_netFxToWinRtAdapterMap_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5917[4] = 
-{
-	static_cast<int32_t>(offsetof(WinRtToNetFxStreamAdapter_tBEAE6FED1E85C5112CC31735818029E7737FB25D, ____winRtStream_4)),static_cast<int32_t>(offsetof(WinRtToNetFxStreamAdapter_tBEAE6FED1E85C5112CC31735818029E7737FB25D, ____canRead_5)),static_cast<int32_t>(offsetof(WinRtToNetFxStreamAdapter_tBEAE6FED1E85C5112CC31735818029E7737FB25D, ____canWrite_6)),static_cast<int32_t>(offsetof(WinRtToNetFxStreamAdapter_tBEAE6FED1E85C5112CC31735818029E7737FB25D, ____canSeek_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5919[2] = 
-{
-	static_cast<int32_t>(offsetof(enabling_t79794CB8AF64E47975BDBF937CC1892992D89E11, ___target_4)),static_cast<int32_t>(offsetof(enabling_t79794CB8AF64E47975BDBF937CC1892992D89E11, ___toggle_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5921[3] = 
-{
-	static_cast<int32_t>(offsetof(U10PS_DissolveOverTime_t686B027A69F3C5F2014992F8ABC7BE7746F8DD16, ___meshRenderer_4)),static_cast<int32_t>(offsetof(U10PS_DissolveOverTime_t686B027A69F3C5F2014992F8ABC7BE7746F8DD16, ___speed_5)),static_cast<int32_t>(offsetof(U10PS_DissolveOverTime_t686B027A69F3C5F2014992F8ABC7BE7746F8DD16, ___t_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5922[3] = 
-{
-	static_cast<int32_t>(offsetof(U10PS_ExampleReview_t1A3E1F333BA1EB0B0A0F862C945E0F5F8F3FAB43, ___exampleName_4)),static_cast<int32_t>(offsetof(U10PS_ExampleReview_t1A3E1F333BA1EB0B0A0F862C945E0F5F8F3FAB43, ___examples_5)),static_cast<int32_t>(offsetof(U10PS_ExampleReview_t1A3E1F333BA1EB0B0A0F862C945E0F5F8F3FAB43, ___currentIndex_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5923[2] = 
-{
-	static_cast<int32_t>(offsetof(Example_tFC02019DC7FAADE230F4FE0727EEE859AB7C1BE3, ___objects_0)),static_cast<int32_t>(offsetof(Example_tFC02019DC7FAADE230F4FE0727EEE859AB7C1BE3, ___name_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5924[5] = 
-{
-	static_cast<int32_t>(offsetof(U10PS_MouseRotation_t7160B7DA6A9741CEFDF581A7F20FFA23BB7188D9, ___sensitivity_4)),static_cast<int32_t>(offsetof(U10PS_MouseRotation_t7160B7DA6A9741CEFDF581A7F20FFA23BB7188D9, ___lockZRot_5)),static_cast<int32_t>(offsetof(U10PS_MouseRotation_t7160B7DA6A9741CEFDF581A7F20FFA23BB7188D9, ___lockMouse_6)),static_cast<int32_t>(offsetof(U10PS_MouseRotation_t7160B7DA6A9741CEFDF581A7F20FFA23BB7188D9, ___yValue_7)),static_cast<int32_t>(offsetof(U10PS_MouseRotation_t7160B7DA6A9741CEFDF581A7F20FFA23BB7188D9, ___zValue_8)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5925[3] = 
-{
-	static_cast<int32_t>(offsetof(U10PS_SnowOverTime_t7EF4812316E9A8DD32C54A89794B433A0864541E, ___meshRenderer_4)),static_cast<int32_t>(offsetof(U10PS_SnowOverTime_t7EF4812316E9A8DD32C54A89794B433A0864541E, ___speed_5)),static_cast<int32_t>(offsetof(U10PS_SnowOverTime_t7EF4812316E9A8DD32C54A89794B433A0864541E, ___totalTime_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5926[1] = 
-{
-	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass30_0_tBA29D0CE5952D38A3010A7E021EE3FDA275EDA0C, ___indx_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5927[5] = 
-{
-	static_cast<int32_t>(offsetof(U3CConnectDotsU3Ed__30_t16A79079F898E19D36000AEA9BC7F4E1B879E551, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CConnectDotsU3Ed__30_t16A79079F898E19D36000AEA9BC7F4E1B879E551, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CConnectDotsU3Ed__30_t16A79079F898E19D36000AEA9BC7F4E1B879E551, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CConnectDotsU3Ed__30_t16A79079F898E19D36000AEA9BC7F4E1B879E551, ___U3CU3E8__1_3)),static_cast<int32_t>(offsetof(U3CConnectDotsU3Ed__30_t16A79079F898E19D36000AEA9BC7F4E1B879E551, ___U3CwfeofU3E5__2_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5928[25] = 
-{
-	static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___plexus_4)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___amountOfPoints_5)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___PPPS_6)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___lineWidth_7)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___lineMaterial_8)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___box_9)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___particleSpeed_10)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___maxConnDistance_11)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___maxConnDistanceSqr_12)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___defaultPositions_13)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___velocities_14)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___positions_15)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___lineMesh_16)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___normal_17)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___side_18)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___p1_19)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___p2_20)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___startingVerticesIndex_21)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___lineTrigs_22)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___lineVerts_23)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___verts_24)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___trigs_25)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___isEnabled_26)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___connected_27)),static_cast<int32_t>(offsetof(Plexus_tE95596A76C8C45F485C0AB662FD866106D0BCAA5, ___connectedHashSet_28)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5929[4] = 
-{
-	static_cast<int32_t>(offsetof(BaseDwellSample_t98355AB0FCAEF9B3C04C380816B938155C7431F6, ___dwellVisualImage_4)),static_cast<int32_t>(offsetof(BaseDwellSample_t98355AB0FCAEF9B3C04C380816B938155C7431F6, ___targetButton_5)),static_cast<int32_t>(offsetof(BaseDwellSample_t98355AB0FCAEF9B3C04C380816B938155C7431F6, ___U3CDwellHandlerU3Ek__BackingField_6)),static_cast<int32_t>(offsetof(BaseDwellSample_t98355AB0FCAEF9B3C04C380816B938155C7431F6, ___U3CIsDwellingU3Ek__BackingField_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5930[1] = 
-{
-	static_cast<int32_t>(offsetof(InstantDwellSample_t2F11BF896546999A3A132AAB5839612CF2177642, ___listItems_8)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5931[2] = 
-{
-	static_cast<int32_t>(offsetof(ListItemDwell_tA685D51DEB1BBCC9073C8DC9D52E269FF19DD723, ___itemName_8)),static_cast<int32_t>(offsetof(ListItemDwell_tA685D51DEB1BBCC9073C8DC9D52E269FF19DD723, ___displayLabel_9)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5932[8] = 
-{
-	static_cast<int32_t>(offsetof(ToggleDwellSample_tB8B39EA9AAE28F9033284D6653F727D4D57DFD6C, ___dwellStatus_8)),static_cast<int32_t>(offsetof(ToggleDwellSample_tB8B39EA9AAE28F9033284D6653F727D4D57DFD6C, ___buttonBackground_9)),static_cast<int32_t>(offsetof(ToggleDwellSample_tB8B39EA9AAE28F9033284D6653F727D4D57DFD6C, ___isDwellEnabled_10)),static_cast<int32_t>(offsetof(ToggleDwellSample_tB8B39EA9AAE28F9033284D6653F727D4D57DFD6C, ___dwellOnColor_11)),static_cast<int32_t>(offsetof(ToggleDwellSample_tB8B39EA9AAE28F9033284D6653F727D4D57DFD6C, ___dwellOffColor_12)),static_cast<int32_t>(offsetof(ToggleDwellSample_tB8B39EA9AAE28F9033284D6653F727D4D57DFD6C, ___dwellIntendedColor_13)),static_cast<int32_t>(offsetof(ToggleDwellSample_tB8B39EA9AAE28F9033284D6653F727D4D57DFD6C, ___dwellVisualCancelDurationInFrames_14)),static_cast<int32_t>(offsetof(ToggleDwellSample_tB8B39EA9AAE28F9033284D6653F727D4D57DFD6C, ___cancelStartScale_15)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5933[3] = 
-{
-	static_cast<int32_t>(offsetof(DialogExampleController_tA2958F6F1DAA7F21479AC5D784C86753C420D370, ___dialogPrefabLarge_4)),static_cast<int32_t>(offsetof(DialogExampleController_tA2958F6F1DAA7F21479AC5D784C86753C420D370, ___dialogPrefabMedium_5)),static_cast<int32_t>(offsetof(DialogExampleController_tA2958F6F1DAA7F21479AC5D784C86753C420D370, ___dialogPrefabSmall_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5934[6] = 
-{
-	static_cast<int32_t>(offsetof(U3CUpdateListOverTimeU3Ed__33_tE86DF4563E2248321590543DD6C85DF11272FD37, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CUpdateListOverTimeU3Ed__33_tE86DF4563E2248321590543DD6C85DF11272FD37, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CUpdateListOverTimeU3Ed__33_tE86DF4563E2248321590543DD6C85DF11272FD37, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CUpdateListOverTimeU3Ed__33_tE86DF4563E2248321590543DD6C85DF11272FD37, ___instancesPerFrame_3)),static_cast<int32_t>(offsetof(U3CUpdateListOverTimeU3Ed__33_tE86DF4563E2248321590543DD6C85DF11272FD37, ___loaderViz_4)),static_cast<int32_t>(offsetof(U3CUpdateListOverTimeU3Ed__33_tE86DF4563E2248321590543DD6C85DF11272FD37, ___U3CcurrItemCountU3E5__2_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5935[13] = 
-{
-	static_cast<int32_t>(offsetof(ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5, ___scrollView_4)),static_cast<int32_t>(offsetof(ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5, ___dynamicItem_5)),static_cast<int32_t>(offsetof(ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5, ___numItems_6)),static_cast<int32_t>(offsetof(ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5, ___lazyLoad_7)),static_cast<int32_t>(offsetof(ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5, ___itemsPerFrame_8)),static_cast<int32_t>(offsetof(ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5, ___loader_9)),static_cast<int32_t>(offsetof(ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5, ___cellWidth_10)),static_cast<int32_t>(offsetof(ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5, ___cellHeight_11)),static_cast<int32_t>(offsetof(ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5, ___cellDepth_12)),static_cast<int32_t>(offsetof(ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5, ___cellsPerTier_13)),static_cast<int32_t>(offsetof(ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5, ___tiersPerPage_14)),static_cast<int32_t>(offsetof(ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5, ___scrollPositionRef_15)),static_cast<int32_t>(offsetof(ScrollableListPopulator_tBFB2D0526AC0CFA006EE360AA04DEEA1269A02B5, ___gridObjectCollection_16)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5936[1] = 
-{
-	static_cast<int32_t>(offsetof(ScrollablePagination_t071F373550DF5DFD896DE27A115B160F1B109BE5, ___scrollView_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5937[8] = 
-{
-	static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tF55D339C4A243C24CBE65F823E7A04CE6E203933, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tF55D339C4A243C24CBE65F823E7A04CE6E203933, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tF55D339C4A243C24CBE65F823E7A04CE6E203933, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tF55D339C4A243C24CBE65F823E7A04CE6E203933, ___U3CcubeU3E5__2_3)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tF55D339C4A243C24CBE65F823E7A04CE6E203933, ___U3ComU3E5__3_4)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tF55D339C4A243C24CBE65F823E7A04CE6E203933, ___U3CnewObjectU3E5__4_5)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tF55D339C4A243C24CBE65F823E7A04CE6E203933, ___U3CbcU3E5__5_6)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tF55D339C4A243C24CBE65F823E7A04CE6E203933, ___U3ClastParentU3E5__6_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5938[3] = 
-{
-	static_cast<int32_t>(offsetof(U3CWaitForSpeechCommandU3Ed__13_tA3478029843B23D9C8A63D157FFB5BB99CF37ED5, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CWaitForSpeechCommandU3Ed__13_tA3478029843B23D9C8A63D157FFB5BB99CF37ED5, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CWaitForSpeechCommandU3Ed__13_tA3478029843B23D9C8A63D157FFB5BB99CF37ED5, ___U3CU3E4__this_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5939[8] = 
-{
-	static_cast<int32_t>(offsetof(BoundingBoxExampleTest_t286F3AF05F857D5F8AACC9A4A216416EBDC7E552, ___statusText_4)),static_cast<int32_t>(offsetof(BoundingBoxExampleTest_t286F3AF05F857D5F8AACC9A4A216416EBDC7E552, ___darkGrayMaterial_5)),static_cast<int32_t>(offsetof(BoundingBoxExampleTest_t286F3AF05F857D5F8AACC9A4A216416EBDC7E552, ___redMaterial_6)),static_cast<int32_t>(offsetof(BoundingBoxExampleTest_t286F3AF05F857D5F8AACC9A4A216416EBDC7E552, ___cyanMaterial_7)),static_cast<int32_t>(offsetof(BoundingBoxExampleTest_t286F3AF05F857D5F8AACC9A4A216416EBDC7E552, ___scaleWidget_8)),static_cast<int32_t>(offsetof(BoundingBoxExampleTest_t286F3AF05F857D5F8AACC9A4A216416EBDC7E552, ___speechTriggeredFalg_9)),static_cast<int32_t>(offsetof(BoundingBoxExampleTest_t286F3AF05F857D5F8AACC9A4A216416EBDC7E552, ___cubePosition_10)),static_cast<int32_t>(offsetof(BoundingBoxExampleTest_t286F3AF05F857D5F8AACC9A4A216416EBDC7E552, ___bbox_11)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5940[8] = 
-{
-	static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tC2B6193C1B40DBAC26777FF6B1D1F96218C979B6, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tC2B6193C1B40DBAC26777FF6B1D1F96218C979B6, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tC2B6193C1B40DBAC26777FF6B1D1F96218C979B6, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tC2B6193C1B40DBAC26777FF6B1D1F96218C979B6, ___U3CcubeU3E5__2_3)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tC2B6193C1B40DBAC26777FF6B1D1F96218C979B6, ___U3ComU3E5__3_4)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tC2B6193C1B40DBAC26777FF6B1D1F96218C979B6, ___U3CnewObjectU3E5__4_5)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tC2B6193C1B40DBAC26777FF6B1D1F96218C979B6, ___U3CbcU3E5__5_6)),static_cast<int32_t>(offsetof(U3CSequenceU3Ed__12_tC2B6193C1B40DBAC26777FF6B1D1F96218C979B6, ___U3ClastParentU3E5__6_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5941[3] = 
-{
-	static_cast<int32_t>(offsetof(U3CWaitForSpeechCommandU3Ed__13_tBCE429335B21A71E6105155218A71C1E2926AA7E, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CWaitForSpeechCommandU3Ed__13_tBCE429335B21A71E6105155218A71C1E2926AA7E, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CWaitForSpeechCommandU3Ed__13_tBCE429335B21A71E6105155218A71C1E2926AA7E, ___U3CU3E4__this_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5942[8] = 
-{
-	static_cast<int32_t>(offsetof(BoundsControlRuntimeExample_tEF7739270115739D5B3BEFC85F5C32ECCAEC3CAB, ___statusText_4)),static_cast<int32_t>(offsetof(BoundsControlRuntimeExample_tEF7739270115739D5B3BEFC85F5C32ECCAEC3CAB, ___darkGrayMaterial_5)),static_cast<int32_t>(offsetof(BoundsControlRuntimeExample_tEF7739270115739D5B3BEFC85F5C32ECCAEC3CAB, ___redMaterial_6)),static_cast<int32_t>(offsetof(BoundsControlRuntimeExample_tEF7739270115739D5B3BEFC85F5C32ECCAEC3CAB, ___cyanMaterial_7)),static_cast<int32_t>(offsetof(BoundsControlRuntimeExample_tEF7739270115739D5B3BEFC85F5C32ECCAEC3CAB, ___scaleWidget_8)),static_cast<int32_t>(offsetof(BoundsControlRuntimeExample_tEF7739270115739D5B3BEFC85F5C32ECCAEC3CAB, ___speechTriggeredFlag_9)),static_cast<int32_t>(offsetof(BoundsControlRuntimeExample_tEF7739270115739D5B3BEFC85F5C32ECCAEC3CAB, ___cubePosition_10)),static_cast<int32_t>(offsetof(BoundsControlRuntimeExample_tEF7739270115739D5B3BEFC85F5C32ECCAEC3CAB, ___boundsControl_11)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5943[7] = 
-{
-	static_cast<int32_t>(offsetof(U3CTestAnchorsU3Ed__7_t53190FD53CE40C7CC4A0C68840737745F9D4F063, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CTestAnchorsU3Ed__7_t53190FD53CE40C7CC4A0C68840737745F9D4F063, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CTestAnchorsU3Ed__7_t53190FD53CE40C7CC4A0C68840737745F9D4F063, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CTestAnchorsU3Ed__7_t53190FD53CE40C7CC4A0C68840737745F9D4F063, ___U3CgridCollectionU3E5__2_3)),static_cast<int32_t>(offsetof(U3CTestAnchorsU3Ed__7_t53190FD53CE40C7CC4A0C68840737745F9D4F063, ___U3CpathU3E5__3_4)),static_cast<int32_t>(offsetof(U3CTestAnchorsU3Ed__7_t53190FD53CE40C7CC4A0C68840737745F9D4F063, ___U3CstringBuilderU3E5__4_5)),static_cast<int32_t>(offsetof(U3CTestAnchorsU3Ed__7_t53190FD53CE40C7CC4A0C68840737745F9D4F063, ___U3CU3E7__wrap4_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5944[2] = 
-{
-	static_cast<int32_t>(offsetof(GridObjectLayoutControl_t83248AA1F700E00F0BA07A4A0706DFED0961DB61, ___grid_4)),static_cast<int32_t>(offsetof(GridObjectLayoutControl_t83248AA1F700E00F0BA07A4A0706DFED0961DB61, ___text_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5945[3] = 
-{
-	static_cast<int32_t>(offsetof(ChangeManipulation_tB834F15B688C0C56CDD5C05AE9F996F99692390A, ___manipulatedObject_4)),static_cast<int32_t>(offsetof(ChangeManipulation_tB834F15B688C0C56CDD5C05AE9F996F99692390A, ___collisionTrigger_5)),static_cast<int32_t>(offsetof(ChangeManipulation_tB834F15B688C0C56CDD5C05AE9F996F99692390A, ___manipulatedObjCollider_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5946[7] = 
-{
-	static_cast<int32_t>(offsetof(ReturnToBounds_t5F145A1F417B58F9A50781059C4409D5746FA993, ___frontBounds_4)),static_cast<int32_t>(offsetof(ReturnToBounds_t5F145A1F417B58F9A50781059C4409D5746FA993, ___backBounds_5)),static_cast<int32_t>(offsetof(ReturnToBounds_t5F145A1F417B58F9A50781059C4409D5746FA993, ___leftBounds_6)),static_cast<int32_t>(offsetof(ReturnToBounds_t5F145A1F417B58F9A50781059C4409D5746FA993, ___rightBounds_7)),static_cast<int32_t>(offsetof(ReturnToBounds_t5F145A1F417B58F9A50781059C4409D5746FA993, ___bottomBounds_8)),static_cast<int32_t>(offsetof(ReturnToBounds_t5F145A1F417B58F9A50781059C4409D5746FA993, ___topBounds_9)),static_cast<int32_t>(offsetof(ReturnToBounds_t5F145A1F417B58F9A50781059C4409D5746FA993, ___positionAtStart_10)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5948[6] = 
-{
-	static_cast<int32_t>(offsetof(ProgressIndicatorDemo_t6A221029ABCFDCE0E67949979A34B87AE2545D01, ___demoObjectAsyncMethod_4)),static_cast<int32_t>(offsetof(ProgressIndicatorDemo_t6A221029ABCFDCE0E67949979A34B87AE2545D01, ___demoObjectAnimation_5)),static_cast<int32_t>(offsetof(ProgressIndicatorDemo_t6A221029ABCFDCE0E67949979A34B87AE2545D01, ___demoObjectSceneLoad_6)),static_cast<int32_t>(offsetof(ProgressIndicatorDemo_t6A221029ABCFDCE0E67949979A34B87AE2545D01, ___toggleBarAsyncMethodKey_7)),static_cast<int32_t>(offsetof(ProgressIndicatorDemo_t6A221029ABCFDCE0E67949979A34B87AE2545D01, ___toggleAnimationKey_8)),static_cast<int32_t>(offsetof(ProgressIndicatorDemo_t6A221029ABCFDCE0E67949979A34B87AE2545D01, ___toggleSceneLoadKey_9)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5949[6] = 
-{
-	static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__5_t266C0E34F401BBB16B33152A31591FD0FC2A58F4, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__5_t266C0E34F401BBB16B33152A31591FD0FC2A58F4, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__5_t266C0E34F401BBB16B33152A31591FD0FC2A58F4, ___U3CU3E4__this_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__5_t266C0E34F401BBB16B33152A31591FD0FC2A58F4, ___U3CplayingAnimationU3E5__2_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__5_t266C0E34F401BBB16B33152A31591FD0FC2A58F4, ___U3CU3Eu__1_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__5_t266C0E34F401BBB16B33152A31591FD0FC2A58F4, ___U3CU3Eu__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5950[4] = 
-{
-	0,static_cast<int32_t>(offsetof(ProgressIndicatorDemoAnimation_t7B29F2360D73ABC7C54BDD39A60FEDCEF296136B, ___progressIndicatorObject_5)),static_cast<int32_t>(offsetof(ProgressIndicatorDemoAnimation_t7B29F2360D73ABC7C54BDD39A60FEDCEF296136B, ___animator_6)),static_cast<int32_t>(offsetof(ProgressIndicatorDemoAnimation_t7B29F2360D73ABC7C54BDD39A60FEDCEF296136B, ___progressIndicator_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5951[6] = 
-{
-	static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__8_t887908CAB2E71887FEB78F7FF428C8A040E8D063, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__8_t887908CAB2E71887FEB78F7FF428C8A040E8D063, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__8_t887908CAB2E71887FEB78F7FF428C8A040E8D063, ___U3CU3E4__this_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__8_t887908CAB2E71887FEB78F7FF428C8A040E8D063, ___U3CasyncMethodU3E5__2_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__8_t887908CAB2E71887FEB78F7FF428C8A040E8D063, ___U3CU3Eu__1_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__8_t887908CAB2E71887FEB78F7FF428C8A040E8D063, ___U3CU3Eu__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5952[6] = 
-{
-	static_cast<int32_t>(offsetof(U3CAsyncMethodU3Ed__9_tA211525E64A6565130D794621481D42932ABD6DE, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CAsyncMethodU3Ed__9_tA211525E64A6565130D794621481D42932ABD6DE, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CAsyncMethodU3Ed__9_tA211525E64A6565130D794621481D42932ABD6DE, ___U3CU3E4__this_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CAsyncMethodU3Ed__9_tA211525E64A6565130D794621481D42932ABD6DE, ___U3CtimeStartedU3E5__2_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CAsyncMethodU3Ed__9_tA211525E64A6565130D794621481D42932ABD6DE, ___U3CstartPosU3E5__3_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CAsyncMethodU3Ed__9_tA211525E64A6565130D794621481D42932ABD6DE, ___U3CU3Eu__1_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5953[6] = 
-{
-	static_cast<int32_t>(offsetof(ProgressIndicatorDemoAsyncMethod_tB2B716567DD8AC03476FC91788FBE65C13A54A57, ___progressIndicatorObject_4)),static_cast<int32_t>(offsetof(ProgressIndicatorDemoAsyncMethod_tB2B716567DD8AC03476FC91788FBE65C13A54A57, ___asyncTaskDuration_5)),static_cast<int32_t>(offsetof(ProgressIndicatorDemoAsyncMethod_tB2B716567DD8AC03476FC91788FBE65C13A54A57, ___coffeeCurve_6)),static_cast<int32_t>(offsetof(ProgressIndicatorDemoAsyncMethod_tB2B716567DD8AC03476FC91788FBE65C13A54A57, ___coffeeTransform_7)),static_cast<int32_t>(offsetof(ProgressIndicatorDemoAsyncMethod_tB2B716567DD8AC03476FC91788FBE65C13A54A57, ___progressIndicator_8)),static_cast<int32_t>(offsetof(ProgressIndicatorDemoAsyncMethod_tB2B716567DD8AC03476FC91788FBE65C13A54A57, ___tokenSource_9)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5954[9] = 
-{
-	static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__4_t55233A54F0642FBA86A50DC731506B6D4AFFB116, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__4_t55233A54F0642FBA86A50DC731506B6D4AFFB116, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__4_t55233A54F0642FBA86A50DC731506B6D4AFFB116, ___U3CU3E4__this_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__4_t55233A54F0642FBA86A50DC731506B6D4AFFB116, ___U3CindicatorU3E5__2_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__4_t55233A54F0642FBA86A50DC731506B6D4AFFB116, ___U3CsceneTaskU3E5__3_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__4_t55233A54F0642FBA86A50DC731506B6D4AFFB116, ___U3CprogressMessageU3E5__4_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__4_t55233A54F0642FBA86A50DC731506B6D4AFFB116, ___U3CtimeStartedU3E5__5_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__4_t55233A54F0642FBA86A50DC731506B6D4AFFB116, ___U3CU3Eu__1_7)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CStartProgressBehaviorU3Ed__4_t55233A54F0642FBA86A50DC731506B6D4AFFB116, ___U3CU3Eu__2_8)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5955[4] = 
-{
-	static_cast<int32_t>(offsetof(ProgressIndicatorDemoSceneLoad_tF22EAC3534317BF3822EC9E7B732348724FFFD00, ___progressIndicatorObject_4)),static_cast<int32_t>(offsetof(ProgressIndicatorDemoSceneLoad_tF22EAC3534317BF3822EC9E7B732348724FFFD00, ___sceneToLoad_5)),static_cast<int32_t>(offsetof(ProgressIndicatorDemoSceneLoad_tF22EAC3534317BF3822EC9E7B732348724FFFD00, ___loadDelay_6)),static_cast<int32_t>(offsetof(ProgressIndicatorDemoSceneLoad_tF22EAC3534317BF3822EC9E7B732348724FFFD00, ___startedProgressBehavior_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5956[1] = 
-{
-	static_cast<int32_t>(offsetof(SliderLunarLander_t8581E51E62C5EE44A746ED6BDDE123AFFCD9364E, ___transformLandingGear_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5958[8] = 
-{
-	static_cast<int32_t>(offsetof(U3CConstructAsyncU3Ed__19_t40117FBE2EE7F02344F1DE0286819F2EFFF8602A, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructAsyncU3Ed__19_t40117FBE2EE7F02344F1DE0286819F2EFFF8602A, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructAsyncU3Ed__19_t40117FBE2EE7F02344F1DE0286819F2EFFF8602A, ___gltfObject_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructAsyncU3Ed__19_t40117FBE2EE7F02344F1DE0286819F2EFFF8602A, ___U3CrootObjectU3E5__2_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructAsyncU3Ed__19_t40117FBE2EE7F02344F1DE0286819F2EFFF8602A, ___U3CU3Eu__1_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructAsyncU3Ed__19_t40117FBE2EE7F02344F1DE0286819F2EFFF8602A, ___U3CU3Eu__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructAsyncU3Ed__19_t40117FBE2EE7F02344F1DE0286819F2EFFF8602A, ___U3CiU3E5__3_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructAsyncU3Ed__19_t40117FBE2EE7F02344F1DE0286819F2EFFF8602A, ___U3CU3Eu__3_7)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5959[11] = 
-{
-	static_cast<int32_t>(offsetof(U3CConstructTextureAsyncU3Ed__21_tFECFADD116B03B9A6C60E669695990B7336FE93B, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructTextureAsyncU3Ed__21_tFECFADD116B03B9A6C60E669695990B7336FE93B, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructTextureAsyncU3Ed__21_tFECFADD116B03B9A6C60E669695990B7336FE93B, ___gltfObject_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructTextureAsyncU3Ed__21_tFECFADD116B03B9A6C60E669695990B7336FE93B, ___gltfTexture_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructTextureAsyncU3Ed__21_tFECFADD116B03B9A6C60E669695990B7336FE93B, ___U3CU3Eu__1_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructTextureAsyncU3Ed__21_tFECFADD116B03B9A6C60E669695990B7336FE93B, ___U3CgltfImageU3E5__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructTextureAsyncU3Ed__21_tFECFADD116B03B9A6C60E669695990B7336FE93B, ___U3CimageDataU3E5__3_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructTextureAsyncU3Ed__21_tFECFADD116B03B9A6C60E669695990B7336FE93B, ___U3CtextureU3E5__4_7)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructTextureAsyncU3Ed__21_tFECFADD116B03B9A6C60E669695990B7336FE93B, ___U3CU3Eu__2_8)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructTextureAsyncU3Ed__21_tFECFADD116B03B9A6C60E669695990B7336FE93B, ___U3CU3Eu__3_9)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructTextureAsyncU3Ed__21_tFECFADD116B03B9A6C60E669695990B7336FE93B, ___U3CU3Eu__4_10)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5960[8] = 
-{
-	static_cast<int32_t>(offsetof(U3CConstructMaterialAsyncU3Ed__22_t9757C259B087485396C958AA478BA07B9FE19553, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMaterialAsyncU3Ed__22_t9757C259B087485396C958AA478BA07B9FE19553, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMaterialAsyncU3Ed__22_t9757C259B087485396C958AA478BA07B9FE19553, ___gltfObject_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMaterialAsyncU3Ed__22_t9757C259B087485396C958AA478BA07B9FE19553, ___gltfMaterial_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMaterialAsyncU3Ed__22_t9757C259B087485396C958AA478BA07B9FE19553, ___materialId_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMaterialAsyncU3Ed__22_t9757C259B087485396C958AA478BA07B9FE19553, ___U3CU3Eu__1_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMaterialAsyncU3Ed__22_t9757C259B087485396C958AA478BA07B9FE19553, ___U3CU3Eu__2_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMaterialAsyncU3Ed__22_t9757C259B087485396C958AA478BA07B9FE19553, ___U3CU3Eu__3_7)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5961[12] = 
-{
-	static_cast<int32_t>(offsetof(U3CCreateMRTKShaderMaterialU3Ed__23_tCE2211BBA6CDDC43B5CD3A139E76D867F6D54B15, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateMRTKShaderMaterialU3Ed__23_tCE2211BBA6CDDC43B5CD3A139E76D867F6D54B15, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateMRTKShaderMaterialU3Ed__23_tCE2211BBA6CDDC43B5CD3A139E76D867F6D54B15, ___gltfMaterial_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateMRTKShaderMaterialU3Ed__23_tCE2211BBA6CDDC43B5CD3A139E76D867F6D54B15, ___materialId_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateMRTKShaderMaterialU3Ed__23_tCE2211BBA6CDDC43B5CD3A139E76D867F6D54B15, ___gltfObject_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateMRTKShaderMaterialU3Ed__23_tCE2211BBA6CDDC43B5CD3A139E76D867F6D54B15, ___U3CmaterialU3E5__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateMRTKShaderMaterialU3Ed__23_tCE2211BBA6CDDC43B5CD3A139E76D867F6D54B15, ___U3CtextureU3E5__3_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateMRTKShaderMaterialU3Ed__23_tCE2211BBA6CDDC43B5CD3A139E76D867F6D54B15, ___U3CpixelsU3E5__4_7)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateMRTKShaderMaterialU3Ed__23_tCE2211BBA6CDDC43B5CD3A139E76D867F6D54B15, ___U3CocclusionPixelsU3E5__5_8)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateMRTKShaderMaterialU3Ed__23_tCE2211BBA6CDDC43B5CD3A139E76D867F6D54B15, ___U3CpixelCacheU3E5__6_9)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateMRTKShaderMaterialU3Ed__23_tCE2211BBA6CDDC43B5CD3A139E76D867F6D54B15, ___U3CU3Eu__1_10)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateMRTKShaderMaterialU3Ed__23_tCE2211BBA6CDDC43B5CD3A139E76D867F6D54B15, ___U3CU3Eu__2_11)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5962[11] = 
-{
-	static_cast<int32_t>(offsetof(U3CCreateStandardShaderMaterialU3Ed__24_tCDF078FF2BCC8183F5D3542224A223EDA435591B, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateStandardShaderMaterialU3Ed__24_tCDF078FF2BCC8183F5D3542224A223EDA435591B, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateStandardShaderMaterialU3Ed__24_tCDF078FF2BCC8183F5D3542224A223EDA435591B, ___gltfMaterial_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateStandardShaderMaterialU3Ed__24_tCDF078FF2BCC8183F5D3542224A223EDA435591B, ___materialId_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateStandardShaderMaterialU3Ed__24_tCDF078FF2BCC8183F5D3542224A223EDA435591B, ___gltfObject_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateStandardShaderMaterialU3Ed__24_tCDF078FF2BCC8183F5D3542224A223EDA435591B, ___U3CmaterialU3E5__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateStandardShaderMaterialU3Ed__24_tCDF078FF2BCC8183F5D3542224A223EDA435591B, ___U3CtextureU3E5__3_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateStandardShaderMaterialU3Ed__24_tCDF078FF2BCC8183F5D3542224A223EDA435591B, ___U3CpixelsU3E5__4_7)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateStandardShaderMaterialU3Ed__24_tCDF078FF2BCC8183F5D3542224A223EDA435591B, ___U3CpixelCacheU3E5__5_8)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateStandardShaderMaterialU3Ed__24_tCDF078FF2BCC8183F5D3542224A223EDA435591B, ___U3CU3Eu__1_9)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CCreateStandardShaderMaterialU3Ed__24_tCDF078FF2BCC8183F5D3542224A223EDA435591B, ___U3CU3Eu__2_10)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5963[7] = 
-{
-	static_cast<int32_t>(offsetof(U3CConstructSceneAsyncU3Ed__25_t497C20BB5C1500E4E1699568634A2D3B3BA09A4D, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructSceneAsyncU3Ed__25_t497C20BB5C1500E4E1699568634A2D3B3BA09A4D, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructSceneAsyncU3Ed__25_t497C20BB5C1500E4E1699568634A2D3B3BA09A4D, ___gltfObject_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructSceneAsyncU3Ed__25_t497C20BB5C1500E4E1699568634A2D3B3BA09A4D, ___gltfScene_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructSceneAsyncU3Ed__25_t497C20BB5C1500E4E1699568634A2D3B3BA09A4D, ___root_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructSceneAsyncU3Ed__25_t497C20BB5C1500E4E1699568634A2D3B3BA09A4D, ___U3CiU3E5__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructSceneAsyncU3Ed__25_t497C20BB5C1500E4E1699568634A2D3B3BA09A4D, ___U3CU3Eu__1_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5964[14] = 
-{
-	static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___gltfObject_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___node_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___nodeId_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___parent_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___U3CnodeGameObjectU3E5__2_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___U3CpositionU3E5__3_7)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___U3CrotationU3E5__4_8)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___U3CscaleU3E5__5_9)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___U3CU3Eu__1_10)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___U3CU3Eu__2_11)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___U3CU3Eu__3_12)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructNodeAsyncU3Ed__26_t26A9E08FD70451DE853C722A53B6E25BA040B8FC, ___U3CiU3E5__6_13)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5965[15] = 
-{
-	static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___gltfObject_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___meshId_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___parent_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___U3CgltfMeshU3E5__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___U3CrendererU3E5__3_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___U3CfilterU3E5__4_7)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___U3CmaterialsU3E5__5_8)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___U3CmeshCombinesU3E5__6_9)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___U3CU3E7__wrap6_10)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___U3CU3Eu__1_11)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___U3CiU3E5__8_12)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___U3CU3E7__wrap8_13)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshAsyncU3Ed__27_t1E29CBB7A0B52CD59327489205CAE0A91E7FA3F8, ___U3CU3E7__wrap9_14)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5966[18] = 
-{
-	static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___gltfObject_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___meshPrimitive_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CpositionAccessorU3E5__2_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CnormalsAccessorU3E5__3_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CtextCoord0AccessorU3E5__4_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CtextCoord1AccessorU3E5__5_7)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CtextCoord2AccessorU3E5__6_8)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CtextCoord3AccessorU3E5__7_9)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CcolorAccessorU3E5__8_10)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CindicesAccessorU3E5__9_11)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CtangentAccessorU3E5__10_12)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3Cweight0AccessorU3E5__11_13)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3Cjoint0AccessorU3E5__12_14)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CvertexCountU3E5__13_15)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CU3Eu__1_16)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CConstructMeshPrimitiveAsyncU3Ed__28_tDA709AECB6EA53E0073D7A3D1A57C0520CF06E67, ___U3CU3Eu__2_17)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5967[18] = 
-{
-	static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___Update_0)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___BackgroundThread_1)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___SrcBlendId_2)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___DstBlendId_3)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___ZWriteId_4)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___ModeId_5)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___EmissionMapId_6)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___EmissionColorId_7)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___MetallicGlossMapId_8)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___GlossinessId_9)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___MetallicId_10)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___BumpMapId_11)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___EmissiveColorId_12)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___ChannelMapId_13)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___SmoothnessId_14)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___NormalMapId_15)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___NormalMapScaleId_16)),static_cast<int32_t>(offsetof(ConstructGltf_tBD072A7E13B5DFD65570CA2AC3AD3A6E265ED873_StaticFields, ___CullModeId_17)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5968[6] = 
-{
-	static_cast<int32_t>(offsetof(GltfConversions_t67AF627D18C98228AC936744C7FB9446D9C854A9_StaticFields, ___CoordinateSpaceConversionScale_0)),static_cast<int32_t>(offsetof(GltfConversions_t67AF627D18C98228AC936744C7FB9446D9C854A9_StaticFields, ___TangentSpaceConversionScale_1)),static_cast<int32_t>(offsetof(GltfConversions_t67AF627D18C98228AC936744C7FB9446D9C854A9_StaticFields, ___scalar_2)),static_cast<int32_t>(offsetof(GltfConversions_t67AF627D18C98228AC936744C7FB9446D9C854A9_StaticFields, ___vec2_3)),static_cast<int32_t>(offsetof(GltfConversions_t67AF627D18C98228AC936744C7FB9446D9C854A9_StaticFields, ___vec3_4)),static_cast<int32_t>(offsetof(GltfConversions_t67AF627D18C98228AC936744C7FB9446D9C854A9_StaticFields, ___vec4_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5969[2] = 
-{
-	static_cast<int32_t>(offsetof(StringKeyValue_tD9EB6E07D3CDF18EE20CC33D91329AF985D5F84E, ___key_0)),static_cast<int32_t>(offsetof(StringKeyValue_tD9EB6E07D3CDF18EE20CC33D91329AF985D5F84E, ___value_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5970[1] = 
-{
-	static_cast<int32_t>(offsetof(StringIntKeyValueArray_tA64868B8EC443B73E7399261ECE6696407C31664, ___items_0)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5971[2] = 
-{
-	static_cast<int32_t>(offsetof(GltfUtility_tB487A0413ACA26A6E55807D6D2C79345B1631B95_StaticFields, ___Update_0)),static_cast<int32_t>(offsetof(GltfUtility_tB487A0413ACA26A6E55807D6D2C79345B1631B95_StaticFields, ___BackgroundThread_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5972[8] = 
-{
-	static_cast<int32_t>(offsetof(GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE, ___bufferView_3)),static_cast<int32_t>(offsetof(GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE, ___byteOffset_4)),static_cast<int32_t>(offsetof(GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE, ___U3CComponentTypeU3Ek__BackingField_5)),static_cast<int32_t>(offsetof(GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE, ___componentType_6)),static_cast<int32_t>(offsetof(GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE, ___normalized_7)),static_cast<int32_t>(offsetof(GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE, ___count_8)),static_cast<int32_t>(offsetof(GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE, ___type_9)),static_cast<int32_t>(offsetof(GltfAccessor_t9F62D92B0420916F95164BBF95EEC6C1F83966FE, ___U3CBufferViewU3Ek__BackingField_10)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5973[8] = 
-{
-	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5974[1] = 
-{
-	static_cast<int32_t>(offsetof(GltfAssetInfo_t7F7D2FC5E3D97C2BA2FE68A6C5E094E41FDDB347, ___version_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5975[2] = 
-{
-	static_cast<int32_t>(offsetof(GltfBuffer_t9ACEE0DB23B46D23D79505AF603E1C43CD0D5A9D, ___uri_3)),static_cast<int32_t>(offsetof(GltfBuffer_t9ACEE0DB23B46D23D79505AF603E1C43CD0D5A9D, ___U3CBufferDataU3Ek__BackingField_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5976[7] = 
-{
-	static_cast<int32_t>(offsetof(GltfBufferView_tB61A8CA71D369687844DE6E4F9C6A2F3AF64C26F, ___buffer_3)),static_cast<int32_t>(offsetof(GltfBufferView_tB61A8CA71D369687844DE6E4F9C6A2F3AF64C26F, ___byteOffset_4)),static_cast<int32_t>(offsetof(GltfBufferView_tB61A8CA71D369687844DE6E4F9C6A2F3AF64C26F, ___byteLength_5)),static_cast<int32_t>(offsetof(GltfBufferView_tB61A8CA71D369687844DE6E4F9C6A2F3AF64C26F, ___byteStride_6)),static_cast<int32_t>(offsetof(GltfBufferView_tB61A8CA71D369687844DE6E4F9C6A2F3AF64C26F, ___U3CTargetU3Ek__BackingField_7)),static_cast<int32_t>(offsetof(GltfBufferView_tB61A8CA71D369687844DE6E4F9C6A2F3AF64C26F, ___target_8)),static_cast<int32_t>(offsetof(GltfBufferView_tB61A8CA71D369687844DE6E4F9C6A2F3AF64C26F, ___U3CBufferU3Ek__BackingField_9)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5977[4] = 
-{
-	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5978[1] = 
-{
-	static_cast<int32_t>(offsetof(GltfChildOfRootProperty_tF2A03381C2838B104C996CDF06C173B13EF083E0, ___name_2)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5979[7] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5868[7] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5980[8] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5869[1] = 
 {
-	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5981[3] = 
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass10_0_t9D1A4364E0816A4979ED9916F1E666EF8FC1017F, ___animatablePropertyName_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5870[1] = 
 {
-	static_cast<int32_t>(offsetof(GltfImage_tEE5C9F2BC26E018CC354842D9B58C5D74A9D3277, ___uri_3)),static_cast<int32_t>(offsetof(GltfImage_tEE5C9F2BC26E018CC354842D9B58C5D74A9D3277, ___bufferView_4)),static_cast<int32_t>(offsetof(GltfImage_tEE5C9F2BC26E018CC354842D9B58C5D74A9D3277, ___U3CTextureU3Ek__BackingField_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5982[9] = 
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass12_0_tB9181FA96825A54D758833C3330D0BFD9D808E25, ___animatablePropertyTypeName_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5871[2] = 
 {
-	static_cast<int32_t>(offsetof(GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D, ___pbrMetallicRoughness_3)),static_cast<int32_t>(offsetof(GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D, ___normalTexture_4)),static_cast<int32_t>(offsetof(GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D, ___occlusionTexture_5)),static_cast<int32_t>(offsetof(GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D, ___emissiveTexture_6)),static_cast<int32_t>(offsetof(GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D, ___emissiveFactor_7)),static_cast<int32_t>(offsetof(GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D, ___alphaMode_8)),static_cast<int32_t>(offsetof(GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D, ___alphaCutoff_9)),static_cast<int32_t>(offsetof(GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D, ___doubleSided_10)),static_cast<int32_t>(offsetof(GltfMaterial_t3B04ECCAE42BD2FD43A7BA88D2E25BEEFD1BCB4D, ___U3CMaterialU3Ek__BackingField_11)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5983[2] = 
+	static_cast<int32_t>(offsetof(AnimationTarget_t06ADC4EFE5DA6D8BC41C4FC33A46159D72C088D1, ___target_0)),static_cast<int32_t>(offsetof(AnimationTarget_t06ADC4EFE5DA6D8BC41C4FC33A46159D72C088D1, ___stateAnimatableProperties_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5872[1] = 
 {
-	static_cast<int32_t>(offsetof(GltfMesh_t7BBCCCAAB377070DE5C8ED18C6CB70BAFCC8616A, ___primitives_3)),static_cast<int32_t>(offsetof(GltfMesh_t7BBCCCAAB377070DE5C8ED18C6CB70BAFCC8616A, ___U3CMeshU3Ek__BackingField_4)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5984[6] = 
+	static_cast<int32_t>(offsetof(ColorStateAnimatableProperty_t03807E49C7FB2B83B2505FF72B12C45505A1A9A2, ___color_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5874[1] = 
 {
-	static_cast<int32_t>(offsetof(GltfMeshPrimitive_tE068C0AD5BDE9D24E96F2E9370B488BBFA278543, ___indices_2)),static_cast<int32_t>(offsetof(GltfMeshPrimitive_tE068C0AD5BDE9D24E96F2E9370B488BBFA278543, ___material_3)),static_cast<int32_t>(offsetof(GltfMeshPrimitive_tE068C0AD5BDE9D24E96F2E9370B488BBFA278543, ___U3CModeU3Ek__BackingField_4)),static_cast<int32_t>(offsetof(GltfMeshPrimitive_tE068C0AD5BDE9D24E96F2E9370B488BBFA278543, ___mode_5)),static_cast<int32_t>(offsetof(GltfMeshPrimitive_tE068C0AD5BDE9D24E96F2E9370B488BBFA278543, ___U3CAttributesU3Ek__BackingField_6)),static_cast<int32_t>(offsetof(GltfMeshPrimitive_tE068C0AD5BDE9D24E96F2E9370B488BBFA278543, ___U3CSubMeshU3Ek__BackingField_7)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5986[10] = 
+	static_cast<int32_t>(offsetof(PositionOffsetStateAnimatableProperty_t5D37F86BAFCA1DF0A13BEB8D1B25A41527FCC0BE, ___positionOffset_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5875[1] = 
 {
-	static_cast<int32_t>(offsetof(GltfNode_t1DE513611BEF9635B9DA063DBEF9F3826D5C0B87, ___useTRS_3)),static_cast<int32_t>(offsetof(GltfNode_t1DE513611BEF9635B9DA063DBEF9F3826D5C0B87, ___camera_4)),static_cast<int32_t>(offsetof(GltfNode_t1DE513611BEF9635B9DA063DBEF9F3826D5C0B87, ___children_5)),static_cast<int32_t>(offsetof(GltfNode_t1DE513611BEF9635B9DA063DBEF9F3826D5C0B87, ___skin_6)),static_cast<int32_t>(offsetof(GltfNode_t1DE513611BEF9635B9DA063DBEF9F3826D5C0B87, ___matrix_7)),static_cast<int32_t>(offsetof(GltfNode_t1DE513611BEF9635B9DA063DBEF9F3826D5C0B87, ___U3CMatrixU3Ek__BackingField_8)),static_cast<int32_t>(offsetof(GltfNode_t1DE513611BEF9635B9DA063DBEF9F3826D5C0B87, ___mesh_9)),static_cast<int32_t>(offsetof(GltfNode_t1DE513611BEF9635B9DA063DBEF9F3826D5C0B87, ___rotation_10)),static_cast<int32_t>(offsetof(GltfNode_t1DE513611BEF9635B9DA063DBEF9F3826D5C0B87, ___scale_11)),static_cast<int32_t>(offsetof(GltfNode_t1DE513611BEF9635B9DA063DBEF9F3826D5C0B87, ___translation_12)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5987[1] = 
+	static_cast<int32_t>(offsetof(ScaleOffsetStateAnimatableProperty_t3E64CAD04392E20353C58D453FA6C521BE9B32E0, ___scaleOffset_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5876[1] = 
 {
-	static_cast<int32_t>(offsetof(GltfNormalTextureInfo_tF9568A7E5C4AC7D7450521824B33015C290E01C7, ___scale_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5988[18] = 
+	static_cast<int32_t>(offsetof(ShaderColorStateAnimatableProperty_t24B886C9260F86E9404A9016DA53E7776933D5B8, ___shaderPropertyColorValue_5)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5877[1] = 
 {
-	static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___extensionsUsed_2)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___extensionsRequired_3)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___accessors_4)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___asset_5)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___buffers_6)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___bufferViews_7)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___images_8)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___materials_9)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___meshes_10)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___nodes_11)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___scenes_12)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___textures_13)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___U3CNameU3Ek__BackingField_14)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___U3CUriU3Ek__BackingField_15)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___U3CGameObjectReferenceU3Ek__BackingField_16)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___U3CNodeGameObjectPairsU3Ek__BackingField_17)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___U3CRegisteredExtensionsU3Ek__BackingField_18)),static_cast<int32_t>(offsetof(GltfObject_t01406610671599590A9A62632F753580951C5438, ___U3CUseBackgroundThreadU3Ek__BackingField_19)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5989[1] = 
+	static_cast<int32_t>(offsetof(ShaderFloatStateAnimatableProperty_t702701C13D45EFD8FDFA1BD10BACA14546841020, ___shaderPropertyFloatValue_5)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5878[1] = 
 {
-	static_cast<int32_t>(offsetof(GltfOcclusionTextureInfo_tBE78A49FF65C0470767DFE05EE44A7904C9219BE, ___strength_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5990[5] = 
+	static_cast<int32_t>(offsetof(ShaderStateAnimatableProperty_t7407B99A38B72819CE57E8B6DB811A431F79E999, ___shaderPropertyName_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5879[1] = 
 {
-	static_cast<int32_t>(offsetof(GltfPbrMetallicRoughness_tE1C97C2E1DBF76682B6014767E14D2563298C458, ___baseColorFactor_2)),static_cast<int32_t>(offsetof(GltfPbrMetallicRoughness_tE1C97C2E1DBF76682B6014767E14D2563298C458, ___baseColorTexture_3)),static_cast<int32_t>(offsetof(GltfPbrMetallicRoughness_tE1C97C2E1DBF76682B6014767E14D2563298C458, ___metallicFactor_4)),static_cast<int32_t>(offsetof(GltfPbrMetallicRoughness_tE1C97C2E1DBF76682B6014767E14D2563298C458, ___roughnessFactor_5)),static_cast<int32_t>(offsetof(GltfPbrMetallicRoughness_tE1C97C2E1DBF76682B6014767E14D2563298C458, ___metallicRoughnessTexture_6)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5991[2] = 
+	static_cast<int32_t>(offsetof(ShaderVectorStateAnimatableProperty_t418CA0E74DCE80F26C1FF9D4C6485E7EFAB93DED, ___shaderPropertyVectorValue_5)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5880[4] = 
 {
-	static_cast<int32_t>(offsetof(GltfProperty_t39E80BE0E3D85586DF7F81F12E39B56170F7E188, ___Extensions_0)),static_cast<int32_t>(offsetof(GltfProperty_t39E80BE0E3D85586DF7F81F12E39B56170F7E188, ___Extras_1)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5992[1] = 
+	static_cast<int32_t>(offsetof(StateAnimatableProperty_tD4B65E13AD8E7377718E1D108DC5A9391F8213B7, ___animatablePropertyName_0)),static_cast<int32_t>(offsetof(StateAnimatableProperty_tD4B65E13AD8E7377718E1D108DC5A9391F8213B7, ___stateName_1)),static_cast<int32_t>(offsetof(StateAnimatableProperty_tD4B65E13AD8E7377718E1D108DC5A9391F8213B7, ___target_2)),static_cast<int32_t>(offsetof(StateAnimatableProperty_tD4B65E13AD8E7377718E1D108DC5A9391F8213B7, ___animationDuration_3)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5881[3] = 
 {
-	static_cast<int32_t>(offsetof(GltfScene_t9920A88AC046ED939673CAC600CCDE337956CBEF, ___nodes_3)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5993[3] = 
+	static_cast<int32_t>(offsetof(StateContainer_t51242782C9095F89F256ABC7B2CFDC798B9C0B1D, ___stateName_0)),static_cast<int32_t>(offsetof(StateContainer_t51242782C9095F89F256ABC7B2CFDC798B9C0B1D, ___animationTargets_1)),static_cast<int32_t>(offsetof(StateContainer_t51242782C9095F89F256ABC7B2CFDC798B9C0B1D, ___animationClip_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5882[1] = 
 {
-	static_cast<int32_t>(offsetof(GltfTexture_tAE6C08BC1161971F0CD1056F611A8680319B7176, ___sampler_3)),static_cast<int32_t>(offsetof(GltfTexture_tAE6C08BC1161971F0CD1056F611A8680319B7176, ___source_4)),static_cast<int32_t>(offsetof(GltfTexture_tAE6C08BC1161971F0CD1056F611A8680319B7176, ___U3CTextureU3Ek__BackingField_5)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5994[1] = 
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass18_0_t92F4F0E7C72D6E17AD8B648C7A0D566337999025, ___stateContainer_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5883[1] = 
 {
-	static_cast<int32_t>(offsetof(GltfTextureInfo_t8E26D121D3752ED99A0182AF90E60B5493555496, ___index_2)),};
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass19_0_t157A8C0FDD997D575B88C654D7E3ABF049E06E3D, ___stateName_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5884[1] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass21_0_tC04BA6DFC00B16B22302B14717E3CA1AAD67A074, ___stateName_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5885[2] = 
+{
+	0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5886[4] = 
+{
+	static_cast<int32_t>(offsetof(StateVisualizer_tA39FCAAD6DA3B1A710A6FFFF16C22397AAF8FF92, ___stateContainers_4)),static_cast<int32_t>(offsetof(StateVisualizer_tA39FCAAD6DA3B1A710A6FFFF16C22397AAF8FF92, ___interactiveElement_5)),static_cast<int32_t>(offsetof(StateVisualizer_tA39FCAAD6DA3B1A710A6FFFF16C22397AAF8FF92, ___animator_6)),static_cast<int32_t>(offsetof(StateVisualizer_tA39FCAAD6DA3B1A710A6FFFF16C22397AAF8FF92, ___stateManager_7)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5887[1] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass55_0_t9DD709FF0BA1CDF51BF33BB23321F3DAC9146316, ___stateName_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5888[1] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass56_0_t909DECA59467D70DDFFA7C950A1D64576BF51B49, ___stateName_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5889[13] = 
+{
+	static_cast<int32_t>(offsetof(BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60, ___active_4)),static_cast<int32_t>(offsetof(BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60, ___states_5)),static_cast<int32_t>(offsetof(BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60, ___U3CStateManagerU3Ek__BackingField_6)),static_cast<int32_t>(offsetof(BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60, ___DefaultStateName_7)),static_cast<int32_t>(offsetof(BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60, ___FocusStateName_8)),static_cast<int32_t>(offsetof(BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60, ___FocusNearStateName_9)),static_cast<int32_t>(offsetof(BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60, ___FocusFarStateName_10)),static_cast<int32_t>(offsetof(BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60, ___TouchStateName_11)),static_cast<int32_t>(offsetof(BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60, ___SelectFarStateName_12)),static_cast<int32_t>(offsetof(BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60, ___ClickedStateName_13)),static_cast<int32_t>(offsetof(BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60, ___ToggleOnStateName_14)),static_cast<int32_t>(offsetof(BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60, ___ToggleOffStateName_15)),static_cast<int32_t>(offsetof(BaseInteractiveElement_t4624A52D7A3C48545665ADC5D41880ACC63A1C60, ___SpeechKeywordStateName_16)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5890[3] = 
+{
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5891[6] = 
+{
+	static_cast<int32_t>(offsetof(U3CAnimateHighlightPlateU3Ed__104_t9592C6105104CF1C0D7B278C3E43E3924F027AD7, ___U3CU3E1__state_0)),static_cast<int32_t>(offsetof(U3CAnimateHighlightPlateU3Ed__104_t9592C6105104CF1C0D7B278C3E43E3924F027AD7, ___U3CU3E2__current_1)),static_cast<int32_t>(offsetof(U3CAnimateHighlightPlateU3Ed__104_t9592C6105104CF1C0D7B278C3E43E3924F027AD7, ___U3CU3E4__this_2)),static_cast<int32_t>(offsetof(U3CAnimateHighlightPlateU3Ed__104_t9592C6105104CF1C0D7B278C3E43E3924F027AD7, ___fadeIn_3)),static_cast<int32_t>(offsetof(U3CAnimateHighlightPlateU3Ed__104_t9592C6105104CF1C0D7B278C3E43E3924F027AD7, ___time_4)),static_cast<int32_t>(offsetof(U3CAnimateHighlightPlateU3Ed__104_t9592C6105104CF1C0D7B278C3E43E3924F027AD7, ___U3CblendTimeU3E5__2_5)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5892[29] = 
+{
+	0,static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___hasStarted_18)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___movingButtonVisuals_19)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___distanceSpaceMode_20)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___startPushDistance_21)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___maxPushDistance_22)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___pressDistance_23)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___releaseDistanceDelta_24)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___returnSpeed_25)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___releaseOnTouchEnd_26)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___enforceFrontPush_27)),0,static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___touchPoints_29)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___currentInputSources_30)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___currentPushDistance_31)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___isTouching_32)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___PressedNearStateName_33)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___U3CIsPressingU3Ek__BackingField_34)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___movingVisualsInitialLocalPosition_35)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___movingButtonIconText_36)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___compressableButtonVisuals_37)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___minCompressPercentage_38)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___highlightPlate_39)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___highlightPlateAnimationTime_40)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___initialCompressableButtonVisualsLocalScale_41)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___fluentLightIntensityID_42)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___targetFluentLightIntensity_43)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___properties_44)),static_cast<int32_t>(offsetof(CompressableButton_t9B118B5E9401B687FE5D7A13D7A0E65E3B0353D8, ___highlightPlateAnimationRoutine_45)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5893[11] = 
+{
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5897[6] = 
+{
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5898[2] = 
+{
+	static_cast<int32_t>(offsetof(KeywordEvent_tA4CED157B5B726FCE7A82767FCE9BE15867FCFCC, ___keyword_0)),static_cast<int32_t>(offsetof(KeywordEvent_tA4CED157B5B726FCE7A82767FCE9BE15867FCFCC, ___OnKeywordRecognized_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5902[1] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass10_0_tD24BD7CD02A508C7F36620CC0A13DCF260EDC2A9, ___subStateName_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5903[1] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass11_0_t2D782E76BEAAF487B92253C105BC3FA1339212EE, ___subStateName_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5904[2] = 
+{
+	static_cast<int32_t>(offsetof(EventReceiverManager_t7E0B14D27774134C68DD0C872B4A85EE8A2AC557, ___U3CEventReceiversU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(EventReceiverManager_t7E0B14D27774134C68DD0C872B4A85EE8A2AC557, ___stateManager_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5905[2] = 
+{
+	static_cast<int32_t>(offsetof(BaseInteractionEventConfiguration_t66E9BD80D3A37676F2496A9ACB593AD8BA33486B, ___stateName_0)),static_cast<int32_t>(offsetof(BaseInteractionEventConfiguration_t66E9BD80D3A37676F2496A9ACB593AD8BA33486B, ___U3CEventReceiverU3Ek__BackingField_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5906[1] = 
+{
+	static_cast<int32_t>(offsetof(ClickedEvents_t017E689D55DCF8D5ED2650E6FFEB90D83B11B1FC, ___OnClicked_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5907[2] = 
+{
+	static_cast<int32_t>(offsetof(FocusEvents_tD0F95CC7712951F698AF2FE75E950B32DDA07856, ___OnFocusOn_2)),static_cast<int32_t>(offsetof(FocusEvents_tD0F95CC7712951F698AF2FE75E950B32DDA07856, ___OnFocusOff_3)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5908[3] = 
+{
+	static_cast<int32_t>(offsetof(PressedNearEvents_t60CA95C9AF30A908C4CBC2F0FA8CF97A23C6EC0A, ___OnButtonPressed_2)),static_cast<int32_t>(offsetof(PressedNearEvents_t60CA95C9AF30A908C4CBC2F0FA8CF97A23C6EC0A, ___OnButtonPressReleased_3)),static_cast<int32_t>(offsetof(PressedNearEvents_t60CA95C9AF30A908C4CBC2F0FA8CF97A23C6EC0A, ___OnButtonPressHold_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5909[6] = 
+{
+	static_cast<int32_t>(offsetof(SelectFarEvents_tD931F3645DA0510941657655A771FF1BFD2A8AF6, ___global_2)),static_cast<int32_t>(offsetof(SelectFarEvents_tD931F3645DA0510941657655A771FF1BFD2A8AF6, ___OnGlobalChanged_3)),static_cast<int32_t>(offsetof(SelectFarEvents_tD931F3645DA0510941657655A771FF1BFD2A8AF6, ___OnSelectDown_4)),static_cast<int32_t>(offsetof(SelectFarEvents_tD931F3645DA0510941657655A771FF1BFD2A8AF6, ___OnSelectUp_5)),static_cast<int32_t>(offsetof(SelectFarEvents_tD931F3645DA0510941657655A771FF1BFD2A8AF6, ___OnSelectHold_6)),static_cast<int32_t>(offsetof(SelectFarEvents_tD931F3645DA0510941657655A771FF1BFD2A8AF6, ___OnSelectClicked_7)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5910[4] = 
+{
+	static_cast<int32_t>(offsetof(SpeechKeywordEvents_t85EE0C5B89936D11638FBFCA09194AC74D184767, ___global_2)),static_cast<int32_t>(offsetof(SpeechKeywordEvents_t85EE0C5B89936D11638FBFCA09194AC74D184767, ___OnGlobalChanged_3)),static_cast<int32_t>(offsetof(SpeechKeywordEvents_t85EE0C5B89936D11638FBFCA09194AC74D184767, ___onAnySpeechKeywordRecognized_4)),static_cast<int32_t>(offsetof(SpeechKeywordEvents_t85EE0C5B89936D11638FBFCA09194AC74D184767, ___keywords_5)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5911[2] = 
+{
+	static_cast<int32_t>(offsetof(StateEvents_t5D9DEEB17824D9B42EDBD49FA46163D77D366588, ___OnStateOn_2)),static_cast<int32_t>(offsetof(StateEvents_t5D9DEEB17824D9B42EDBD49FA46163D77D366588, ___OnStateOff_3)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5912[1] = 
+{
+	static_cast<int32_t>(offsetof(ToggleOffEvents_tA073B496CC4C5CCFDDCF3B13777A566386D53F94, ___OnToggleOff_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5913[2] = 
+{
+	static_cast<int32_t>(offsetof(ToggleOnEvents_tC169D2BCC14C07E066184F50E38561265C626F68, ___isSelectedOnStart_2)),static_cast<int32_t>(offsetof(ToggleOnEvents_tC169D2BCC14C07E066184F50E38561265C626F68, ___OnToggleOn_3)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5914[3] = 
+{
+	static_cast<int32_t>(offsetof(TouchEvents_t9D5F82499DCD2A28C5D1CFEAAC1CA28235C78A29, ___OnTouchStarted_2)),static_cast<int32_t>(offsetof(TouchEvents_t9D5F82499DCD2A28C5D1CFEAAC1CA28235C78A29, ___OnTouchCompleted_3)),static_cast<int32_t>(offsetof(TouchEvents_t9D5F82499DCD2A28C5D1CFEAAC1CA28235C78A29, ___OnTouchUpdated_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5915[2] = 
+{
+	static_cast<int32_t>(offsetof(BaseEventReceiver_t24F934A3FE65D924C8A2E1A231A9917DD999BC7C, ___U3CEventConfigurationU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(BaseEventReceiver_t24F934A3FE65D924C8A2E1A231A9917DD999BC7C, ___U3CStateNameU3Ek__BackingField_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5917[1] = 
+{
+	static_cast<int32_t>(offsetof(FocusReceiver_tC0871C4C7C8E0A1E8DAE04514CD6005B19B7CEDE, ___hadFocus_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5918[1] = 
+{
+	static_cast<int32_t>(offsetof(PressedNearReceiver_t39F550067F049868CC0E9816069C2731D5E831D1, ___wasButtonPressedNear_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5919[1] = 
+{
+	static_cast<int32_t>(offsetof(SelectFarReceiver_t72CBC28D60E35C82AD04468BAAB7B4D98E7F7B9E, ___hadFarSelect_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5920[1] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass7_0_t5947D4F9250F4E552261F420D8C2D6CAB5EF1495, ___speechEventKeyword_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5922[1] = 
+{
+	static_cast<int32_t>(offsetof(StateReceiver_t974A5792C603E210FD23F8E5302E6248BF2721AB, ___wasStateOn_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5923[1] = 
+{
+	static_cast<int32_t>(offsetof(ToggleOffReceiver_t56301928018493DDE1F72DEAC078A9551BC54884, ___wasToggledOff_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5924[1] = 
+{
+	static_cast<int32_t>(offsetof(ToggleOnReceiver_t9DE78EB9FB43F3E9E3C439BAC8193F0EE54FDF86, ___wasToggledOn_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5925[1] = 
+{
+	static_cast<int32_t>(offsetof(TouchReceiver_tCBF3A3CDEF29179DBCD523451CD74F158E87E7E2, ___wasTouching_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5926[1] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass24_0_t35A50FCC9D32B543F50F744C9A7DFBFCE418A697, ___subStateName_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5927[8] = 
+{
+	static_cast<int32_t>(offsetof(InteractionState_t250F4B16FDF9EF61E9FE20F59F80A63008751FEA, ___stateName_0)),static_cast<int32_t>(offsetof(InteractionState_t250F4B16FDF9EF61E9FE20F59F80A63008751FEA, ___stateValue_1)),static_cast<int32_t>(offsetof(InteractionState_t250F4B16FDF9EF61E9FE20F59F80A63008751FEA, ___active_2)),static_cast<int32_t>(offsetof(InteractionState_t250F4B16FDF9EF61E9FE20F59F80A63008751FEA, ___interactionType_3)),static_cast<int32_t>(offsetof(InteractionState_t250F4B16FDF9EF61E9FE20F59F80A63008751FEA, ___eventConfiguration_4)),0,0,static_cast<int32_t>(offsetof(InteractionState_t250F4B16FDF9EF61E9FE20F59F80A63008751FEA, ___coreStates_7)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5930[3] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec_t739920B30B5589B536EB54FD0DA460E6CBCCD8FE_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t739920B30B5589B536EB54FD0DA460E6CBCCD8FE_StaticFields, ___U3CU3E9__14_0_1)),static_cast<int32_t>(offsetof(U3CU3Ec_t739920B30B5589B536EB54FD0DA460E6CBCCD8FE_StaticFields, ___U3CU3E9__14_1_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5931[2] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass39_0_tC2AC934B9F8FF0477B42C35ACCB531741C243B0E, ___eventConfiguration_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass39_0_tC2AC934B9F8FF0477B42C35ACCB531741C243B0E, ___U3CU3E4__this_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5932[2] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass39_1_tC63BE9D7E3E543A44798F9EE236BF1FF5B0A8CDE, ___eventConfiguration_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass39_1_tC63BE9D7E3E543A44798F9EE236BF1FF5B0A8CDE, ___U3CU3E4__this_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5933[12] = 
+{
+	static_cast<int32_t>(offsetof(StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346, ___U3CEventReceiverManagerU3Ek__BackingField_0)),static_cast<int32_t>(offsetof(StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346, ___U3COnStateActivatedU3Ek__BackingField_1)),static_cast<int32_t>(offsetof(StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346, ___U3COnStateDeactivatedU3Ek__BackingField_2)),static_cast<int32_t>(offsetof(StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346, ___U3CInteractiveElementU3Ek__BackingField_3)),static_cast<int32_t>(offsetof(StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346, ___statesDictionary_4)),static_cast<int32_t>(offsetof(StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346, ___interactionStates_5)),static_cast<int32_t>(offsetof(StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346, ___coreStates_6)),static_cast<int32_t>(offsetof(StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346, ___activeStates_7)),static_cast<int32_t>(offsetof(StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346, ___defaultStateName_8)),static_cast<int32_t>(offsetof(StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346, ___touchStateName_9)),static_cast<int32_t>(offsetof(StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346, ___selectFarStateName_10)),static_cast<int32_t>(offsetof(StateManager_t9EAF612CFBEF10BF9B37F622C1D1C7D0F0DB0346, ___speechKeywordStateName_11)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5934[2] = 
+{
+	static_cast<int32_t>(offsetof(ClickedStateMessage_tA656955CFA8D8757E9C8D7726EEBC6339365E276, ___InteractiveElement_4)),static_cast<int32_t>(offsetof(ClickedStateMessage_tA656955CFA8D8757E9C8D7726EEBC6339365E276, ___clickedState_5)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5935[2] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec_tEC69162B873B5370FA6D704CCF95682DF7283232_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_tEC69162B873B5370FA6D704CCF95682DF7283232_StaticFields, ___U3CU3E9__2_0_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5936[2] = 
+{
+	static_cast<int32_t>(offsetof(CustomStateSettingExample_t3EDF7DE3370F4DBC279B8D73E68625779DA25640, ___interactiveElement_4)),static_cast<int32_t>(offsetof(CustomStateSettingExample_t3EDF7DE3370F4DBC279B8D73E68625779DA25640, ___keyboardState_5)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5937[1] = 
+{
+	static_cast<int32_t>(offsetof(KeyboardEvents_tDB0155C516033E96F747900904631A5DD5ADA5EE, ___OnKKeyPressed_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5939[6] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec_tE39C7F290E60F923787F35B912C856D1CA967A3E_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_tE39C7F290E60F923787F35B912C856D1CA967A3E_StaticFields, ___U3CU3E9__2_0_1)),static_cast<int32_t>(offsetof(U3CU3Ec_tE39C7F290E60F923787F35B912C856D1CA967A3E_StaticFields, ___U3CU3E9__2_1_2)),static_cast<int32_t>(offsetof(U3CU3Ec_tE39C7F290E60F923787F35B912C856D1CA967A3E_StaticFields, ___U3CU3E9__10_0_3)),static_cast<int32_t>(offsetof(U3CU3Ec_tE39C7F290E60F923787F35B912C856D1CA967A3E_StaticFields, ___U3CU3E9__10_1_4)),static_cast<int32_t>(offsetof(U3CU3Ec_tE39C7F290E60F923787F35B912C856D1CA967A3E_StaticFields, ___U3CU3E9__11_0_5)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5940[1] = 
+{
+	static_cast<int32_t>(offsetof(InteractiveElementRuntimeExample_t741421AEA0D43C24B893062E5A3BBA8B79EBD12E, ___interactiveElement_4)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5943[2] = 
+{
+	static_cast<int32_t>(offsetof(Point_tC7E550DD1555DAAAA7CA4F85656FA70F81C23B18, ____x_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Point_tC7E550DD1555DAAAA7CA4F85656FA70F81C23B18, ____y_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5944[4] = 
+{
+	static_cast<int32_t>(offsetof(Rect_t30CC1879BAAB779EAEA49A91ACA636D57101EE48, ____x_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Rect_t30CC1879BAAB779EAEA49A91ACA636D57101EE48, ____y_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Rect_t30CC1879BAAB779EAEA49A91ACA636D57101EE48, ____width_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Rect_t30CC1879BAAB779EAEA49A91ACA636D57101EE48, ____height_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5945[2] = 
+{
+	static_cast<int32_t>(offsetof(Size_t463A0E21871C29D10F032F5EF3EAF615806D8A05, ____width_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(Size_t463A0E21871C29D10F032F5EF3EAF615806D8A05, ____height_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5949[3] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec_t678B6EA47CA63511310194953B54091E28640EC2_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t678B6EA47CA63511310194953B54091E28640EC2_StaticFields, ___U3CU3E9__0_0_1)),static_cast<int32_t>(offsetof(U3CU3Ec_t678B6EA47CA63511310194953B54091E28640EC2_StaticFields, ___U3CU3E9__0_1_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5951[1] = 
+{
+	static_cast<int32_t>(offsetof(AsyncInfoIdGenerator_t9A2B1D1850C86EBEEBDF53B62B5CD99F97D87C96_StaticFields, ___s_idGenerator_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5952[3] = 
+{
+	0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5953[3] = 
+{
+	0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5954[3] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec_t474B044207AC3819954D9AE072ACC1AEACA8B5CE_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t474B044207AC3819954D9AE072ACC1AEACA8B5CE_StaticFields, ___U3CU3E9__0_0_1)),static_cast<int32_t>(offsetof(U3CU3Ec_t474B044207AC3819954D9AE072ACC1AEACA8B5CE_StaticFields, ___U3CU3E9__0_1_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5956[4] = 
+{
+	0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5957[8] = 
+{
+	0,0,0,0,0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5963[1] = 
+{
+	0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5964[4] = 
+{
+	0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5965[4] = 
+{
+	0,0,0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5967[7] = 
+{
+	static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9_ThreadStaticFields, ___s_winRtMarshalProxy_0)) | THREAD_LOCAL_STATIC_MASK,static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9, ____data_1)),static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9, ____dataStartOffs_2)),static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9, ____usefulDataLength_3)),static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9, ____maxDataCapacity_4)),static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9, ____pinHandle_5)),static_cast<int32_t>(offsetof(WindowsRuntimeBuffer_t837856A4E67694A9E92B5424D2FDD0DD073504C9, ____dataPtr_6)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5968[1] = 
+{
+	static_cast<int32_t>(offsetof(WindowsRuntimeBufferUnmanagedMemoryStream_t30CA79558CFD4D7E1E1AE41F7DCC9589EE2809BE, ____sourceBuffer_13)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5974[3] = 
+{
+	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5975[3] = 
+{
+	static_cast<int32_t>(offsetof(NetFxToWinRtStreamAdapter_t59A0CD17C5212BFF3544C2EB44DF22BAE6358737, ____managedStream_0)),static_cast<int32_t>(offsetof(NetFxToWinRtStreamAdapter_t59A0CD17C5212BFF3544C2EB44DF22BAE6358737, ____leaveUnderlyingStreamOpen_1)),static_cast<int32_t>(offsetof(NetFxToWinRtStreamAdapter_t59A0CD17C5212BFF3544C2EB44DF22BAE6358737, ____readOptimization_2)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5976[10] = 
+{
+	static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____userCompletionCallback_0)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____userAsyncStateInfo_1)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____asyncStreamOperation_2)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____completed_3)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____callbackInvoked_4)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____waitHandle_5)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____bytesCompleted_6)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____errorInfo_7)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____processCompletedOperationInCallback_8)),static_cast<int32_t>(offsetof(StreamOperationAsyncResult_t1912A06CF3A2DABEF670B849F8B6DE94A360DCA5, ____completedOperation_9)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5977[1] = 
+{
+	static_cast<int32_t>(offsetof(StreamReadAsyncResult_t1F47DFA1E32A8FBC434C3B74D239D2F4888DDFBF, ____userBuffer_10)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5980[10] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CU3E4__this_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___cancelToken_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___progressListener_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CdataU3E5__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CoffsetU3E5__3_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CbytesCompletedU3E5__4_7)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CbytesReadU3E5__5_8)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CReadAsync_AbstractStreamU3Eb__0U3Ed_tB607A35AD145FE4406070D15E921A3F6FA68C63C, ___U3CU3Eu__1_9)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5981[4] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass1_0_t05B790464823435BFCF2DDD9EDD15BD109799D30, ___dataBuffer_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass1_0_t05B790464823435BFCF2DDD9EDD15BD109799D30, ___stream_1)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass1_0_t05B790464823435BFCF2DDD9EDD15BD109799D30, ___bytesRequested_2)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass1_0_t05B790464823435BFCF2DDD9EDD15BD109799D30, ___options_3)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5982[7] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___cancelToken_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___U3CU3E4__this_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___progressListener_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___U3CbytesToWriteU3E5__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__0U3Ed_t03D234E0E36C92DA9A5CA3811A6B2E30D9639AF2, ___U3CU3Eu__1_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5983[7] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___cancelToken_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___U3CU3E4__this_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___progressListener_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___U3CbytesToWriteU3E5__2_5)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CWriteAsync_AbstractStreamU3Eb__1U3Ed_t15BC749CED41367E2893FD2B368726119BD8EDA2, ___U3CU3Eu__1_6)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5984[4] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass2_0_t6E434BA73EA5DB3511A12C0C5CF9456D30D25FC5, ___buffer_0)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass2_0_t6E434BA73EA5DB3511A12C0C5CF9456D30D25FC5, ___stream_1)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass2_0_t6E434BA73EA5DB3511A12C0C5CF9456D30D25FC5, ___data_2)),static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass2_0_t6E434BA73EA5DB3511A12C0C5CF9456D30D25FC5, ___offset_3)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5985[5] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_tCAE4779681542A3A44DA232D516892B2CFB4DC34, ___U3CU3E1__state_0)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_tCAE4779681542A3A44DA232D516892B2CFB4DC34, ___U3CU3Et__builder_1)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_tCAE4779681542A3A44DA232D516892B2CFB4DC34, ___cancelToken_2)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_tCAE4779681542A3A44DA232D516892B2CFB4DC34, ___U3CU3E4__this_3)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(U3CU3CFlushAsync_AbstractStreamU3Eb__0U3Ed_tCAE4779681542A3A44DA232D516892B2CFB4DC34, ___U3CU3Eu__1_4)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5986[1] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec__DisplayClass3_0_tB7212D23536AE37D5E6EEFABD29F7A1DCCC5BFAA, ___stream_0)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5988[2] = 
+{
+	static_cast<int32_t>(offsetof(U3CU3Ec_t0031EA3631AC4363828C98AED7D52630379E6919_StaticFields, ___U3CU3E9_0)),static_cast<int32_t>(offsetof(U3CU3Ec_t0031EA3631AC4363828C98AED7D52630379E6919_StaticFields, ___U3CU3E9__18_0_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5989[2] = 
+{
+	static_cast<int32_t>(offsetof(WindowsRuntimeStreamExtensions_tB43F7551D4AF6F5480829903106AD0FFEDC81D9B_StaticFields, ___s_winRtToNetFxAdapterMap_0)),static_cast<int32_t>(offsetof(WindowsRuntimeStreamExtensions_tB43F7551D4AF6F5480829903106AD0FFEDC81D9B_StaticFields, ___s_netFxToWinRtAdapterMap_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5991[4] = 
+{
+	static_cast<int32_t>(offsetof(WinRtToNetFxStreamAdapter_tBEAE6FED1E85C5112CC31735818029E7737FB25D, ____winRtStream_4)),static_cast<int32_t>(offsetof(WinRtToNetFxStreamAdapter_tBEAE6FED1E85C5112CC31735818029E7737FB25D, ____canRead_5)),static_cast<int32_t>(offsetof(WinRtToNetFxStreamAdapter_tBEAE6FED1E85C5112CC31735818029E7737FB25D, ____canWrite_6)),static_cast<int32_t>(offsetof(WinRtToNetFxStreamAdapter_tBEAE6FED1E85C5112CC31735818029E7737FB25D, ____canSeek_7)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5993[2] = 
+{
+	static_cast<int32_t>(offsetof(enabling_t79794CB8AF64E47975BDBF937CC1892992D89E11, ___target_4)),static_cast<int32_t>(offsetof(enabling_t79794CB8AF64E47975BDBF937CC1892992D89E11, ___toggle_5)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5995[3] = 
+{
+	static_cast<int32_t>(offsetof(U10PS_DissolveOverTime_t686B027A69F3C5F2014992F8ABC7BE7746F8DD16, ___meshRenderer_4)),static_cast<int32_t>(offsetof(U10PS_DissolveOverTime_t686B027A69F3C5F2014992F8ABC7BE7746F8DD16, ___speed_5)),static_cast<int32_t>(offsetof(U10PS_DissolveOverTime_t686B027A69F3C5F2014992F8ABC7BE7746F8DD16, ___t_6)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5996[3] = 
+{
+	static_cast<int32_t>(offsetof(U10PS_ExampleReview_t1A3E1F333BA1EB0B0A0F862C945E0F5F8F3FAB43, ___exampleName_4)),static_cast<int32_t>(offsetof(U10PS_ExampleReview_t1A3E1F333BA1EB0B0A0F862C945E0F5F8F3FAB43, ___examples_5)),static_cast<int32_t>(offsetof(U10PS_ExampleReview_t1A3E1F333BA1EB0B0A0F862C945E0F5F8F3FAB43, ___currentIndex_6)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5997[2] = 
+{
+	static_cast<int32_t>(offsetof(Example_tFC02019DC7FAADE230F4FE0727EEE859AB7C1BE3, ___objects_0)),static_cast<int32_t>(offsetof(Example_tFC02019DC7FAADE230F4FE0727EEE859AB7C1BE3, ___name_1)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5998[5] = 
+{
+	static_cast<int32_t>(offsetof(U10PS_MouseRotation_t7160B7DA6A9741CEFDF581A7F20FFA23BB7188D9, ___sensitivity_4)),static_cast<int32_t>(offsetof(U10PS_MouseRotation_t7160B7DA6A9741CEFDF581A7F20FFA23BB7188D9, ___lockZRot_5)),static_cast<int32_t>(offsetof(U10PS_MouseRotation_t7160B7DA6A9741CEFDF581A7F20FFA23BB7188D9, ___lockMouse_6)),static_cast<int32_t>(offsetof(U10PS_MouseRotation_t7160B7DA6A9741CEFDF581A7F20FFA23BB7188D9, ___yValue_7)),static_cast<int32_t>(offsetof(U10PS_MouseRotation_t7160B7DA6A9741CEFDF581A7F20FFA23BB7188D9, ___zValue_8)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5999[3] = 
 {
-	static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4E11B38ADAF2BA5C2A43D7A52E5F4999FEE0DCA4_StaticFields, ___8A31A40ECAC0CEB4D87B30BD156CA7A547E8E33DC071454B765FBC777D1C34A1_0)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4E11B38ADAF2BA5C2A43D7A52E5F4999FEE0DCA4_StaticFields, ___CCC7977AE7987F37C2235E57C320A5142D6B58413825B6457A4A1C9FE469AC1C_1)),static_cast<int32_t>(offsetof(U3CPrivateImplementationDetailsU3E_t4E11B38ADAF2BA5C2A43D7A52E5F4999FEE0DCA4_StaticFields, ___F6BB1294DA2F78CD935B01C7656280DF5EAA0439E9D97BC03775825A41A508E4_2)),};
+	static_cast<int32_t>(offsetof(U10PS_SnowOverTime_t7EF4812316E9A8DD32C54A89794B433A0864541E, ___meshRenderer_4)),static_cast<int32_t>(offsetof(U10PS_SnowOverTime_t7EF4812316E9A8DD32C54A89794B433A0864541E, ___speed_5)),static_cast<int32_t>(offsetof(U10PS_SnowOverTime_t7EF4812316E9A8DD32C54A89794B433A0864541E, ___totalTime_6)),};

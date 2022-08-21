@@ -41,6 +41,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Provi
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Providers_XRSDK_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Providers_XRSDK_WindowsMixedReality_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_SDK_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_SDK_Experimental_Interactive_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_CameraSystem_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_DiagnosticsSystem_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Microsoft_MixedReality_Toolkit_Services_InputAnimation_CodeGenModule;
@@ -114,7 +115,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g___Generated_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_netstandard_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[95] = 
+const Il2CppCodeGenModule* g_CodeGenModules[96] = 
 {
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_I18N_CJK_CodeGenModule),
@@ -139,6 +140,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[95] =
 	(&g_Microsoft_MixedReality_Toolkit_Providers_XRSDK_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_Providers_XRSDK_WindowsMixedReality_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_SDK_CodeGenModule),
+	(&g_Microsoft_MixedReality_Toolkit_SDK_Experimental_Interactive_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_Services_CameraSystem_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_Services_DiagnosticsSystem_CodeGenModule),
 	(&g_Microsoft_MixedReality_Toolkit_Services_InputAnimation_CodeGenModule),
@@ -217,18 +219,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	8,
 	g_ReversePInvokeWrapperPointers,
-	69468,
+	69482,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	10918,
+	10919,
 	g_Il2CppInvokerPointers,
-	2636,
+	2637,
 	g_UnresolvedVirtualMethodPointers,
-	9077,
+	9149,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	95,
+	96,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;
