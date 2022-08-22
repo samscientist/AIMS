@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - enableChildManipulating
     Microsoft.MixedReality.OpenXR.dll:
     - Microsoft.MixedReality.OpenXR.HPMixedRealityControllerProfile
     - Microsoft.MixedReality.OpenXR.HandTrackingFeaturePlugin
@@ -15,6 +17,8 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.WindowsMixedReality.WindowsMixedRealityCameraSettingsProfile
     Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll:
     - Microsoft.MixedReality.Toolkit.XRSDK.Oculus.Input.OculusXRSDKDeviceManagerProfile
+    Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll:
+    - Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.Editor.StateSelectionMenu
     Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll:
     - Microsoft.MixedReality.Toolkit.Experimental.InteractiveElement.CompressableButton
     - Microsoft.MixedReality.Toolkit.Experimental.StateVisualizer.StateVisualizer
@@ -61,7 +65,7 @@ ScriptsOnlyBuild:
     - Microsoft.MixedReality.Toolkit.UI.States
     - Microsoft.MixedReality.Toolkit.UI.Theme
     - Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection
-    - Microsoft.MixedReality.Toolkit.Utilities.Solvers.Follow
+    - Microsoft.MixedReality.Toolkit.Utilities.Solvers.DirectionalIndicator
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraintPalmUp
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.RadialView
     - Microsoft.MixedReality.Toolkit.Utilities.Solvers.SolverHandler
@@ -248,8 +252,23 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.Behaviour
-    methodName: set_enabled
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.Behaviour
     methodName: set_enabled
@@ -259,6 +278,21 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.Behaviour
     methodName: set_enabled
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Behaviour
+    methodName: set_enabled
+  - assembly: Assembly-CSharp
+    fullTypeName: enableChildManipulating
+    methodName: set_ActiveEnable
+  - assembly: Assembly-CSharp
+    fullTypeName: enableChildManipulating
+    methodName: set_ActiveEnable
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -380,133 +414,135 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5208}
     - Class: 114
-      Script: {instanceID: 5504}
+      Script: {instanceID: 5290}
     - Class: 114
-      Script: {instanceID: 5976}
+      Script: {instanceID: 5506}
     - Class: 114
-      Script: {instanceID: 6140}
+      Script: {instanceID: 5978}
     - Class: 114
-      Script: {instanceID: 6172}
+      Script: {instanceID: 6142}
     - Class: 114
-      Script: {instanceID: 6368}
+      Script: {instanceID: 6174}
     - Class: 114
-      Script: {instanceID: 6496}
+      Script: {instanceID: 6370}
     - Class: 114
-      Script: {instanceID: 6512}
+      Script: {instanceID: 6380}
     - Class: 114
-      Script: {instanceID: 6548}
+      Script: {instanceID: 6498}
     - Class: 114
-      Script: {instanceID: 6776}
+      Script: {instanceID: 6514}
     - Class: 114
-      Script: {instanceID: 6826}
+      Script: {instanceID: 6550}
     - Class: 114
-      Script: {instanceID: 7090}
+      Script: {instanceID: 6778}
     - Class: 114
-      Script: {instanceID: 7158}
+      Script: {instanceID: 6828}
     - Class: 114
-      Script: {instanceID: 7194}
+      Script: {instanceID: 7092}
     - Class: 114
-      Script: {instanceID: 7396}
+      Script: {instanceID: 7160}
     - Class: 114
-      Script: {instanceID: 7428}
+      Script: {instanceID: 7196}
     - Class: 114
-      Script: {instanceID: 7488}
+      Script: {instanceID: 7398}
     - Class: 114
-      Script: {instanceID: 7682}
+      Script: {instanceID: 7430}
     - Class: 114
-      Script: {instanceID: 7850}
+      Script: {instanceID: 7490}
     - Class: 114
-      Script: {instanceID: 8042}
+      Script: {instanceID: 7684}
     - Class: 114
-      Script: {instanceID: 8210}
+      Script: {instanceID: 7852}
     - Class: 114
-      Script: {instanceID: 8294}
+      Script: {instanceID: 8044}
     - Class: 114
-      Script: {instanceID: 8318}
+      Script: {instanceID: 8212}
     - Class: 114
-      Script: {instanceID: 8574}
+      Script: {instanceID: 8296}
     - Class: 114
-      Script: {instanceID: 8682}
+      Script: {instanceID: 8320}
     - Class: 114
-      Script: {instanceID: 8800}
+      Script: {instanceID: 8576}
     - Class: 114
-      Script: {instanceID: 9022}
+      Script: {instanceID: 8684}
     - Class: 114
-      Script: {instanceID: 9102}
+      Script: {instanceID: 8802}
     - Class: 114
-      Script: {instanceID: 9122}
+      Script: {instanceID: 9024}
     - Class: 114
-      Script: {instanceID: 9406}
+      Script: {instanceID: 9104}
     - Class: 114
-      Script: {instanceID: 9592}
+      Script: {instanceID: 9124}
     - Class: 114
-      Script: {instanceID: 9620}
+      Script: {instanceID: 9408}
     - Class: 114
-      Script: {instanceID: 9654}
+      Script: {instanceID: 9594}
     - Class: 114
-      Script: {instanceID: 9660}
+      Script: {instanceID: 9622}
     - Class: 114
-      Script: {instanceID: 9724}
+      Script: {instanceID: 9656}
     - Class: 114
-      Script: {instanceID: 9788}
+      Script: {instanceID: 9662}
     - Class: 114
-      Script: {instanceID: 9794}
+      Script: {instanceID: 9726}
     - Class: 114
-      Script: {instanceID: 9962}
+      Script: {instanceID: 9790}
     - Class: 114
-      Script: {instanceID: 10168}
+      Script: {instanceID: 9796}
     - Class: 114
-      Script: {instanceID: 10234}
+      Script: {instanceID: 9964}
     - Class: 114
-      Script: {instanceID: 10244}
+      Script: {instanceID: 10170}
     - Class: 114
-      Script: {instanceID: 10412}
+      Script: {instanceID: 10236}
     - Class: 114
-      Script: {instanceID: 10420}
+      Script: {instanceID: 10246}
     - Class: 114
-      Script: {instanceID: 10554}
+      Script: {instanceID: 10414}
     - Class: 114
-      Script: {instanceID: 10574}
+      Script: {instanceID: 10422}
     - Class: 114
-      Script: {instanceID: 10626}
+      Script: {instanceID: 10556}
     - Class: 114
-      Script: {instanceID: 10630}
+      Script: {instanceID: 10576}
     - Class: 114
-      Script: {instanceID: 10734}
+      Script: {instanceID: 10628}
     - Class: 114
-      Script: {instanceID: 10782}
+      Script: {instanceID: 10632}
     - Class: 114
-      Script: {instanceID: 10916}
+      Script: {instanceID: 10736}
     - Class: 114
-      Script: {instanceID: 10934}
+      Script: {instanceID: 10784}
     - Class: 114
-      Script: {instanceID: 11018}
+      Script: {instanceID: 10918}
     - Class: 114
-      Script: {instanceID: 11168}
+      Script: {instanceID: 10936}
     - Class: 114
-      Script: {instanceID: 11250}
+      Script: {instanceID: 11020}
     - Class: 114
-      Script: {instanceID: 11370}
+      Script: {instanceID: 11170}
     - Class: 114
-      Script: {instanceID: 11570}
+      Script: {instanceID: 11252}
     - Class: 114
-      Script: {instanceID: 11670}
+      Script: {instanceID: 11372}
     - Class: 114
-      Script: {instanceID: 11730}
+      Script: {instanceID: 11572}
     - Class: 114
-      Script: {instanceID: 12064}
+      Script: {instanceID: 11672}
     - Class: 114
-      Script: {instanceID: 12228}
+      Script: {instanceID: 11732}
     - Class: 114
-      Script: {instanceID: 12416}
+      Script: {instanceID: 12066}
     - Class: 114
-      Script: {instanceID: 12580}
+      Script: {instanceID: 12230}
     - Class: 114
-      Script: {instanceID: 12768}
+      Script: {instanceID: 12418}
     - Class: 114
-      Script: {instanceID: 12804}
+      Script: {instanceID: 12582}
     - Class: 114
-      Script: {instanceID: 12840}
+      Script: {instanceID: 12770}
+    - Class: 114
+      Script: {instanceID: 12842}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1498,6 +1534,12 @@ ScriptsOnlyBuild:
     assemblyName: Microsoft.MixedReality.Toolkit.SDK.dll
     namespaceName: Microsoft.MixedReality.Toolkit.Experimental.Teleport
     className: TeleportSystemManager
+  - hash:
+      serializedVersion: 2
+      Hash: 9cfa9965a65b96aa590b215256967064
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: enableChildManipulating
   - hash:
       serializedVersion: 2
       Hash: ea41fa959037983f32ebd7c70de46554
@@ -3817,4 +3859,4 @@ ScriptsOnlyBuild:
   platform: 21
   scenePathNames:
   - Assets/Scenes/MainScene.unity
-  playerPath: "C:/Users/\uC591\uAE30\uD0DD/Desktop/Project_AIMS/_Builds"
+  playerPath: "C:/Users/\uC591\uAE30\uD0DD/Desktop/Project_AIMS/_Builds/HoloLens2"
