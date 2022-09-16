@@ -4090,6 +4090,7 @@ m_ResolvedPackages:
     - 1.2.0-exp.5
     - 1.2.0-exp.6
     - 1.2.0-exp.7
+    - 1.2.0
     compatible:
     - 1.0.1
     - 1.1.0
@@ -4101,6 +4102,7 @@ m_ResolvedPackages:
     - 1.2.0-exp.5
     - 1.2.0-exp.6
     - 1.2.0-exp.7
+    - 1.2.0
     verified: 1.0.1
   dependencies:
   - name: com.unity.test-framework
@@ -4315,6 +4317,7 @@ m_ResolvedPackages:
     - 4.1.7
     - 4.1.9
     - 4.1.10
+    - 4.1.12
     - 4.2.0-pre.2
     - 4.2.0-pre.3
     - 4.2.0-pre.4
@@ -4328,6 +4331,7 @@ m_ResolvedPackages:
     - 4.2.1
     - 4.2.2
     - 4.2.3
+    - 4.2.6
     - 5.0.0-pre.5
     - 5.0.0-pre.6
     - 5.0.0-pre.7
@@ -4335,8 +4339,10 @@ m_ResolvedPackages:
     - 5.0.0-pre.9
     - 5.0.0-pre.12
     - 5.0.0-pre.13
+    - 5.0.2
     compatible:
     - 4.2.3
+    - 4.2.6
     - 5.0.0-pre.5
     - 5.0.0-pre.6
     - 5.0.0-pre.7
@@ -4344,7 +4350,8 @@ m_ResolvedPackages:
     - 5.0.0-pre.9
     - 5.0.0-pre.12
     - 5.0.0-pre.13
-    verified: 4.2.3
+    - 5.0.2
+    verified: 4.2.6
   dependencies:
   - name: com.unity.xr.arsubsystems
     version: 4.2.3
@@ -4665,6 +4672,7 @@ m_ResolvedPackages:
     - 4.1.7
     - 4.1.9
     - 4.1.10
+    - 4.1.12
     - 4.2.0-pre.2
     - 4.2.0-pre.3
     - 4.2.0-pre.4
@@ -4678,6 +4686,7 @@ m_ResolvedPackages:
     - 4.2.1
     - 4.2.2
     - 4.2.3
+    - 4.2.6
     - 5.0.0-pre.5
     - 5.0.0-pre.6
     - 5.0.0-pre.7
@@ -4685,8 +4694,10 @@ m_ResolvedPackages:
     - 5.0.0-pre.9
     - 5.0.0-pre.12
     - 5.0.0-pre.13
+    - 5.0.2
     compatible:
     - 4.2.3
+    - 4.2.6
     - 5.0.0-pre.5
     - 5.0.0-pre.6
     - 5.0.0-pre.7
@@ -4694,7 +4705,8 @@ m_ResolvedPackages:
     - 5.0.0-pre.9
     - 5.0.0-pre.12
     - 5.0.0-pre.13
-    verified: 4.2.3
+    - 5.0.2
+    verified: 4.2.6
   dependencies:
   - name: com.unity.subsystemregistration
     version: 1.1.0
